@@ -32,8 +32,9 @@ netbeans-l10n/
 ├── l10n/                  translation trees, one directory per locale
 │   ├── zh_CN/             Simplified Chinese, current master layout
 │   │   └── <cluster>/<module>/src/<package>/Bundle_zh_CN.properties
-│   ├── de/ ja/ fr/ …      other locales (legacy hg-era layout)
-│   └── legacy/zh_CN/      quarantined files of modules that no longer ship
+│   ├── de/ ja/ fr/ …      other locales, same layout as zh_CN
+│   └── legacy/<locale>/   quarantined files of modules that no longer ship
+│                          (git-ignored, rebuilt by tools/migrate_locales.py)
 ├── modules/               language-pack build modules
 │   ├── zh_CN/             Maven module producing the zh_CN .nbm
 │   ├── cs/                legacy Ant template modules
@@ -45,6 +46,8 @@ netbeans-l10n/
 │   ├── apply_translations.py  write translation batches into the tree
 │   ├── harvest_built.py   harvest keys that only exist in built jars
 │   ├── gen_cnb_map.py     regenerate the module code-name-base map
+│   ├── migrate_locales.py align another locale's tree with the zh_CN layout
+│   ├── validate_tree.py   guard against code-consumed values being translated
 │   ├── dist_locale_jars.py    place locale JARs into an assembled IDE
 │   ├── build_dmg.sh       assemble a drag-and-drop macOS DMG
 │   └── translations/      translation batches (trans*.tsv)

@@ -1,25 +1,74 @@
-# build output of the language-pack modules
+# ---------------------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------------------
 /modules/*/target/
 /modules/*/release/
 /modules/*/build/
-/modules/*/dist/
 /modules/*/nbproject/private/
 /modules/*/nbproject/genfiles.properties
 
-# harness (Ant build assets)
-/harness/**/release/
-/harness/**/build/
-/harness/**/dist/
-/harness/**/nbproject/private/
-/harness/**/nbproject/genfiles.properties
-
-# tooling output: reports and built artifacts
+# ---------------------------------------------------------------------------
+# Generated reports and built artifacts
+# ---------------------------------------------------------------------------
 /data/
 /dist/
 
+# ---------------------------------------------------------------------------
+# Historical material kept on disk but no longer versioned
+#   - tools/archive: one-off migration scripts and the poisoned trans_p*
+#     batches (index -> prose format, must never be used as a translation map)
+#   - l10n/legacy: translations of modules that no longer ship
+#   - harness, modules/cs, modules/de: the old Ant/Package.java pipeline
+# ---------------------------------------------------------------------------
+/tools/archive/
+/l10n/legacy/
+/harness/
+/modules/cs/
+/modules/de/
+
+# ---------------------------------------------------------------------------
+# Translation trees: only .properties files take part in the build
+# (docs, images and web assets are not packaged by LocaleJarGenerator)
+# ---------------------------------------------------------------------------
+/l10n/**/*.html
+/l10n/**/*.htm
+/l10n/**/*.gif
+/l10n/**/*.png
+/l10n/**/*.jpg
+/l10n/**/*.jpeg
+/l10n/**/*.ico
+/l10n/**/*.css
+/l10n/**/*.js
+/l10n/**/*.url
+/l10n/**/*.xml
+/l10n/**/*.dtd
+/l10n/**/*.txt
+/l10n/**/*.pdf
+
+# ---------------------------------------------------------------------------
+# Python / tooling
+# ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ---------------------------------------------------------------------------
+# Packaging artifacts
+# ---------------------------------------------------------------------------
+*.class
+*.nbm
+*.dmg
+*.zip
+*.log
+
+# ---------------------------------------------------------------------------
 # IDE / OS noise
+# ---------------------------------------------------------------------------
 .idea/
 *.iml
 .DS_Store
+Thumbs.db
 .mimosa/
 .openidea/
