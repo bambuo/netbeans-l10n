@@ -7,12 +7,12 @@
 
     <groupId>org.apache.netbeans.l10n</groupId>
     <artifactId>org-apache-netbeans-l10n-zh-CN</artifactId>
-    <version>1.0</version>
+    <version>31.0.0</version>
     <packaging>nbm</packaging>
 
     <name>NetBeans 简体中文语言包</name>
     <url>https://netbeans.apache.org</url>
-    <description>Apache NetBeans 简体中文界面翻译语言包</description>
+    <description>Apache NetBeans 31 简体中文界面翻译语言包</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

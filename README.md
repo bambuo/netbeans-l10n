@@ -60,7 +60,7 @@ netbeans-l10n/
 ```bash
 cd modules/zh_CN
 mvn clean package
-# -> target/nbm/org-apache-netbeans-l10n-zh-CN-1.0.nbm
+# -> target/nbm/org-apache-netbeans-l10n-zh-CN-31.0.0.nbm
 ```
 
 Install with **Tools ▸ Plugins ▸ Downloaded ▸ Add Plugins**.
