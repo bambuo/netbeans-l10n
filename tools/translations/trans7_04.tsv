@@ -1,0 +1,743 @@
+Web Browsers	Web 浏览器
+Browser name	浏览器名称
+&URL:	URL(&U):
+URL :	URL :
+Web URI	Web URI
+Javadoc URL:	Javadoc URL:
+Search scope	搜索范围
+Save As	另存为
+Export data to file or image	把数据导出到文件或图像
+Expand / Collapse	展开 / 折叠
+Expand Plain Path	展开普通路径
+Expand Topmost Path	展开最顶层路径
+Collapse Children	折叠子项
+Compare with another snapshot...	与另一个快照比较...
+Reset snapshots comparison	重置快照比较
+Total Time [%]	总耗时 [%]
+Add to Instrumentation Roots...	添加到插装根...
+Visual Web	Visual Web
+Basic shared debugger UI.	调试器通用共享 UI。
+Name of the variable	变量名称
+String value	字符串值
+&State	状态(&S)
+Method name	方法名称
+Is In Scope	在作用域内
+New Breakpoint Hit	命中新断点
+Default Debugging	默认调试
+Debugger Execution	调试器执行
+&Debug Active Project	调试活动项目(&D)
+Multiple Enabled and Disabled Breakpoints	多个启用与禁用的断点
+Program Counter and a Breakpoint	程序计数器和断点
+Program Counter and a Disabled Breakpoint	程序计数器和禁用的断点
+<font color="{0}">{1}</font>	<font color="{0}">{1}</font>
+Bold Italic	粗斜体
+Classpath APIs	类路径 API
+Antlr Runtime Libraries	Antlr 运行库
+Microsoft Edge	Microsoft Edge
+NetBeans 5.5	NetBeans 5.5
+JCodings Library	JCodings 库
+Microsoft SQL Server	Microsoft SQL Server
+Palette Manager	组件面板管理器
+Common Palette visualization and APIs	通用组件面板可视化和 API
+Java client for Kubernetes & OpenShift.	Kubernetes 和 OpenShift 的 Java 客户端。
+a text	一段文本
+<![CDATA[ ... ]]>	<![CDATA[ ... ]]>
+<!-- a comment -->	<!-- a comment -->
+-- err in a comment	-- 注释中的错误
+DOCTYPE, ENTITY, ...	DOCTYPE、ENTITY、...
+&amp; or %xhtml;	&amp; 或 %xhtml;
+"this" or 'this'	"this" 或 'this'
+<?xml ...>	<?xml ...>
+'\\n'	'\\n'
+{0} Server can not stop.	{0} 服务器无法停止。
+Payara Micro	Payara Micro
+Payara Micro Version:	Payara Micro 版本:
+&Move	移动(&M)
+Broken Link	损坏的链接
+Broken Link Filesystem	损坏的链接文件系统
+Dark Metal	Dark Metal
+Dark Nimbus	Dark Nimbus
+Apache NetBeans Platform {0}	Apache NetBeans 平台 {0}
+Actions Pool Scrollbar	操作池滚动条
+Reset &Toolbars	重置工具栏(&T)
+Copy to clipboard	复制到剪贴板
+SVG Loader	SVG 加载器
+Unexpected Exception	意外异常
+First panel {0}. Second panel {1}.	第一个面板 {0}。第二个面板 {1}。
+Page Format	页面格式
+Editor for {0}	{0} 的编辑器
+Visual Library API	可视化库 API
+Shortcuts list	快捷方式列表
+&Hide Details	隐藏详情(&H)
+&Show Details	显示详情(&S)
+line {0}	第 {0} 行
+Find in Projects	在项目中查找
+{0} B	{0} B
+JSVG Library	JSVG 库
+<No Value>	<无值>
+<No type>	<无类型>
+Illegal number format: "{0}"	非法数字格式: "{0}"
+<No Properties>	<无属性>
+Sort by Category	按类别排序
+Sort by Type	按类型排序
+Show Editable Properties Only	仅显示可编辑属性
+Invalid value: {0}	无效值: {0}
+Nothing selected	未选择任何内容
+FlatLaf Look and Feels	FlatLaf 观感
+Java Hints Annotation Processor	Java 提示注解处理器
+ctrl alt k	ctrl alt k
+// public void testHello() {}	// public void testHello() {}
+setUp() / @Before	setUp() / @Before
+tearDown() / @After	tearDown() / @After
+EclipseLink-ModelGen (JPA 2.2)	EclipseLink-ModelGen (JPA 2.2)
+if (<b>exp</b>) { ...| }	if (<b>exp</b>) { ...| }
+if (<b>exp</b>) { ...| } else { ... }	if (<b>exp</b>) { ...| } else { ... }
+Chrome DevTools Protocol Library	Chrome DevTools 协议库
+"else", "elseif"	"else", "elseif"
+"if", "elseif"	"if", "elseif"
+"for", "foreach"	"for", "foreach"
+Zend 2	Zend 2
+NB JUnit	NB JUnit
+Re&set	重置(&S)
+held by {0}	被 {0} 持有
+blocked {0}	阻塞 {0}
+Code Fragment\: {0}	代码片段\: {0}
+No profiling session currently in progress.	当前没有进行中的分析会话。
+Locks and Threads	锁和线程
+Class Name - Live Objects	类名 - 活动对象
+Class Name - Allocated Objects	类名 - 已分配对象
+Bytes Allocated [%]	已分配字节 [%]
+Bytes Allocated	已分配字节
+Objects Allocated	已分配对象
+Class Name - Live Allocated Objects	类名 - 活动已分配对象
+Total Alloc. Obj.	已分配对象总计
+Class Name Filter	类名过滤器
+Method Name Filter	方法名过滤器
+Parent Node	父节点
+Allocated Bytes	已分配字节
+Selected for focused (instrumented) profiling	已选为重点 (插装) 分析
+Filter scope	过滤范围
+{0} ms.	{0} 毫秒。
+Total of <b>{0}</b> invocations	共 <b>{0}</b> 次调用
+all results remembered	记住全部结果
+last <b>{0}</b> results remembered	记住最近 <b>{0}</b> 条结果
+<b>{0}</b> invocations listed	列出了 <b>{0}</b> 次调用
+Collected profiling results.	已收集的分析结果。
+Self Time	自身耗时
+Self Time (CPU)	自身耗时 (CPU)
+Export {0}	导出 {0}
+Selected for displaying	已选为显示
+Thread name	线程名称
+Match case	区分大小写
+Does Not Contain	不包含
+Java IO	Java IO
+Java 2D	Java 2D
+Java ME	Java ME
+Groovy Server Pages	Groovy Server Pages
+JAXB 2.3 Library	JAXB 2.3 库
+JAXB 2.3.5	JAXB 2.3.5
+JSch Agent Proxy library	JSch Agent Proxy 库
+Bundles jsch-agent-proxy jars.	捆绑 jsch-agent-proxy jar。
+CSS 2.1	CSS 2.1
+Freemarker Integration	Freemarker 集成
+This module bundles Apache Freemarker.	此模块捆绑 Apache Freemarker。
+XML WSDL API	XML WSDL API
+{0} - Navigator	{0} - 导航器
+Navigator API	导航器 API
+Navigation support SPIs and APIs	导航支持 SPI 和 API
+TOML parsing library (toml-java)	TOML 解析库 (toml-java)
+Cannot create properly configured parser!	无法创建正确配置的解析器!
+Using XML module internal parser.	使用 XML 模块内部解析器。
+Cannot instantiate any JAXP parser.	无法实例化任何 JAXP 解析器。
+Using JAXP parser at {0}.	使用 {0} 处的 JAXP 解析器。
+Referenced entity at "{1}".	引用的实体位于 "{1}"。
+Warning: "{0}" resolved to "{1}".	警告: "{0}" 解析为 "{1}"。
+Warning: Cannot resolve "{0}" to URL, using "{1}"...	警告: 无法把 "{0}" 解析为 URL, 使用 "{1}"...
+Probably internal parser error: {0}	可能是解析器内部错误: {0}
+<missing public ID>	<缺少公共 ID>
+XML Tools API UI	XML 工具 API UI
+Git Client Library	Git 客户端库
+Git client API	Git 客户端 API
+{0} [{1}] does not exist	{0} [{1}] 不存在
+Conflicts during checkout	检出期间的冲突
+The given objectId [{0}] is ambiguous.	给定的 objectId [{0}] 有歧义。
+Replacing directory {0}	正在替换目录 {0}
+Replacing file {0}	正在替换文件 {0}
+Cannot create file {0}	无法创建文件 {0}
+Skipping checkout of a symbolic link: {0}	跳过符号链接的检出: {0}
+Index already contains an entry for {0}	索引中已包含 {0} 的条目
+Cannot update HEAD reference to {0}	无法把 HEAD 引用更新为 {0}
+Cannot move work tree root {0}	无法移动工作树根 {0}
+Source does not exist: {0}	源不存在: {0}
+Target already exists: {0}	目标已存在: {0}
+Target does not exist: {0}	目标不存在: {0}
+Cannot rename {0} to {1}	无法把 {0} 重命名为 {1}
+Cannot create local folder at {0}	无法在 {0} 创建本地文件夹
+Source folder [{0}] lies under the target [{1}]	源文件夹 [{0}] 位于目标 [{1}] 之下
+Target folder [{0}] lies under the source [{1}]	目标文件夹 [{0}] 位于源 [{1}] 之下
+Git repository does not exist at {0}	{0} 处不存在 Git 仓库
+No files passed	未传入文件
+Git repository already exists at {0}: {1}	{0} 处已存在 Git 仓库: {1}
+Cannot cat root: {0}	无法 cat 根: {0}
+Cannot commit in current state: {0}	当前状态无法提交: {0}
+Invalid reference: {0}	无效引用: {0}
+Embedded Browser	内嵌浏览器
+Step Into Method	步入方法
+Debugger Core - UI	调试器核心 - UI
+Debugger finished	调试器已结束
+Group of Breakpoints	断点组
+Name of the breakpoint	断点名称
+Name of the call stack frame	调用栈帧名称
+&Location	位置(&L)
+Location of the call stack frame	调用栈帧的位置
+String representation of the value	值的字符串表示
+Type of the variable value	变量值的类型
+Value of the variable	变量的值
+Name of the session	会话名称
+&Host Name	主机名(&H)
+Describes state of the session	描述会话状态
+Current language of the session	会话当前语言
+Name of the thread	线程名称
+Describes state of the thread	描述线程状态
+S&uspended	已挂起(&U)
+\ = [No current context]	\ = [无当前上下文]
+The watch expression	监视表达式
+String representation of the result value	结果值的字符串表示
+Type of the result value	结果值的类型
+Value of the watch expression	监视表达式的值
+Finish All	全部结束
+New Breakpoint ...	新建断点...
+Enable All Grouped	启用所有组
+Disable All Grouped	禁用所有组
+Delete All Grouped	删除所有组
+Name of &Group:	组名称(&G):
+Set the Name of Breakpoints Group	设置断点组名称
+Move Into Group...	移入组...
+New Watch ...	新建监视...
+Show Pinned Watches	显示固定监视
+Create new breakpoint	创建新断点
+Select breakpoint groups	选择断点组
+Breakpoint Groups	断点组
+No Groups	无组
+Custom Groups	自定义组
+Debug Session	调试会话
+From Opened Projects Only	仅来自已打开项目
+From Current Debug Session Only	仅来自当前调试会话
+Nested Breakpoint Groups	嵌套断点组
+Displayed Groups	显示的组
+Available Groups	可用组
+Add ->	添加 ->
+<- Remove	<- 移除
+Session Name	会话名称
+Name of this session.	此会话的名称。
+On Breakpoint	在断点处
+Sessions View	会话视图
+Breakpoints View	断点视图
+Threads View	线程视图
+Call Stack View	调用栈视图
+Watches View	监视视图
+Variables View	变量视图
+Sources View	源视图
+Evaluation Result View	求值结果视图
+breakpoint [not valid]	断点 [无效]
+Name of the breakpoint group	断点组名称
+not running	未运行
+stopped at a breakpoint	停在断点处
+Debugger State	调试器状态
+Current status of the debugger.	调试器的当前状态。
+Show Messages	显示消息
+Enable display of debugging information messages	启用调试信息消息的显示
+Show in Editor	在编辑器中显示
+Remote Debugging	远程调试
+Remote debugging	远程调试
+Total Memory	总内存
+Total memory	总内存
+Free Memory	空闲内存
+Free memory	空闲内存
+Source Path	源路径
+Source path	源路径
+Catch List	捕获列表
+Catch list	捕获列表
+Name of this thread.	此线程的名称。
+Running state of this thread.	此线程的运行状态。
+Number of line	行数
+Stack Depth	栈深度
+Depth of stack	栈深度
+Frame Index	帧索引
+Frame index	帧索引
+Thread Group	线程组
+Name of thread group	线程组名称
+Name of Variable	变量名称
+[No session]	[无会话]
+[Not in scope]	[不在作用域内]
+[Not initialized]	[未初始化]
+Field Type	字段类型
+Type of variable	变量类型
+Type of value	值类型
+Value of variable	变量的值
+First Index	起始索引
+Maximum Length	最大长度
+Is in Scope	在作用域内
+Is in scope	在作用域内
+Create Variable Access Breakpoint	创建变量访问断点
+Create Variable Modification Breakpoint	创建变量修改断点
+All in One	全部合一
+Name used to identify the session.	用于标识会话的名称。
+Name used to identify the thread.	用于标识线程的名称。
+Suspended state	挂起状态
+The name of watch.	监视的名称。
+Current value of the watch.	监视的当前值。
+Current value of the variable.	变量的当前值。
+Show watches inside Variables view	在变量视图中显示监视
+Show evaluator result inside Variables view	在变量视图中显示求值结果
+Create new watch	创建新监视
+Select source type	选择源类型
+Debugging View	调试视图
+no session running	无运行中的会话
+Show thread groups	显示线程组
+Show suspend/resume table	显示挂起/恢复表
+Show system threads	显示系统线程
+Show monitors	显示监视器
+Show qualified names	显示限定名
+Sort by suspended/resumed state	按挂起/恢复状态排序
+Sort by name	按名称排序
+Sort by default	按默认排序
+Show Thread &Groups	显示线程组(&G)
+Show Suspend/Resume &Table	显示挂起/恢复表(&T)
+Show &System Threads	显示系统线程(&S)
+Show &Less	显示更少(&L)
+Show &Monitors	显示监视器(&M)
+Show Qualified &Names	显示限定名(&N)
+Sort by S&tate	按状态排序(&T)
+Sort by &Name	按名称排序(&N)
+&Default Sorting	默认排序(&D)
+Current thread in deadlock	当前线程处于死锁
+New breakpoint hit	命中新断点
+Thread in deadlock	线程处于死锁
+Suspend thread {0}	挂起线程 {0}
+Resume thread {0}	恢复线程 {0}
+New Breakpoint Hits ({0})	新断点命中 ({0})
+Threads History	线程历史
+Current Thread Chooser	当前线程选择器
+Deadlock detected	检测到死锁
+Step is blocked by suspended thread ''{0}''.	单步被挂起的线程 ''{0}'' 阻塞。
+Blocking threads are: {0}.	阻塞的线程有: {0}。
+Resume this thread to proceed?	恢复此线程以继续?
+Resume these threads to proceed?	恢复这些线程以继续?
+Resume threads {0} to complete the step.	恢复线程 {0} 以完成单步执行。
+Resume thread ''{0}'' to complete the step.	恢复线程 ''{0}'' 以完成单步执行。
+List of running sessions.	运行中的会话列表。
+Debugging Tree	调试树
+Ignore Breakpoint	忽略断点
+Source Editor	源编辑器
+Debugger Settings	调试器设置
+&Start Debugger Session	启动调试会话(&S)
+D&ebug Profiles	调试配置(&B)
+De&bugging	调试(&B)
+&Breakpoint	断点(&B)
+&Thread	线程(&T)
+Debugger Annotation	调试器注解
+Broken Breakpoint	失效断点
+Deactivated Breakpoint	停用断点
+Broken Conditional Breakpoint	失效的条件断点
+Set Current Thread to	把当前线程设为
+Current Program Counter and other thread	程序计数器和另一线程
+Set Current Threads to	把当前线程设为
+Current Program Counter and other threads	程序计数器和其他线程
+Multiple Breakpoints	多个断点
+Multiple Broken Breakpoints	多个失效断点
+Multiple Disabled Breakpoints	多个禁用断点
+Multiple Enabled and Disabled Broken Breakpoints	多个启用与禁用的失效断点
+Program Counter and a Broken Breakpoint	程序计数器和失效断点
+Program Counter and a Deactivated Breakpoint	程序计数器和停用断点
+Program Counter and a Conditional Breakpoint	程序计数器和条件断点
+Program Counter and Multiple Breakpoints	程序计数器和多个断点
+Program Counter and Multiple Broken Breakpoints	程序计数器和多个失效断点
+Program Counter and Multiple Disabled Breakpoints	程序计数器和多个禁用断点
+Call Site	调用点
+Current Program Counter In Expression + Breakpoint	表达式中的当前程序计数器 + 断点
+Current Expression	当前表达式
+GraalVM JDK Polyglot Integration	GraalVM JDK 多语言集成
+GraalVM SDK API	GraalVM SDK API
+<font color='#560000'>{0}</font>	<font color='#560000'>{0}</font>
+{0}<font color=#808080>    ({1})	{0}<font color=#808080>    ({1})
+SQL {0}.sql	SQL {0}.sql
+-- Comment	-- Comment
+/* Comment */	/* Comment */
+'String'	'String'
+'Incomplete String Literal	'Incomplete String Literal
+{0} #{1,number,#}	{0} #{1,number,#}
+Terminal Emulator	终端模拟器
+Not found	未找到
+One more to wrap	还有一行换行
+Empty pattern	空模式
+Show only fixed width fonts	仅显示等宽字体
+font style	字体样式
+font size	字体大小
+font editor	字体编辑器
+Taking inventory of fonts	正在清点字体
+Checking if fonts are fixed-width	正在检查字体是否等宽
+{0} not available. Using {1}	{0} 不可用。使用 {1}
+Hello from Term	来自 Term 的问候
+Choose font	选择字体
+Options governing Terminal Windows	终端窗口选项
+Ignore Global Shortcuts	忽略全局快捷键
+<img src="" />	<img src="" />
+<a href=""></a>	<a href=""></a>
+<input type="text" name="" value="" />	<input type="text" name="" value="" />
+<input type="checkbox" name="" value="ON" />	<input type="checkbox" name="" value="ON" />
+<input type="radio" name="" value="" />	<input type="radio" name="" value="" />
+<input type="file" name=""/>	<input type="file" name=""/>
+<input type="submit" value="" />	<input type="submit" value="" />
+Docker UI	Docker UI
+Language Server Protocol Client (generic)	语言服务器协议客户端 (通用)
+Bundles ini4j.jar.	捆绑 ini4j.jar。
+Cordova *	Cordova *
+YAML Parser Library (snakeyaml-engine)	YAML 解析库 (snakeyaml-engine)
+YAML Library (snakeyaml-engine)	YAML 库 (snakeyaml-engine)
+Antlr 3 Runtime	Antlr 3 运行库
+Contains Antlr 3.3 runtime libraries	包含 Antlr 3.3 运行库
+Commons Compress Integration	Commons Compress 集成
+This plugin bundles Commons Compress.	此插件捆绑 Commons Compress。
+/usr/bin/kpdf $file	/usr/bin/kpdf $file
+Task List API	任务列表 API
+Unknown Task group name: {0}	未知任务组名称: {0}
+Provides API for Task List plugins	为任务列表插件提供 API
+Unknown task group	未知任务组
+Core - IDE	核心 - IDE
+Makes the IDE from the platform.	把平台组装成 IDE。
+Indentation Engines	缩进引擎
+Xerces Integration	Xerces 集成
+Bundles Apache Xerces (an XML parser).	捆绑 Apache Xerces (XML 解析器)。
+Mercurial - {0} {1}	Mercurial - {0} {1}
+Mercurial - {0} {1}- {2}	Mercurial - {0} {1}- {2}
+[{status}; {folder}]	[{status}; {folder}]
+Subversion Client Library	Subversion 客户端库
+Bundles tigris.org's svnClientAdapter.jar.	捆绑 tigris.org 的 svnClientAdapter.jar。
+Embedded Browser UI - JavaFX WebView	内嵌浏览器 UI - JavaFX WebView
+Embedded WebKit Browser	内嵌 WebKit 浏览器
+JavaFX Runtime Location	JavaFX 运行时位置
+Please select a folder.	请选择一个文件夹。
+JavaFX Runtime location:	JavaFX 运行时位置:
+Please use JDK 7u10 or newer.	请使用 JDK 7u10 或更高版本。
+Inspect Page	检查页面
+Dump Document	转储文档
+Web Browser DOM	Web 浏览器 DOM
+DOM implementation not found.	未找到 DOM 实现。
+JSON Simple Library	JSON Simple 库
+Directory Chooser	目录选择器
+Files cannot be deleted.	无法删除文件。
+File cannot be deleted.	无法删除文件。
+Please Confirm	请确认
+Open home folder	打开主文件夹
+Create new folder	新建文件夹
+Open parent folder	打开父文件夹
+Home folder	主文件夹
+New folder	新建文件夹
+Parent folder	父文件夹
+JAXB API	JAXB API
+FlexMark Library	FlexMark 库
+Use &IDE-wide options	使用 IDE 全局选项(&I)
+Use &project-specific options	使用项目专属选项(&P)
+&Advanced...	高级(&A)...
+Configuration &File:	配置文件(&F):
+&Default File	默认文件(&D)
+&Edit IDE-wide options...	编辑 IDE 全局选项(&E)...
+Editor Hints Projects Bridge	编辑器提示项目桥
+Editor Hints to Projects Bridge	编辑器提示到项目桥
+Read Project Specific Settings From:	读取项目专属设置自:
+Use Global Settings	使用全局设置
+Sybase ASE	Sybase ASE
+Informix Dynamic Server (IDS)	Informix Dynamic Server (IDS)
+Oracle Thin	Oracle Thin
+Oracle OCI	Oracle OCI
+Amazon Athena	Amazon Athena
+Amazon Redshift	Amazon Redshift
+Subversion JavaHL Client Library	Subversion JavaHL 客户端库
+Bundles javahl	捆绑 javahl
+Deprecated, old search API	已弃用的旧搜索 API
+HTML 3.2	HTML 3.2
+HTML 4.0 Strict	HTML 4.0 Strict
+HTML 4.0 Transitional	HTML 4.0 Transitional
+HTML 4.0 Frameset	HTML 4.0 Frameset
+HTML 4.01 Strict	HTML 4.01 Strict
+HTML 4.01 Transitional	HTML 4.01 Transitional
+HTML 4.01 Frameset	HTML 4.01 Frameset
+XHTML 1.0 Strict	XHTML 1.0 Strict
+XHTML 1.0 Transitional	XHTML 1.0 Transitional
+XHTML 1.0 Frameset	XHTML 1.0 Frameset
+XHTML 1.1	XHTML 1.1
+HTML 5	HTML 5
+XHTML 5	XHTML 5
+XML Tools API	XML 工具 API
+Multi-tabs project bridge	多标签项目桥
+Project support for Multi-tabs module.	多标签模块的项目支持。
+Editor Hints	编辑器提示
+Editor Hints Infrastructure	编辑器提示基础设施
+HTML XML	HTML XML
+LSP APIs	LSP API
+Language Server Protocol APIs	语言服务器协议 API
+Docker API	Docker API
+Antlr 4 Runtime	Antlr 4 运行库
+Contains Antlr 4.13.2 runtime libraries	包含 Antlr 4.13.2 运行库
+Commons Net Integration	Commons Net 集成
+This plugin bundles Commons Net.	此插件捆绑 Commons Net。
+Subversion - {0} ({1})	Subversion - {0} ({1})
+Subversion - {0} - {1} ({2})	Subversion - {0} - {1} ({2})
+[{status}{lock}; {folder}]	[{status}{lock}; {folder}]
+Apache Resolver Library 1.2	Apache Resolver 库 1.2
+Apache Resolver library for development time	开发期使用的 Apache Resolver 库
+Contains Apache Resolver library 1.2	包含 Apache Resolver 库 1.2
+Palette Category	组件面板类别
+New Palette Category	新建组件面板类别
+&New Category Name:	新类别名称(&N):
+Component Palette	组件面板
+Confirm Palette Item Removal	确认移除组件面板项
+Show Item Names	显示项名称
+Hide Item Names	隐藏项名称
+Show {0,choice,1#Big|2#Small} Icons	显示 {0,choice,1#大|2#小} 图标
+Change Items Order	更改项顺序
+Sort by Item Name	按项名称排序
+Paste Item	粘贴项
+Confirm Palette Category Removal	确认移除组件面板类别
+Sort by Category Name	按类别名称排序
+Change Categories Order	更改类别顺序
+Create New Category	创建新类别
+Refresh Palette	刷新组件面板
+{0} is not a valid name.	{0} 不是有效名称。
+Palette category "{0}" already exists.	组件面板类别 "{0}" 已存在。
+Pale&tte Content:	组件面板内容(&T):
+&New Category...	新建类别(&N)...
+&Remove...	移除(&R)...
+Confirm Palette Content Removal	确认移除组件面板内容
+Move selected item or category up	上移所选项或类别
+Move selected item or category down	下移所选项或类别
+Remove selected item or category	移除所选项或类别
+Add new category	添加新类别
+Close Palette Manager window	关闭组件面板管理器窗口
+Palette Contents Tree	组件面板内容树
+Reset &Palette	重置组件面板(&P)
+Reset Palette Button	重置组件面板按钮
+Reset Palette	重置组件面板
+Confirm Palette Reset	确认重置组件面板
+Palette Manager...	组件面板管理器...
+P&alette	组件面板(&A)
+Unknown editor palette item version.	未知的编辑器组件面板项版本。
+Unsupported editor palette item version.	不受支持的编辑器组件面板项版本。
+Error while saving palette settings.	保存组件面板设置时出错。
+Cannot load icon from: {0}	无法从 {0} 加载图标
+Icon dimensions are too big.	图标尺寸过大。
+Small Icon (16x16):	小图标 (16x16):
+Large Icon (32x32):	大图标 (32x32):
+Add to Palette	添加到组件面板
+Add new item to the Palette	向组件面板添加新项
+Cancel add to palette	取消添加到组件面板
+Code Snippet Name	代码片段名称
+Code Snippet Content	代码片段内容
+Select small icon	选择小图标
+Select large icon	选择大图标
+Large Icon	大图标
+Large Icon for the Code Snippet	代码片段的大图标
+Small Icon	小图标
+Small icon for code snippet	代码片段的小图标
+Tooltip for code snippet	代码片段的工具提示
+Name for code snippet	代码片段名称
+Common Palette	通用组件面板
+&Palette	组件面板(&P)
+GraalVM Truffle API	GraalVM Truffle API
+Git - {0} {1}	Git - {0} {1}
+Git - {0} {1}- {2}	Git - {0} {1}- {2}
+NetBeans Agent	NetBeans 代理
+Lucene Integration	Lucene 集成
+Bundles Apache Lucene (a Search Engine).	捆绑 Apache Lucene (搜索引擎)。
+XXX Current Ant Target	XXX 当前 Ant 目标
+XXX Next Ant Target	XXX 下一个 Ant 目标
+XXX Ant Targets	XXX Ant 目标
+XXX Current Ant Target + Breakpoint	XXX 当前 Ant 目标 + 断点
+XXX Current Ant Target + Disabled Breakpoint	XXX 当前 Ant 目标 + 禁用断点
+<font color='#560000'>{0}</font>	<font color='#560000'>{0}</font>
+{0}<font color=#808080>    ({1})	{0}<font color=#808080>    ({1})
+sun-* DD API	sun-* DD API
+Fabric8 Library	Fabric8 库
+JSF 2.3	JSF 2.3
+WebSocket URI	WebSocket URI
+J2EE DD API	J2EE DD API
+DD API	DD API
+EJB 2.1	EJB 2.1
+EJB 3.0	EJB 3.0
+EJB 3.1	EJB 3.1
+Servlet/JSP API	Servlet/JSP API
+Metro 2.4.8	Metro 2.4.8
+Servlet 2.4 API Javadoc	Servlet 2.4 API Javadoc
+JSP 2.0 API Javadoc	JSP 2.0 API Javadoc
+Servlet URI:	Servlet URI:
+<jsp:useBean id="" scope="page" class="" />	<jsp:useBean id="" scope="page" class="" />
+<jsp:getProperty name="" property="" />	<jsp:getProperty name="" property="" />
+<jsp:setProperty name="" property="" value="" />	<jsp:setProperty name="" property="" value="" />
+JSTL If	JSTL If
+JSTL For Each	JSTL For Each
+SimpleTagSupport (J2EE 1.4)	SimpleTagSupport (J2EE 1.4)
+Oracle (OCI)	Oracle (OCI)
+Oracle thin	Oracle thin
+Sybase (jConnect 5.2)	Sybase (jConnect 5.2)
+Oracle (DataDirect Connect for JDBC)	Oracle (DataDirect Connect for JDBC)
+IBM DB2 (DataDirect Connect for JDBC)	IBM DB2 (DataDirect Connect for JDBC)
+Sybase (DataDirect Connect for JDBC)	Sybase (DataDirect Connect for JDBC)
+PointBase 4.8	PointBase 4.8
+IBM DB2 7.1	IBM DB2 7.1
+{0} (Servlet)	{0} (Servlet)
+{0} (URL)	{0} (URL)
+JSF API	JSF API
+GlassFish Commons Logging Integration	GlassFish Commons Logging 集成
+This module bundles Glassfish Commons Logging.	此模块捆绑 Glassfish Commons Logging。
+JSP Scriptlet	JSP Scriptlet
+// line-comment	// line-comment
+/* block comment */	/* block comment */
+<!-- comment -->	<!-- comment -->
+-- comment --	-- comment --
+<!DOCTYPE ... >	<!DOCTYPE ... >
+&amp;	&amp;
+<%-- comment --%>	<%-- comment --%>
+Gradle Java EE	Gradle Java EE
+Payara Jakarta EE	Payara Jakarta EE
+Cannot deploy the module. xxx	无法部署模块。xxx
+GlassFish Java EE	GlassFish Java EE
+Java EE 6	Java EE 6
+Java EE 6 Web	Java EE 6 Web
+Amazon Elastic Beanstalk	Amazon Elastic Beanstalk
+Java Web	Java Web
+JDBC URL	JDBC URL
+PrimeFaces 5.0	PrimeFaces 5.0
+Undeploying {0}	正在取消部署 {0}
+Deploying {0}	正在部署 {0}
+&Advanced	高级(&A)
+Add server	添加服务器
+Maven JAX-WS	Maven JAX-WS
+Spring Web MVC 5.3.31	Spring Web MVC 5.3.31
+JAX-WS Light SPI/API	JAX-WS Light SPI/API
+Apache Tomcat {0}	Apache Tomcat {0}
+Apache Tomcat {0} ({1})	Apache Tomcat {0} ({1})
+Tomcat (TomEE)	Tomcat (TomEE)
+Jersey 2.35 (JAX-RS RI)	Jersey 2.35 (JAX-RS RI)
+JAX-RS 2.1.6	JAX-RS 2.1.6
+Jakarta Standard Tag Library (JSTL)	Jakarta 标准标签库 (JSTL)
+JSTL 1.2.7	JSTL 1.2.7
+JSTL 3.0.2	JSTL 3.0.2
+Expression Language Implementation	表达式语言实现
+Maven Java EE	Maven Java EE
+GlassFish Server {0}	GlassFish Server {0}
+GlassFish Server 3.0.1	GlassFish Server 3.0.1
+GlassFish Server 3.1.1	GlassFish Server 3.1.1
+GlassFish Server 3.1.2	GlassFish Server 3.1.2
+GlassFish Server 3.1.2.2	GlassFish Server 3.1.2.2
+GlassFish Server 4.0.1	GlassFish Server 4.0.1
+GlassFish Server 4.1.1	GlassFish Server 4.1.1
+GlassFish Server 4.1.2	GlassFish Server 4.1.2
+GlassFish Server 6	GlassFish Server 6
+GlassFish Server 3	GlassFish Server 3
+GlassFish Server 6.0.0	GlassFish Server 6.0.0
+Jackson Library	Jackson 库
+FasterXML Jackson	FasterXML Jackson
+Web APIs	Web API
+Tablesorter UI	Tablesorter UI
+Advanced Templating	高级模板
+Advanced Templating not only for Datasystems	不仅限于 Datasystems 的高级模板
+File {0} was changed to read-only!	文件 {0} 已被改为只读!
+Datasystems API	Datasystems API
+Unrecognized File	未识别的文件
+Shared access	共享访问
+Cannot save new ordering.	无法保存新排序。
+{0} (\u2192)	{0} (\u2192)
+Link to {3}	链接到 {3}
+Original Name	原始名称
+Original Filesystem Name	原始文件系统名称
+File Size	文件大小
+Modification Time	修改时间
+Primary file extension.	主文件扩展名。
+Cannot change extension. File is modified.	无法更改扩展名。文件已修改。
+Sorting and ordering settings.	排序设置。
+Sort Mode	排序模式
+By Name	按名称
+By Class	按类
+By Name (Packages First)	按名称 (包优先)
+By Modification Time	按修改时间
+By File Size	按文件大小
+By Extension	按扩展名
+Naturally By Name	按名称自然排序
+&Instantiate	实例化(&I)
+Create &Link	创建链接(&L)
+&Serialize	序列化(&S)
+&Default instance	默认实例(&D)
+Instance Serialization	实例序列化
+Create New Folder	新建文件夹
+File {0} already exists in folder {1}.	文件夹 {1} 中已存在文件 {0}。
+Folder {0} already exists in folder {1}.	文件夹 {1} 中已存在文件夹 {0}。
+XML Configuration Files	XML 配置文件
+Error (recoverable)	错误 (可恢复)
+Fatal Error	严重错误
+New Wizard - {0}	新建向导 - {0}
+New Wizard	新建向导
+Choose Template	选择模板
+&Select a Template:	选择模板(&S):
+Initializing description...	正在初始化描述...
+&Template Description:	模板描述(&T):
+Target Location	目标位置
+<top folder> [{0}]	<顶层文件夹> [{0}]
+<default name>	<默认名称>
+Unrecognized Objects	未识别的对象
+Action Instances	操作实例
+Warning: Object {0} cannot be copied.	警告: 无法复制对象 {0}。
+Warning: Object {0} cannot be moved.	警告: 无法移动对象 {0}。
+{0} (Broken Link)	{0} (损坏的链接)
+<Unrecognized setting>	<无法识别的设置>
+Data Object Copy Flavor	数据对象复制剪贴板格式
+Data Object Cut Flavor	数据对象剪切剪贴板格式
+Cannot give {0} an empty name.	不能把 {0} 命名为空。
+The target filesystem is read-only.	目标文件系统是只读的。
+Filesystem Action	文件系统操作
+Save As Template...	另存为模板...
+Save As Template	另存为模板
+All Templates...	所有模板...
+{0,choice,0#{1} [r/o]|1#{1} *|2#{1} [r/o] *|3#{1}}	{0,choice,0#{1} [只读]|1#{1} *|2#{1} [只读] *|3#{1}}
+\ (modified)	\ (已修改)
+\ (read-only)	\ (只读)
+Binary File Detected	检测到二进制文件
+Sa&ve As...	另存为(&V)...
+Cannot create the target folder.	无法创建目标文件夹。
+Please, select a different file name.	请选择其他文件名。
+Locking {0}	正在锁定 {0}
+Locking of {0} has been cancelled	{0} 的锁定已被取消
+Nodes API	节点 API
+Properties of this object.	此对象的属性。
+Expert properties of this object.	此对象的高级属性。
+Change Order	更改顺序
+Show these fields in this order:	按此顺序显示这些字段:
+Name of the object.	对象的名称。
+Paste Node	粘贴节点
+Copy Index	复制索引
+Look & Feel Customization Library	观感定制库
+<Only Workspace>	<仅当前工作区>
+Window System related options	窗口系统相关选项
+Mode Component	模式组件
+Mode Name:	模式名称:
+Keep currently opened documents	保留当前打开的文档
+Remove All	全部移除
+<new group>	<新组>
+Create New Document Group	创建新文档组
+Core - Windows	核心 - 窗口
+Implementation for windowing support.	窗口支持的实现。
+Cannot parse configuration of window manager {0}.	无法解析窗口管理器 {0} 的配置。
+Cannot parse configuration of Group {0}.	无法解析组 {0} 的配置。
+Cannot parse configuration of TCGroup {0}.	无法解析 TCGroup {0} 的配置。
+Cannot parse configuration of TCRef {0}.	无法解析 TCRef {0} 的配置。
+Cannot parse configuration of mode {0}.	无法解析模式 {0} 的配置。
+Cannot create root folder {0}	无法创建根文件夹 {0}
+Cannot create components folder {0}	无法创建组件文件夹 {0}
+Cannot create groups folder {0}	无法创建组文件夹 {0}
+Cannot create modes folder {0}	无法创建模式文件夹 {0}
+C&lone Document	克隆文档(&L)
+Close Group	关闭组
+&Window	窗口(&W)
+Go to Previous Window	转到上一个窗口
+Go to Previous Document	转到上一个文档
+#END

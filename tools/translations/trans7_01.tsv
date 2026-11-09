@@ -1,0 +1,127 @@
+&Undo	撤销(&U)
+&Redo	重做(&R)
+Undo	撤销
+Redo	重做
+&Undo {0}	撤销 {0}(&U)
+&Redo {0}	重做 {0}(&R)
+&Undo/Redo	撤销/重做(&U)
+Cannot Undo	无法撤销
+Cannot Redo	无法重做
+&Editors	编辑器(&E)
+Editors	编辑器
+Split	拆分
+&Toolbars	工具栏(&T)
+Toolbars	工具栏
+Show Only Editor	仅显示编辑器
+Show &Only Editor	仅显示编辑器(&O)
+Configure Window	配置窗口
+Config&ure Window	配置窗口(&U)
+Reset Windows	重置窗口
+Reset &Windows	重置窗口(&W)
+Reload Windows	重新加载窗口
+Close Window	关闭窗口
+Close W&indow	关闭窗口(&I)
+Close &All Documents	关闭所有文档(&A)
+Close All Documents	关闭所有文档
+Close Other Documents	关闭其他文档
+Close Ot&her Documents	关闭其他文档(&H)
+Close &All	全部关闭(&A)
+Close All	全部关闭
+Document Groups	文档组
+&Documents...	文档(&D)...
+Documents...	文档...
+&Documents:	文档(&D):
+Document: Done	文档: 完成
+Browser view	浏览器视图
+Go to Previous Window	转到上一个窗口
+Go to P&revious Window	转到上一个窗口(&R)
+Go to Previous Document	转到上一个文档
+Go to Line...	转到行(&L)
+Go to &Line...	转到行(&L)
+Next Error	下一个错误
+Previous Error	上一个错误
+Ne&xt Error	下一个错误(&X)
+&Previous Error	上一个错误(&P)
+IDE Log	IDE 日志
+IDE &Log	IDE 日志(&L)
+Navigator	导航器
+&Navigator	导航器(&N)
+{0} - Navigator	{0} - 导航器
+Navigator API	导航器 API
+Navigation support SPIs and APIs	导航支持 SPI 和 API
+Output	输出
+&Output	输出(&O)
+Output {0}	输出 {0}
+Maximi&ze	最大化(&Z)
+Maximize Window	最大化窗口
+Restore Window	恢复窗口
+Minimize Window	最小化窗口
+M&inimize	最小化(&I)
+&Minimize	最小化(&M)
+Minimize Window Group	最小化窗口组
+Restore Window Group	恢复窗口组
+Close Window Group	关闭窗口组
+Minimize Grou&p	最小化组(&P)
+Float &Group	浮动组(&G)
+&Dock Group	停靠组(&G)
+&Float	浮动(&F)
+Doc&k	停靠(&K)
+Shift Window Tab Left	左移窗口标签
+Shift Window Tab Right	右移窗口标签
+Shift Left	左移
+Shift Right	右移
+New Document Ta&b Group	新建文档标签组(&B)
+&Collapse Document Tab Group	折叠文档标签组(&C)
+&Size Group	调整组大小(&S)
+Mo&ve Group	移动组(&V)
+Document tab enhancements	文档标签增强
+Scroll documents left	向左滚动文档
+Scroll documents right	向右滚动文档
+Scroll Documents Left	向左滚动文档
+Scroll Documents Right	向右滚动文档
+Maximize/restore window	最大化/恢复窗口
+Show opened documents list	显示已打开文档列表
+Show Opened Documents List	显示已打开文档列表
+Next Tab	下一个标签页
+Previous Tab	上一个标签页
+Editors - Iterate left	编辑器 - 向左循环
+Editors - Iterate right	编辑器 - 向右循环
+Next Inner View	下一个内部视图
+Previous Inner View	上一个内部视图
+{0} View	{0} 视图
+MultiView Windows	多视图窗口
+MultiView Windows framework and APIs	多视图窗口框架和 API
+Main Window	主窗口
+Initializing Main Window...	正在初始化主窗口...
+Opening Main Window...	正在打开主窗口...
+Saving {0} ...	正在保存 {0} ...
+Save All finished.	全部保存完成。
+Cannot save {0}	无法保存 {0}
+Core - Windows	核心 - 窗口
+Implementation for windowing support.	窗口支持的实现。
+Core - IDE	核心 - IDE
+Makes the IDE from the platform.	把平台组装成 IDE。
+Window System API	窗口系统 API
+Window System related options	窗口系统相关选项
+look, feel, Look and feel	观感, 界面, 外观
+editor tabs, multi-row	编辑器标签, 多行
+Multitabs, Editor, TabControl	多标签, 编辑器, 标签控件
+Tab Control	标签控件
+Mode Component	模式组件
+Mode Name:	模式名称:
+Keep currently opened documents	保留当前打开的文档
+Remove All	全部移除
+<new group>	<新组>
+Create New Document Group	创建新文档组
+Core - UI	核心 - UI
+&Window	窗口(&W)
+Coding	编码
+&About	关于(&A)
+Copy Info	复制信息
+&Copy Info	复制信息(&C)
+Copy NetBeans Product Information to clipboard	把 NetBeans 产品信息复制到剪贴板
+Opening Browser ...	正在打开浏览器...
+E&xit	退出(&X)
+Exit IDE	退出 IDE
+&Exit IDE	退出 IDE(&E)
+#END

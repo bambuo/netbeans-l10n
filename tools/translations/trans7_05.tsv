@@ -1,0 +1,17 @@
+Live Objects	活动对象
+Total Time	总耗时
+Live Bytes	活动字节
+Allocated Objects	已分配对象
+Total Time (CPU)	总耗时 (CPU)
+Live Bytes [%]	活动字节 [%]
+Avg. Age	平均年龄
+Treetable with collected profiling results.	包含已收集分析结果的树表。
+Table with collected profiling results.	包含已收集分析结果的表。
+TreeTableView Model	TreeTableView 模型
+Total Time [%]	总耗时 [%]
+JPDA Debugger API	JPDA 调试器 API
+JAX-WS API	JAX-WS API
+Debugging	调试
+Services	服务
+Navigator	导航器
+#END

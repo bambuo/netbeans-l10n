@@ -1,0 +1,133 @@
+&Ignored Files Pattern:	忽略文件模式(&I):
+&Drag window image	拖动窗口图像(&D)
+Transparent drag &window image	拖动窗口图像透明(&W)
+&Snapping floating windows	对齐浮动窗口(&S)
+Snap to screen &edges	吸附到屏幕边缘(&E)
+Transparent &floating windows	透明浮动窗口(&F)
+&Close activates most recent document	关闭时激活最近的文档(&C)
+&Multi-row tabs	多行标签页(&M)
+&bottom	底部(&B)
+&top	顶部(&T)
+&right	右侧(&R)
+&left	左侧(&L)
+&New document opens next to active document tab	新文档在活动文档标签页旁打开(&N)
+Tabs placement:	标签页位置:
+&Sort nothing	不排序(&S)
+Sort by &full file path	按完整文件路径排序(&F)
+Sort by file name with &parent directory	按带父目录的文件名排序(&P)
+Sort by file &name	按文件名排序(&N)
+Sort tabs when a document opens:	打开文档时排序标签页:
+&Preferred look and feel:	首选观感(&P):
+(needs restart)	(需要重启)
+M&aximize use of native look and feel	最大化使用原生观感(&A)
+Show all look and feels	显示所有观感
+Accent color:	强调色:
+&Window decorations	窗口装饰(&W)
+&Unified window title bar	统一窗口标题栏(&U)
+&Embedded menu bar	嵌入式菜单栏(&E)
+Use underline menu &selection	使用下划线菜单选择(&S)
+Always show &mnemonics	总是显示助记符(&M)
+Show favorites in file chooser	在文件选择器中显示收藏夹
+Advanced	高级
+Edit custom properties	编辑自定义属性
+Override FlatLaf properties by editing the custom properties file.	通过编辑自定义属性文件来覆盖 FlatLaf 属性。
+Look and Feel	观感
+Document Tabs	文档标签页
+Windows	窗口
+Restart IDE	重启 IDE
+Makes unfocused floating windows semi-transparent after few seconds	让未获得焦点的浮动窗口在几秒后变为半透明
+Enables "ghost" window image during drag and drop of a window	在拖放窗口时启用 "幽灵" 窗口图像
+Enables transparency in drag window image	在拖动窗口图像中启用透明效果
+Enables snapping of floating windows to screen edges	启用浮动窗口吸附到屏幕边缘
+Enables automatic snapping of floating windows for easier layout handling	启用浮动窗口自动对齐, 便于布局调整
+Window transparency is not supported by OS	操作系统不支持窗口透明
+When a document is closed then the most recent document becomes active instead of its neighbor	关闭文档时, 激活最近的文档而不是相邻文档
+Switch to matching editor colors profile.	切换到匹配的编辑器配色方案。
+Select this option to force use of native components, even when that may limit functionality (e.g. standard Mac OS file chooser).	选择此选项将强制使用原生组件, 即使这可能限制功能 (例如标准 Mac OS 文件选择器)。
+Show all installed look and feels. Other look and feels may not be recommended or supported.	显示所有已安装的观感。其他观感可能不受推荐或支持。
+NetBeans uses native UI components when those components offer sufficient functionality.  Select this option to force use of native components, even when that may limit functionality (e.g. standard Mac OS file chooser).	当原生 UI 组件功能足够时, NetBeans 会使用原生组件。选择此选项将强制使用原生组件, 即使这可能限制功能 (例如标准 Mac OS 文件选择器)。
+Click here to restart IDE and apply your selected look and feel.	点击此处重启 IDE 并应用所选观感。
+Click here to restart IDE and apply your selected accent color.	点击此处重启 IDE 并应用所选强调色。
+Dark Metal	Dark Metal
+Dark Nimbus	Dark Nimbus
+Output Window Settings	输出窗口设置
+Restore	恢复
+Font:	字体:
+Does not apply to wrapped text	不适用于换行文本
+Font Size:	字号:
+Background Color:	背景颜色:
+Standard Color:	标准颜色:
+Error Color:	错误颜色:
+Input Color	输入颜色
+Link Color:	链接颜色:
+Important Link Color:	重要链接颜色:
+Link Style:	链接样式:
+Debug:	调试:
+Warning:	警告:
+Failure:	失败:
+Success:	成功:
+White	白色
+Black	黑色
+Red	红色
+Gray	灰色
+Underline	下划线
+&Font:	字体(&F):
+Font Si&ze:	字号(&Z):
+&Standard Color:	标准颜色(&S):
+&Error Color:	错误颜色(&E):
+&Background Color:	背景颜色(&B):
+&Link Color:	链接颜色(&L):
+Link St&yle:	链接样式(&Y):
+Im&portant Link Color:	重要链接颜色(&P):
+&Restore	恢复(&R)
+&Input Color	输入颜色(&I)
+Select font family, style and size	选择字体族、样式和大小
+Restore default settings	恢复默认设置
+Adjust font size	调整字号
+Select background color	选择背景颜色
+Select standard text foreground color	选择标准文本前景色
+Select error text foreground color	选择错误文本前景色
+Select link foreground color	选择链接前景色
+Select important link foreground color	选择重要链接前景色
+Select link style	选择链接样式
+Select input text foreground color	选择输入文本前景色
+File Associations	文件关联
+Files Ignored by the IDE	被 IDE 忽略的文件
+Scanning	扫描
+Enable auto-scanning of sources	启用源码自动扫描
+Ignore all .dotted files in home folder	忽略主文件夹中所有带点的隐藏文件
+< Choose the extension >	< 选择扩展名 >
+Associated also with:	同时也关联到:
+File &Extension:	文件扩展名(&E):
+Associated File &Type (MIME):	关联的文件类型 (MIME)(&T):
+File Type Associated Also with Extensions	同时也关联到扩展名的文件类型
+List of Associated File Types	关联文件类型列表
+List of File Extensions	文件扩展名列表
+List of File Types	文件类型列表
+File Extension	文件扩展名
+Restore default setting for selected file extension	恢复所选文件扩展名的默认设置
+Restore Default Setting	恢复默认设置
+Restore Default Setting for Selected File Extension	恢复所选文件扩展名的默认设置
+Restore Default Ignored Files Pattern	恢复默认的忽略文件模式
+De&fault	默认(&F)
+&Default	默认(&D)
+&New...	新建(&N)...
+New File Extension	新文件扩展名
+&Remove	移除(&R)
+Remove Selected File Extension	移除所选文件扩展名
+Enter New File Extension	输入新文件扩展名
+Open As...	打开方式...
+Hint	提示
+Treat {0} files as:	将 {0} 文件视为:
+Open	打开
+Choose type of file	选择文件类型
+NetBeans does not know this type of file. Please specify how should these files be treated.	NetBeans 不认识这种文件类型。请指定应如何处理这些文件。
+Regular expression of files to ignore. Match whole name, no path. Blank for none.	要忽略的文件的正则表达式。匹配完整名称, 不含路径。留空表示不忽略。
+Ignored Files Pattern Syntax Error	忽略文件模式语法错误
+Syntax error in ignored files regular expression	忽略文件正则表达式中存在语法错误
+Files.Options.Export.displayName	文件
+Cannot convert {0} object to {1} type	无法把 {0} 对象转换为 {1} 类型
+Cannot open {0}	无法打开 {0}
+AdvancedOption.displayName=Files	文件
+Files	文件
+#END

@@ -1,0 +1,82 @@
+Supports writing of build scripts.	支持编写构建脚本。
+The Ant module integrates Apache's Ant build tool into the IDE.     Ant is a Java- and XML-based build tool, which you can use to write scripts to build, test, and     deploy applications.	Ant 模块将 Apache 的 Ant 构建工具集成到 IDE 中。     Ant 是基于 Java 和 XML 的构建工具, 可用于编写脚本来构建、测试和部署应用。
+Ant Module Settings	Ant 模块设置
+Ant Settings	Ant 设置
+An&t Home:	Ant 主目录(&H):
+&Save All Modified Files Before Running Ant	运行 Ant 前保存所有已修改文件(&S)
+Re&use Output Tabs from Finished Processes	复用已完成进程的输出标签页(&U)
+Always Show &Output	总是显示输出(&O)
+&Verbosity Level:	详细级别(&V):
+{0} is not a valid Ant installation. It does not contain a file lib/ant.jar.	{0} 不是有效的 Ant 安装。缺少文件 lib/ant.jar。
+<Ant version here...>	<此处显示 Ant 版本...>
+Ant Version,Ant Options	Ant 版本,Ant 选项
+Ant Project	Ant 项目
+Properties of this Ant project file.	此 Ant 项目文件的属性。
+Name of the Ant project.	Ant 项目的名称。
+Default Target	默认目标
+Which target in the project is run by default.	项目默认运行的目标。
+{0} [Ant project]	{0} [Ant 项目]
+Anonymous Ant project	匿名 Ant 项目
+Target Name	目标名称
+A name by which to refer to this target.	引用此目标所用的名称。
+An end-user summary of what the target does, e.g. for usage summaries.	面向最终用户的目标功能摘要, 例如用于使用情况摘要。
+Depends On	依赖于
+List of other targets that should be run before this target.	应在运行此目标之前运行的其他目标的列表。
+<Illegal depends>	<非法依赖>
+<cannot parse>	<无法解析>
+Displays targets in the current Ant build script.	显示当前 Ant 构建脚本中的目标。
+<Ant not found: {0}>	<未找到 Ant: {0}>
+ERROR - Ant is misconfigured and cannot be run.	错误 - Ant 配置有误, 无法运行。
+Ant Build Script	Ant 构建脚本
+Custom Ant Task	自定义 Ant 任务
+Ant Build Scripts	Ant 构建脚本
+Ant Shortcuts	Ant 快捷方式
+You may only execute Ant scripts residing on disk.	只能执行位于磁盘上的 Ant 脚本。
+Re-run with Different Parameters	以不同参数重新运行
+Run Target	运行目标
+Run Ant Target	运行 Ant 目标
+Select &target(s) to run\:	选择要运行的目标(&T):
+Customizer for run ant target command	运行 Ant 目标命令的定制器
+Select target(s) to run	选择要运行的目标
+Selects target(s) to run	选择要运行的目标
+Shows target description	显示目标描述
+Building {0}...	正在构建 {0}...
+BUILD SUCCESSFUL (total time: {0, choice, 0#| 1#1 minute | 2#{0} minutes }{1, choice, 0#0 seconds| 1#1 second| 2#{1} seconds})	BUILD SUCCESSFUL (总耗时: {0, choice, 0#| 1#1 分钟 | 2#{0} 分钟 }{1, choice, 0#0 秒| 1#1 秒| 2#{1} 秒})
+Finished building {0}.	{0} 构建完成。
+BUILD FAILED (total time: {0, choice, 0#| 1#1 minute | 2#{0} minutes }{1, choice, 0#0 seconds| 1#1 second| 2#{1} seconds})	BUILD FAILED (总耗时: {0, choice, 0#| 1#1 分钟 | 2#{0} 分钟 }{1, choice, 0#0 秒| 1#1 秒| 2#{1} 秒})
+Build of {0} failed.	{0} 构建失败。
+BUILD STOPPED (total time: {0, choice, 0#| 1#1 minute | 2#{0} minutes }{1, choice, 0#0 seconds| 1#1 second| 2#{1} seconds})	BUILD STOPPED (总耗时: {0, choice, 0#| 1#1 分钟 | 2#{0} 分钟 }{1, choice, 0#0 秒| 1#1 秒| 2#{1} 秒})
+Build of {0} stopped.	{0} 构建已停止。
+Add a &Toolbar Button	添加工具栏按钮(&T)
+&Customize Generated Ant Code	自定义生成的 Ant 代码(&C)
+Add a &Menu Item	添加菜单项(&M)
+Make Keyboard Shortcut	创建键盘快捷方式
+Select an existing toolbar. A new button will be added to it which runs the shortcut.	选择一个现有工具栏。将向其中添加一个运行该快捷方式的新按钮。
+Select Toolbar	选择工具栏
+Press any key sequence in the supplied test area. For example, hold down Control and Shift and press F12. The key sequence you choose will run the Ant shortcut. Be sure to avoid conflicts with existing IDE keyboard shortcuts. (Choose Tools | Options and click Keymap to see existing shortcuts.)	在提供的测试区中按下任意按键序列。例如, 按住 Control 和 Shift 再按 F12。所选的按键序列将运行该 Ant 快捷方式。请避免与现有 IDE 键盘快捷方式冲突。(选择 工具 | 选项 并点击“键盘映射”查看现有快捷方式。)
+Add to Toolbar	添加到工具栏
+Customize Script	自定义脚本
+Add to Menu	添加到菜单
+Choose Options	选择选项
+Select an existing menu. A new menu item will be added to it which runs the shortcut.	选择一个现有菜单。将向其中添加一个运行该快捷方式的新菜单项。
+Select Menu	选择菜单
+(type here)	(在此输入)
+Select Keyboard Shortcut	选择键盘快捷方式
+Add a &Keyboard Shortcut	添加键盘快捷方式(&K)
+Select how you want the shortcut to be invoked, as well as whether you want to customize the generated Ant mini-script.	选择调用快捷方式的方式, 以及是否要自定义生成的 Ant 迷你脚本。
+\ Configure Basic Options	\ 配置基本选项
+Customize the generated miniature Ant script below. Its default target will be run when the shortcut is invoked. The project name may be used for display purposes, for example as the text of a menu item. A typical customization would be to add nested <property name=\"name\" value=\"value\"/> elements to <ant/>.	自定义下方生成的迷你 Ant 脚本。调用快捷方式时将运行其默认目标。项目名可用于显示用途, 例如作为菜单项文本。典型的自定义是向 <ant/> 添加嵌套的 <property name=\"name\" value=\"value\"/> 元素。
+Customize Generated Ant Script	自定义生成的 Ant 脚本
+This area contains Ant script code for customizing	此区域包含用于自定义的 Ant 脚本代码
+Type a key sequence here	在此输入按键序列
+Select in this list	在此列表中选择
+Select destination for shortcut	选择快捷方式的目标位置
+Selects destination for shortcut	选择快捷方式的目标位置
+&Select a menu item name:	选择菜单项名称(&S):
+&Select toolbar button text:	选择工具栏按钮文本(&S):
+Create Shortcut to Ant Target	创建指向 Ant 目标的快捷方式
+No shortcut pointing to this Ant target could be located.     Do you want to just delete all custom Ant target shortcuts?	找不到指向此 Ant 目标的快捷方式。     是否直接删除所有自定义的 Ant 目标快捷方式?
+Delete All Ant Shortcuts	删除所有 Ant 快捷方式
+<html>Use the value of <b>netbeans.license</b> or in its absence <b>license</b>\nproperty of the project (or its parent). It is recommended to set this property on the\nroot project only. The value of the license property can be:\n<ul>\n  <li>Short name of a NetBeans Global license<br/>(e.g.: apache20)</li>\n  <li>Project directory relative path to a file.</li>\n  <li>Root project directory relative path to a file.</li>\n  <li>Absolute path to a file.</li>\n  <li>URI to a registered global license<br/>(e.g.: http://opensource.org/licenses/Apache-2.0)</li>\n</ul>	<html>使用 <b>netbeans.license</b> 或 (若无) 项目 (或其父项目) 的 <b>license</b>\n属性。建议只在根项目上设置此属性。license 属性的值可以是:\n<ul>\n  <li>NetBeans 全局许可的短名称<br/>(例如: apache20)</li>\n  <li>相对于项目目录的文件路径。</li>\n  <li>相对于根项目目录的文件路径。</li>\n  <li>文件的绝对路径。</li>\n  <li>指向已注册全局许可的 URI<br/>(例如: http://opensource.org/licenses/Apache-2.0)</li>\n</ul>
+<html>Repository Indexing allows NetBeans to provide features like editor hints for artifact version upgrades, auto completion for GAV values, actions which add the right dependency for a given class name, search queries and more. <br><br>For this to work, NetBeans has to index your local maven repository and optionally download index files of remote repositories. <br><br>Please note that this requires some extra storage for the index located in the NetBeans cache directory and some time to asynchronously scan and recompute the index periodically.</html>	<html>仓库索引让 NetBeans 能够提供构件版本升级的编辑器提示、GAV 值的自动补全、为给定类名添加正确依赖的操作、搜索查询等功能。<br><br>为此, NetBeans 需要索引你的本地 Maven 仓库, 并可选下载远程仓库的索引文件。<br><br>请注意, 这需要占用一些额外存储空间 (索引位于 NetBeans 缓存目录), 并需要一定时间异步扫描和定期重建索引。</html>
+#END

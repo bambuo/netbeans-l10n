@@ -1,0 +1,153 @@
+Java	Java
+Payara 3 Configurable Settings	Payara 3 可配置设置
+Terminate Payara Server	终止 Payara 服务器
+<html>Payara server could not be started with <i>{0}</i>. Please select another Java SE Platform.</html>	<html>无法使用 <i>{0}</i> 启动 Payara 服务器。请选择其他 Java SE 平台。</html>
+Change Payara Password	更改 Payara 密码
+<html>Change Payara administrator password for {0}</html>	<html>更改 {0} 的 Payara 管理员密码</html>
+Payara Administrator Credentials	Payara 管理员凭据
+<html>Provide Payara administrator username and password for {0}</html>	<html>提供 {0} 的 Payara 管理员用户名和密码</html>
+Enable Hot Deploy	启用热部署
+Enable	启用
+Log JDBC Calls:	记录 JDBC 调用:
+When set to true, all JDBC calls will be logged allowing tracing of all JDBC interactions including SQL	设置为 true 时, 将记录所有 JDBC 调用, 以便跟踪包括 SQL 在内的所有 JDBC 交互
+Seconds	秒
+Slow Query Log Threshold:	慢查询日志阈值:
+SQL queries that exceed this time in seconds will be logged. Any value <= 0 disables Slow Query Logging	超过此时间 (秒) 的 SQL 查询将被记录。任何 <= 0 的值都会禁用慢查询日志
+SQL Trace Listeners:	SQL 跟踪监听器:
+Comma-separated list of classes that implement the org.glassfish.api.jdbc.SQLTraceListener interface	实现 org.glassfish.api.jdbc.SQLTraceListener 接口的类列表 (以逗号分隔)
+Docker Volume	Docker 卷
+WSL	WSL
+Enable this option to connect with a Payara Server instance hosted in a Docker container.	启用此选项可连接托管在 Docker 容器中的 Payara 服务器实例。
+Enable WSL integration to connect with a Payara Server instance running inside Windows Subsystem for Linux. The host IP can be determined using the 'hostname -I' command in WSL.	启用 WSL 集成可连接运行在 Windows Linux 子系统中的 Payara 服务器实例。可在 WSL 中使用 'hostname -I' 命令确定主机 IP。
+Host Path:	主机路径:
+Container Path:	容器路径:
+Instance Type:	实例类型:
+&HTML 5	HTML 5(&H)
+Compile-&time Modules:	编译期模块(&T):
+Pr&ocessor-path Modules\:	处理器路径模块(&P):
+Run-&time Modules\:	运行期模块(&T):
+Compile-&time Test Modules\:	编译期测试模块(&T):
+Run-&time Test Modules\:	运行期测试模块(&T):
+Compile-time modules are propagated to all library categories.	编译期模块会传播到所有库类别。
+Create J&LINK distribution	创建 JLINK 发行版(&L)
+&Strip Debug Information	去除调试信息(&S)
+Laucher &Name:	启动器名称(&N):
+Create La&uncher	创建启动器(&U)
+Anonymous Function	匿名函数
+Scope Resolution Operator (::)	作用域解析运算符 (::)
+Nullsafe Object Operator (?->)	空安全对象运算符 (?->)
+"=" in Declare Statement	Declare 语句中的 "="
+"|" in Union Type	联合类型中的 "|"
+"&" in Intersection Type	交叉类型中的 "&"
+Property Hook Declaration	属性钩子声明
+Attribute Brackets	属性括号
+Match expression rules - Select Box	match 表达式规则 - 选择框
+Match expression rules	match 表达式规则
+select rule for match expression block	为 match 表达式块选择规则
+"matc&h"	"matc&h"
+Maximal preserved consecutive empty lines	最多保留的连续空行数
+Maximal Preserved Lines	最多保留行数
+Max Preserved Lines:	最多保留行数:
+Keep ')' and '{' on the same line in method declarations when ')' is wrapped to the next line	当 ')' 换行到下一行时, 方法声明中让 ')' 和 '{' 保持在同一行
+&Keep ')' and '{' on the Same Line	让 ')' 和 '{' 保持在同一行(&K)
+&Coalescing Operators:	合并运算符(&C):
+Coalescing operators	合并运算符
+Between Use Ty&pes:	use 类型之间(&P):
+Between use types label	use 类型之间的标签
+En&d of File	文件末尾(&D)
+Put in PSR-12 &Order	按 PSR-12 顺序排列(&O)
+&Keep Existing Order of Use Types(types, functions, constants) If Possible	如果可能, 保持 use 类型 (类型、函数、常量) 的现有顺序(&K)
+After U&se Trait:	use trait 之后(&S):
+Match Arm Arro&w	match 分支箭头(&W)
+Em&pty Function Body	空函数体(&P)
+Fi&eld Declaration:	字段声明(&E):
+&Property Hook:	属性钩子(&P):
+Between Property Hooks:	属性钩子之间:
+Empty Property Hook Bod&y	空属性钩子体(&Y)
+// TODO add your handling code here:\n	// TODO 在此添加事件处理代码:\n
+// Variables declaration - do not modify	// 变量声明 - 请勿修改
+// End of variables declaration	// 变量声明结束
+// Code for dispatching events from components to event handlers.\n	// 用于将组件事件分派给事件处理程序的代码。\n
+Type of the debugger to connect	要连接的调试器类型
+Connects debugger to a currently running process.	将调试器连接到当前正在运行的进程。
+Sessio&ns	会话(&N)
+Call Stac&k	调用堆栈(&K)
+&Variables	变量(&V)
+&Watches	监视(&W)
+&Breakpoints	断点(&B)
+&Sources	源文件(&S)
+&Debugging	调试(&D)
+&Debug {0,choice,-1#Main Project|0#Project|1#Project ({1})|1<{0} Projects}	调试 {0,choice,-1#主项目|0#项目|1#项目 ({1})|1<{0} 个项目}(&D)
+Run {0,choice,0#Project|1#Project ({1})|1<{0} Projects} in Debugger	在调试器中运行 {0,choice,0#项目|1#项目 ({1})|1<{0} 个项目}
+No attach types were found.	未找到任何连接类型。
+Requested attach type not found.	未找到请求的连接类型。
+Debu&g {0,choice,0#File|1#File|1<Files}	调试 {0,choice,0#文件|1#文件|1<文件}(&G)
+Debug Test {0,choice,0#Fi&le|1#Fi&le|1<Fi&les}	调试测试 {0,choice,0#文件(&L)|1#文件(&L)|1<文件(&L)}
+Cannot debug class {0} (not executable).	无法调试类 {0} (不可执行)。
+Debugger exception: {0}	调试器异常: {0}
+&Finish Debugger Session	结束调试器会话(&F)
+&Run in Debugger	在调试器中运行(&R)
+Step &Into	步入(&I)
+Step Into &Next Method	步入下一个方法(&N)
+Run Into &Method	进入方法(&M)
+Step O&ver	步过(&V)
+Step &Out	步出(&O)
+Step Over &Expression	跳过表达式(&E)
+&Pause	暂停(&P)
+R&un to Cursor	运行到光标处(&U)
+&Toggle Line Breakpoint	切换行断点(&T)
+Finish	完成
+New &Breakpoint...	新建断点(&B)...
+Cannot attach. Check the parameters and try again.	无法连接。请检查参数后重试。
+Illegal {0,choice,1#value|2#values} of {0,choice,1#argument|2#arguments}: {1}.	{0,choice,1#参数|2#参数}的{0,choice,1#值|2#值}非法: {1}。
+New Breakpoint	新建断点
+Make &Caller Current	使调用者成为当前项(&C)
+&Make Callee Current	使被调用者成为当前项(&M)
+&Debugger Window	调试器窗口(&D)
+&Attach Debugger...	连接调试器(&A)...
+Debugger exception	调试器异常
+Attach	连接
+&Breakpoint Type:	断点类型(&B):
+Debugger Types	调试器类型
+Possible Actions When Reaching This Breakpoint	到达此断点时可能的操作
+New breakpoint of specified type	指定类型的新断点
+Enable All	全部启用
+Disable All	全部禁用
+New breakpoint on variable modification	变量修改时的新断点
+New breakpoint on variable access	变量访问时的新断点
+Appl&y Code Changes	应用代码更改(&Y)
+&Pop Topmost Call	弹出最顶层调用(&P)
+Debugger Window	调试器窗口
+Properties of {0}	{0} 的属性
+Debug Main Project {0}	调试主项目 {0}
+Connecting via connect type {0}	正在通过连接类型 {0} 连接
+Go to Breakpoint Hit	转到断点命中处
+Set Current T&hread...	设置当前线程(&H)...
+FXMLDocument	FXMLDocument
+Cls	Cls
+JavaFXApplication{0}	JavaFXApplication{0}
+JavaFXPreloader{0}	JavaFXPreloader{0}
+JavaFXSwingApplication{0}	JavaFXSwingApplication{0}
+JavaFXLibrary{0}	JavaFXLibrary{0}
+JavaFXProject{0}	JavaFXProject{0}
+Space-separated list of JVM arguments used when running the project	运行项目时使用的 JVM 参数列表 (以空格分隔)
+(you may also define separate properties like run-sys-prop.name=value instead of -Dname=value	(也可以定义 run-sys-prop.name=value 这样的独立属性来代替 -Dname=value
+or test-sys-prop.name=value to set system properties for unit tests):	或定义 test-sys-prop.name=value 来为单元测试设置系统属性):
+Main class for Java launcher	Java 启动器的主类
+Main class for JavaFX	JavaFX 的主类
+This project is a Preloader	此项目是一个 Preloader
+This project embeds JavaFX components in Swing container	此项目在 Swing 容器中嵌入 JavaFX 组件
+This project uses Preloader	此项目使用 Preloader
+This project does not use Preloader	此项目不使用 Preloader
+This is a JavaFX project	这是一个 JavaFX 项目
+Pre-JavaFX 2.0 WebStart is deactivated in JavaFX 2.0+ projects	JavaFX 2.0+ 项目中已停用 JavaFX 2.0 之前的 WebStart
+Non-JavaFX jar file creation is deactivated in JavaFX 2.0+ projects	JavaFX 2.0+ 项目中已停用非 JavaFX jar 文件的创建
+Preloader can not use a preloader	Preloader 不能使用 preloader
+If true, application update mode is set to 'background', if false, update mode is set to 'eager'	为 true 时, 应用程序更新模式设为 'background'; 为 false 时, 更新模式设为 'eager'
+If true, application update mode is set to 'background', if false, update mode is set to 'always'	为 true 时, 应用程序更新模式设为 'background'; 为 false 时, 更新模式设为 'always'
+Do not set application arguments here, this property is re-generated from javafx.param.* properties	请勿在此处设置应用程序参数, 此属性会从 javafx.param.* 属性重新生成
+Set true for GlassFish only. Rebases manifest classpaths of JARs in lib dir. Not usable with signed JARs.	仅对 GlassFish 设为 true。会重定 lib 目录中 JAR 的清单类路径基址。不适用于已签名的 JAR。
+Do not modify this property in this configuration. It can be re-generated.	请勿在此配置中修改此属性。它可能会被重新生成。
+JavaFXApplication1-Preloader	JavaFXApplication1-Preloader
+Project {0} build script updated	项目 {0} 的构建脚本已更新
+#END

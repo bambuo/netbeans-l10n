@@ -1,0 +1,96 @@
+Base IDE	基础 IDE
+Text Files	文本文件
+Ant Scripts	Ant 脚本
+Ant <project> XML files	Ant <project> XML 文件
+Create Shortcut...	创建快捷方式...
+Remove Shortcut	移除快捷方式
+Can not save debugger settings.	无法保存调试器设置。
+Resource Files	资源文件
+Breakpoint Properties	断点属性
+Properties of {0}	{0} 的属性
+Show Inline Values	显示内联值
+Show Inline V&alues	显示内联值(&A)
+Activate all breakpoints in current session	启用当前会话中的所有断点
+Deactivate all breakpoints in current session	停用当前会话中的所有断点
+The current session does not allow to deactivate breakpoints	当前会话不允许停用断点
+No debugger session	无调试器会话
+Project Specific Options Settings	项目专属选项设置
+Task List	任务列表
+Compact 1	紧凑 1
+Compact 2	紧凑 2
+Compact 3	紧凑 3
+Full JRE	完整 JRE
+Cannot start refactoring: no UI implementation is available.	无法启动重构: 没有可用的 UI 实现。
+Run Inspect on...	对...运行检查
+Run Inspect&Transform on...	对...运行检查和转换(&T)
+Move {0}	移动 {0}
+The Dashboard window	仪表板窗口
+Show Dashboard	显示仪表板
+Open {0}	打开 {0}
+Install JavaFX Implementation module!	请安装 JavaFX 实现模块!
+Cannot perform the action - missing supporting modules	无法执行该操作 - 缺少支持模块
+Basic Wildcards	基本通配符
+Regular Expression	正则表达式
+Apply to all big files	应用到所有大文件
+Do Not Show	不再显示
+Line endin&g:	行尾符(&G):
+Line ending sequence	行尾符序列
+Line ending sequence that is used in the text pane	文本区中使用的行尾符序列
+\\r: Old Mac	\\r: 旧 Mac
+Open {0,choice,0#Documents|1#Document|1<Documents} ({0,choice,0#0 files|1#1 file|1<{0,number,integer} files})	打开 {0,choice,0#文档|1#文档|1<文档} ({0,choice,0#0 个文件|1#1 个文件|1<{0,number,integer} 个文件})
+\\n: Unix (Linux, Mac)	\\n: Unix (Linux, Mac)
+\\r\\n: Windows	\\r\\n: Windows
+The text match cannot be shown.	无法显示文本匹配项。
+File is too big	文件过大
+File {0} is quite big ({1} kB).\nShowing it can cause memory and performance problems.\nDo you want to show content of this file?	文件 {0} 相当大 ({1} kB)。\n显示它可能导致内存和性能问题。\n要显示此文件的内容吗?
+File {0} does not exist.	文件 {0} 不存在。
+Pattern Matching took too long and was cancelled.	模式匹配耗时过长, 已取消。
+The text cannot be pasted into search field. Limit is {0} characters.	无法把文本粘贴到搜索框。上限为 {0} 个字符。
+Show Big File?	显示大文件?
+File Error	文件错误
+&Split Document	拆分文档(&S)
+Cannot find registrations for mime type "{0}".  Consider usage of @MultiViewElement.Registration!	找不到 MIME 类型 "{0}" 的注册。请考虑使用 @MultiViewElement.Registration!
+Do you really want to clear the split?	确定清除拆分吗?
+Clear Split	清除拆分
+Split horizontally	水平拆分
+Split vertically	垂直拆分
+Output Window is Initializing	输出窗口正在初始化
+Output Window Font Color	输出窗口字体颜色
+Output Window	输出窗口
+Output Window Settings	输出窗口设置
+Terminate the process?	终止该进程?
+Selecting large parts of text can cause Out-Of-Memory errors. Do you want to continue?	选择大段文本可能导致内存溢出错误。要继续吗?
+Open in System failed: {0}	在系统中打开失败: {0}
+Checking for external changes	正在检查外部更改
+Save Window Setup	保存窗口布局
+Switch Role	切换角色
+New Mode	新模式
+New Document Group...	新建文档组...
+look and feel, windows, document tab	观感、窗口、文档标签
+IDE &Log	IDE 日志(&L)
+IDE Log	IDE 日志
+Check for Updates	检查更新
+to version {0}	到版本 {0}
+Search text is too long.	搜索文本过长。
+FlatLaf Cupertino Dark	FlatLaf Cupertino 深色
+FlatLaf Cupertino Light	FlatLaf Cupertino 浅色
+FlatLaf Dark	FlatLaf 深色
+FlatLaf Light	FlatLaf 浅色
+Object &Name:	对象名称(&N):
+Instantiate Template	实例化模板
+Save &In:	保存于(&I):
+Cannot have null root context.	根上下文不能为 null。
+An explored context ({0}) must be within the root context ({1}).	被探索的上下文 ({0}) 必须位于根上下文 ({1}) 内。
+Could not restore Explorer window; the root node "{0}" could not be restored correctly.	无法恢复资源管理器窗口; 根节点 "{0}" 未能正确恢复。
+Cannot use null for node selection.	节点选择不能使用 null。
+No element of a node selection may be null.	节点选择的元素不能为 null。
+RCP Platform	RCP 平台
+Standard output	标准输出
+Settings Files	设置文件
+The file {0} seems no longer valid!	文件 {0} 似乎已失效!
+Copied file {0} is no longer valid!	复制的文件 {0} 已失效!
+Copying {0}	正在复制 {0}
+Deleting {0}	正在删除 {0}
+Moving {0}	正在移动 {0}
+\ (to parent)	\ (上级目录)
+#END

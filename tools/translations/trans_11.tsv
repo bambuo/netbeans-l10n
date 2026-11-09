@@ -1,0 +1,72 @@
+# 补齐短文案剩余缺口 + 特殊保留项
+f	f
+GB	GB
+kB	kB
+->	->
+&lt;servlet-class&gt;<b>{0}</b>&lt;/servlet-class&gt;	&lt;servlet-class&gt;<b>{0}</b>&lt;/servlet-class&gt;
+&lt;filter-class&gt;<b>{0}</b>&lt;/filter-class&gt;	&lt;filter-class&gt;<b>{0}</b>&lt;/filter-class&gt;
+\ \ \ \ \ \ \ \ \ \ \ \ \ \	\ \ \ \ \ \ \ \ \ \ \ \ \ \
+org/netbeans/installer/product/components/netbeans-license-jdk5.txt	org/netbeans/installer/product/components/netbeans-license-jdk5.txt
+org/netbeans/installer/product/components/netbeans-license-jdk6.txt	org/netbeans/installer/product/components/netbeans-license-jdk6.txt
+org/netbeans/installer/product/components/netbeans-license-mysql.txt	org/netbeans/installer/product/components/netbeans-license-mysql.txt
+org/netbeans/modules/ide/ergonomics/project.png	org/netbeans/modules/ide/ergonomics/project.png
+org/netbeans/modules/editor/completion/resources/open_in_external_browser.png	org/netbeans/modules/editor/completion/resources/open_in_external_browser.png
+resource:org/netbeans/installer/wizard/wizard-title-right.png	resource:org/netbeans/installer/wizard/wizard-title-right.png
+resource:org/netbeans/installer/wizard/wizard-title-left.png	resource:org/netbeans/installer/wizard/wizard-title-left.png
+org/netbeans/installer/product/components/junit-license.txt	org/netbeans/installer/product/components/junit-license.txt
+Classpath entries	类路径条目
+Move to modulepath	移至模块路径
+Exports To Keyword:	导出目标关键字:
+Exports To List:	导出目标列表:
+Opens To Keyword:	开放目标关键字:
+Opens To List:	开放目标列表:
+Provides With Keyword:	提供实现关键字:
+Provides With List:	提供实现列表:
+Modu&le Declaration\:	模块声明(&L):
+"&if"\:	"&if"\:
+"&for"\:	"&for"\:
+"&while"\:	"&while"\:
+"&do ... while"\:	"&do ... while"\:
+"&else"	"&else"
+E&xports	导出(&X)
+&Opens	开放(&O)
+Prov&ides	提供(&V)
+package org.netbeans.samples;public class ClassA {public void method() {}}	package org.netbeans.samples;public class ClassA {public void method() {}}
+public class ClassA {private String name;}	public class ClassA {private String name;}
+Parenthesis	圆括号
+Always use parens around lambda parameters	始终为 lambda 参数使用圆括号
+(r/w)	(r/w)
+(r/-)	(r/-)
+(-/w)	(-/w)
+Holds value of property {0}.	保存属性 {0} 的值。
+Getter for property {0}.\n\t@return Value of property {0}.\n	属性 {0} 的 getter 方法。\n\t@return 属性 {0} 的值。\n
+Setter for property {0}.\n\t@param {1} New value of property {0}.\n	属性 {0} 的 setter 方法。\n\t@param {1} 属性 {0} 的新值。\n
+Indexed getter for property {0}.\n\t@param index Index of the property.\n\t@return Value of the property at <CODE>index</CODE>.\n	属性 {0} 的索引 getter 方法。\n\t@param index 属性的索引。\n\t@return 位于 <CODE>index</CODE> 处的属性值。\n
+Indexed setter for property {0}.\n\t@param index Index of the property.\n\t@param {0} New value of the property at <CODE>index</CODE>.\n	属性 {0} 的索引 setter 方法。\n\t@param index 属性的索引。\n\t@param {0} 位于 <CODE>index</CODE> 处的属性新值。\n
+Registers {0} to receive events.\n\t\t@param listener The listener to register.\n	注册 {0} 以接收事件。\n\t\t@param listener 要注册的监听器。\n
+Removes {0} from the list of listeners.\n\t\t@param listener The listener to remove.\n	从监听器列表中移除 {0}。\n\t\t@param listener 要移除的监听器。\n
+Utility field used by bound properties.	绑定属性使用的实用字段。
+Utility field used by constrained properties.	约束属性使用的实用字段。
+Adds a PropertyChangeListener to the listener list.\n\t\t  @param l The listener to add.\n	将 PropertyChangeListener 添加到监听器列表。\n\t\t  @param l 要添加的监听器。\n
+Removes a PropertyChangeListener from the listener list.\n\t\t  @param l The listener to remove.\n	从监听器列表中移除 PropertyChangeListener。\n\t\t  @param l 要移除的监听器。\n
+Adds a VetoableChangeListener to the listener list.\n\t\t  @param l The listener to add.\n	将 VetoableChangeListener 添加到监听器列表。\n\t\t  @param l 要添加的监听器。\n
+Removes a VetoableChangeListener from the listener list.\n\t\t  @param l The listener to remove.\n	从监听器列表中移除 VetoableChangeListener。\n\t\t  @param l 要移除的监听器。\n
+Utility field holding list of {0}s.	保存 {0} 列表的实用字段。
+Utility field used by event firing mechanism.	事件触发机制使用的实用字段。
+Utility field holding the {0}.	保存 {0} 的实用字段。
+Notifies all registered listeners about the event.\n	通知所有已注册的监听器有关该事件。\n
+Notifies the registered listener about the event.\n	通知已注册的监听器有关该事件。\n
+\n@throws PropertyVetoException if some vetoable listeners reject the new value\n	\n@throws PropertyVetoException 如果某些可否决监听器拒绝新值\n
+GlassFish Server {0}	GlassFish Server {0}
+<p>Sends HTTP status code.</p><p style="font-weight: bold; font-size: 1.1em">Example</p><pre><code>\n{status 500}\n</code></pre>	<p>发送 HTTP 状态码。</p><p style="font-weight: bold; font-size: 1.1em">示例</p><pre><code>\n{status 500}\n</code></pre>
+&lt;home&gt;<b>{0}</b>&lt;/home&gt;	&lt;home&gt;<b>{0}</b>&lt;/home&gt;
+&lt;remote&gt;<b>{0}</b>&lt;/remote&gt;	&lt;remote&gt;<b>{0}</b>&lt;/remote&gt;
+&lt;local&gt;<b>{0}</b>&lt;/local&gt;	&lt;local&gt;<b>{0}</b>&lt;/local&gt;
+&lt;local-home&gt;<b>{0}</b>&lt;/local-home&gt;	&lt;local-home&gt;<b>{0}</b>&lt;/local-home&gt;
+&lt;handler-class&gt;<b>{0}</b>&lt;/handler-class&gt;	&lt;handler-class&gt;<b>{0}</b>&lt;/handler-class&gt;
+&lt;handler-name&gt;<b>{0}</b>&lt;/handler-name&gt;	&lt;handler-name&gt;<b>{0}</b>&lt;/handler-name&gt;
+&lt;tag-class&gt;<b>{0}</b>&lt;/tag-class&gt;	&lt;tag-class&gt;<b>{0}</b>&lt;/tag-class&gt;
+&lt;tei-class&gt;<b>{0}</b>&lt;/tei-class&gt;	&lt;tei-class&gt;<b>{0}</b>&lt;/tei-class&gt;
+&lt;validator-class&gt;<b>{0}</b>&lt;/validator-class&gt;	&lt;validator-class&gt;<b>{0}</b>&lt;/validator-class&gt;
+&lt;function-class&gt;<b>{0}</b>&lt;/function-class&gt;	&lt;function-class&gt;<b>{0}</b>&lt;/function-class&gt;
+#END

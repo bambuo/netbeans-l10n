@@ -1,0 +1,150 @@
+a powerful and lightweight JSF framework based on Bootstrap 3 and jQuery UI that lets you develop Front-end Enterprise Applications fast and easy	基于 Bootstrap 3 和 jQuery UI 的强大轻量 JSF 框架, 让你快速轻松地开发前端企业应用
+This module fixes autocomplete in BootsFaces xhtml templates for b:dataTable and other tags which create a scoped variable	此模块修复 BootsFaces xhtml 模板中 b:dataTable 及其他创建作用域变量的标签的自动补全
+Panel for Expression Language Mark Occurrences	表达式语言标记出现位置面板
+Expression Language Mark Occurrences Panel	表达式语言标记出现位置面板
+Gradle Projects Distributions	Gradle 项目发行版
+Better than nothing support of Gradle distribution plugin.	聊胜于无的 Gradle 发行版插件支持。
+Gradle Editor Support	Gradle 编辑器支持
+Additional support working on Gradle files.	处理 Gradle 文件的额外支持。
+Gradle Projects	Gradle 项目
+Provides basic infrastructure binding between NetBeans and Gradle	提供 NetBeans 与 Gradle 之间的基础结构绑定
+Java with Gradle	使用 Gradle 的 Java
+Allow Silent Install of Gradle in the Future	允许以后静默安装 Gradle
+<p>Enables the Gradle build cache.<br/>Gradle will try to reuse outputs from previous builds.</p>	<p>启用 Gradle 构建缓存。<br/>Gradle 将尝试复用此前构建的输出。</p>
+<p>Specify the build file.</p><b>[deprecated]</b>	<p>指定构建文件。</p><b>[已废弃]</b>
+<p>Enables the configuration cache.<br/>Gradle will try to reuse the build configuration from previous builds.</p><b>[incubating]</b>	<p>启用配置缓存。<br/>Gradle 将尝试复用此前构建的配置。</p><b>[孵化中]</b>
+<p>Configures how the configuration cache handles problems (<b>fail</b> or <b>warn</b>). Defaults to <b>fail</b>.</p><b>[incubating]</b>	<p>配置配置缓存处理问题的方式 (<b>fail</b> 或 <b>warn</b>)。默认为 <b>fail</b>。</p><b>[孵化中]</b>
+<p>Configure necessary projects only.<br/>Gradle will attempt to reduce configuration time for large multi-project builds.</p><b>[incubating]</b>	<p>仅配置必要的项目。<br/>Gradle 会尽量缩短大型多项目构建的配置时间。</p><b>[孵化中]</b>
+<p>Specifies which type of console output to generate. Values are <b>'plain'</b>, <b>'auto'</b> (default), <b>'rich'</b> or <b>'verbose'</b>.</p>	<p>指定生成的控制台输出类型。取值为 <b>'plain'</b>、<b>'auto'</b> (默认)、<b>'rich'</b> 或 <b>'verbose'</b>。</p>
+<p>Continue task execution after a task failure.</p>	<p>任务失败后继续执行任务。</p>
+<p>Enables continuous build.<br/>Gradle does not exit and will re-execute tasks when task file inputs change.</p>	<p>启用连续构建。<br/>Gradle 不退出, 并在任务文件输入变化时重新执行任务。</p>
+<p>Uses the Gradle Daemon to run the build. Starts the Daemon if not running.</p><p>Builds running through the IDE are always using a daemon.</p>	<p>使用 Gradle Daemon 运行构建。若 Daemon 未运行则启动它。</p><p>通过 IDE 运行的构建始终使用 Daemon。</p>
+<p>Configures the dependency verification mode.<br/>Values are '<b>strict</b>', '<b>lenient</b>' or '<b>off</b>'.</p>	<p>配置依赖校验模式。<br/>取值为 '<b>strict</b>'、'<b>lenient</b>' 或 '<b>off</b>'。</p>
+<p>Run the builds with all task actions disabled.</p>	<p>以禁用全部任务操作的方式运行构建。</p>
+<p>Specify a task to be excluded from execution.</p>	<p>指定要排除执行的任务。</p>
+<p>Exports the public keys used for dependency verification.</p>	<p>导出用于依赖校验的公钥。</p>
+<p>Starts the Gradle Daemon in the foreground.</p>	<p>以前台方式启动 Gradle Daemon。</p>
+<p>The Gradle GUI has been removed in Gradle 4.0.</p>	<p>Gradle GUI 已在 Gradle 4.0 中移除。</p>
+<p>Specifies the Gradle user home directory.</p>	<p>指定 Gradle 用户主目录。</p>
+<p>Shows the help message.</p>	<p>显示帮助消息。</p>
+<p>Include the specified build in the composite.</p>	<p>在组合构建中包含指定的构建。</p>
+<p>Specify an initialization script.</p>	<p>指定初始化脚本。</p>
+<p>Log in <b>debug</b> mode (includes normal stacktrace)</p>	<p>以 <b>debug</b> 模式记录日志 (含常规堆栈跟踪)</p>
+<p>Set log level to <b>info</b>.</p>	<p>将日志级别设为 <b>info</b>。</p>
+<p>Log errors only.</p>	<p>仅记录错误。</p>
+<p>Set log level to <b>warn</b>.</p>	<p>将日志级别设为 <b>warn</b>。</p>
+<p>Configure the number of concurrent workers Gradle is allowed to use.</p>	<p>配置 Gradle 允许使用的并发工作线程数。</p>
+<p>Disables the Gradle build cache.</p>	<p>禁用 Gradle 构建缓存。</p>
+<p>Disables the configuration cache.</p><b>[incubating]</b>	<p>禁用配置缓存。</p><b>[孵化中]</b>
+<p>Disables the use of configuration on demand.</p><b>[incubating]</b>	<p>禁用按需配置。</p><b>[孵化中]</b>
+<p>Do not use the Gradle daemon to run the build.<br/>Useful occasionally if you have configured Gradle to always run with the daemon by default.</p><p>Builds running through the IDE are always using a daemon.</p>	<p>不使用 Gradle Daemon 运行构建。<br/>如果你已把 Gradle 配置为默认总是使用 Daemon, 偶尔会用到此项。</p><p>通过 IDE 运行的构建始终使用 Daemon。</p>
+<p>Disables parallel execution to build projects.</p>	<p>禁用并行构建项目。</p>
+<p>Do not rebuild project dependencies.</p><p>Useful for debugging and fine-tuning buildSrc, but can lead to wrong results. Use with caution!</p>	<p>不重新构建项目依赖。</p><p>对调试和调优 buildSrc 有用, 但可能导致错误结果。请谨慎使用!</p>
+<p>Disables the creation of a build scan. For more information about build scans, please visit <a href="https://gradle.com/build-scans">https://gradle.com/build-scans</a>.</p>	<p>禁用创建构建扫描。有关构建扫描的更多信息, 请访问 <a href="https://gradle.com/build-scans">https://gradle.com/build-scans</a>。</p>
+<p>Don't search in parent folders for a settings file.</p><p>Removed in Gradle 5.0</p>	<p>不在父文件夹中搜索 settings 文件。</p><p>已在 Gradle 5.0 中移除</p>
+<p>Disables watching the file system.</p>	<p>禁用文件系统监视。</p>
+<p>Execute the build without accessing network resources.</p>	<p>在不访问网络资源的情况下执行构建。</p>
+<p>Build projects in parallel.<br/>Gradle will attempt to determine the optimal number of executor threads to use.</p>	<p>并行构建项目。<br/>Gradle 会尝试确定要使用的最优执行线程数。</p>
+<p>Specifies the scheduling priority for the Gradle daemon and all processes launched by it. Values are '<b>normal</b>' (default) or '<b>low</b>'	<p>指定 Gradle Daemon 及其启动的所有进程的调度优先级。取值为 '<b>normal</b>' (默认) 或 '<b>low</b>'
+<p>Set project property for the build script (e.g. -Pmyprop=myvalue)</p>	<p>为构建脚本设置项目属性 (例如 -Pmyprop=myvalue)</p>
+<p>Specify the project-specific cache directory. Defaults to .gradle in the root project directory.</p>	<p>指定项目专属缓存目录。默认为根项目目录下的 .gradle。</p>
+<p>Specifies the start directory for Gradle. Defaults to current directory.</p>	<p>指定 Gradle 的启动目录。默认为当前目录。</p>
+<p>Profile build execution time and generates a report in the <build_dir>/reports/profile directory.</p>	<p>分析构建执行时间并在 <build_dir>/reports/profile 目录生成报告。</p>
+<p>Force build script recompiling.</p><p>Removed in Gradle 5.0</p>	<p>强制重新编译构建脚本。</p><p>已在 Gradle 5.0 中移除</p>
+<p>Refresh the state of dependencies.</p>	<p>刷新依赖状态。</p>
+<p>Refresh the public keys used for dependency verification.</p>	<p>刷新用于依赖校验的公钥。</p>
+<p>Ignore previously cached task results.</p>	<p>忽略此前缓存的任务结果。</p>
+<p>Creates a build scan.<br/>Gradle will emit a warning if the build scan plugin has not been applied. (<a href="https://gradle.com/build-scans">https://gradle.com/build-scans</a>)</p>	<p>创建构建扫描。<br/>如果尚未应用构建扫描插件, Gradle 会发出警告。(<a href="https://gradle.com/build-scans">https://gradle.com/build-scans</a>)</p>
+<p>Print version info and continue.</p>	<p>打印版本信息并继续。</p>
+<p>Specify the settings file.</p><b>[deprecated]</b>	<p>指定 settings 文件。</p><b>[已废弃]</b>
+<p>Shows status of running and recently stopped Gradle Daemon(s).</p>	<p>显示正在运行和最近停止的 Gradle Daemon 的状态。</p>
+<p>Print out the stacktrace for all exceptions.</p>	<p>打印所有异常的堆栈跟踪。</p>
+<p>Print out the full (very verbose) stacktrace for all exceptions.</p>	<p>打印所有异常的完整 (非常详细) 堆栈跟踪。</p>
+<p>Stops the Gradle Daemon if it is running.</p>	<p>如果 Gradle Daemon 正在运行则停止它。</p>
+<p>Set system property of the JVM (e.g. -D<b>myprop</b>=<b>myvalue</b>).</b>	<p>设置 JVM 系统属性 (例如 -D<b>myprop</b>=<b>myvalue</b>)。</b>
+<p>Perform a partial update of the dependency lock, letting passed in module notations change version.</p><b>[incubating]</b>	<p>对依赖锁执行部分更新, 允许传入的模块坐标变更版本。</p><b>[孵化中]</b>
+<p>Print version info.</p>	<p>打印版本信息。</p>
+<p>Specifies which mode of warnings to generate. Values are '<b>all</b>', '<b>fail</b>', '<b>summary</b>'(default) or '<b>none</b>'	<p>指定生成的警告模式。取值为 '<b>all</b>'、'<b>fail</b>'、'<b>summary</b>'(默认) 或 '<b>none</b>'
+<p>Enables watching the file system for changes, allowing data about the file system to be re-used for the next build.</p>	<p>启用文件系统变更监视, 使文件系统相关数据可在下次构建中复用。</p>
+<p>Persists dependency resolution for locked configurations, ignoring existing locking information if it exists.</p>	<p>为已锁定配置持久化依赖解析结果, 若已有锁定信息则忽略之。</p>
+<p>Generates checksums for dependencies used in the project (comma-separated list)</p><p><b>Example:</b><code>./gradlew --write-verification-metadata sha256</code></p>	<p>为项目使用的依赖生成校验和 (逗号分隔列表)</p><p><b>示例:</b><code>./gradlew --write-verification-metadata sha256</code></p>
+List of Configurations	配置列表
+Set Properites:	设置属性:
+Keep private to this IDE instance	仅保留给此 IDE 实例
+Configuration ID:	配置 ID:
+Parent Project:	父项目:
+Configured Actions:	已配置的操作:
+No Selected Action	未选择操作
+&Project Reload:	项目重新加载(&P):
+Override IDE Default Action Binding and Custom Actions	覆盖 IDE 默认操作绑定和自定义操作
+Configure &Action:	配置操作(&A):
+Is this action allowed to be rerun from the output tab?	是否允许从输出标签页重新运行此操作?
+<html>Reload Project after this action:\n<ul>\n<li><b>NEVER:</b> Do not reload.</li>\n<li><b>DEFAULT:</b> Reload only if the project had some problems.</li>\n<li><b>ALWAYS:</b> Always reload the project.</li>\n<li><b>ALWAYS_ONLINE:</b> Always reload the project, allowing Gradle to go online.</li>\n</ul>	<html>此操作之后重新加载项目:\n<ul>\n<li><b>NEVER:</b> 不重新加载。</li>\n<li><b>DEFAULT:</b> 仅在项目有问题时重新加载。</li>\n<li><b>ALWAYS:</b> 总是重新加载项目。</li>\n<li><b>ALWAYS_ONLINE:</b> 总是重新加载项目, 并允许 Gradle 联网。</li>\n</ul>
+Override in Configuration:	在配置中覆盖:
+The action is disabled in this configuration.	此配置中该操作已被禁用。
+License Header	许可头
+Use Global License:	使用全局许可:
+Use Gradle Defined License:	使用 Gradle 定义的许可:
+Included Builds:	包含的构建:
+Can be changed on the root project only.	只能在根项目上更改。
+Trust level:	信任级别:
+Do not trust	不信任
+Trust just now	仅本次信任
+Trust permanently	永久信任
+&Augmented Build Execution	增强构建执行(&A)
+<html>Create a composite project from this project and the other open Gradle projects by generating '--include-build' parameters.	<html>通过生成 '--include-build' 参数, 用此项目和其他已打开的 Gradle 项目创建组合项目。
+Include Open Projects	包含已打开的项目
+<html><p>Executing Gradle can be potentially un-safe as it allows arbitrary code execution.</p>\n<p/>\n<p>By trusting this project, and with that all its subprojects, you entitle NetBeans to invoke Gradle to load project details without further confirmation.</p><p></p><p>Invoking any build related actions, would mark this project automatically trusted.</p>	<html><p>执行 Gradle 可能不安全, 因为它允许执行任意代码。</p>\n<p/>\n<p>信任此项目 (及其全部子项目) 后, NetBeans 即可直接调用 Gradle 加载项目详情而无需再次确认。</p><p></p><p>执行任何构建相关操作都会自动将此项目标记为受信任。</p>
+<html>Allow NetBeans to make on-the-fly changes to the Gradle build process. This way a few useful IDE actions/options can be enabled without actually changing the build files.	<html>允许 NetBeans 对 Gradle 构建过程进行即时修改。这样无需真正修改构建文件即可启用一些有用的 IDE 操作/选项。
+Java &Runtime:	Java 运行时(&R):
+Gradle Command:	Gradle 命令:
+Execution Options	执行选项
+Log Level:	日志级别:
+Stack Trace:	堆栈跟踪:
+Remember &as:	记住为(&A):
+Trust this project in the future	以后信任此项目
+<html><b>Not Recommended</b><br/>\nAttach the version information during build time when the project is released.<br/>\nUse version numbers if this project have to provide packages for a Maven project locally.	<html><b>不推荐</b><br/>\n在项目发布时的构建阶段附加版本信息。<br/>\n如果此项目需要为本地 Maven 项目提供包, 请使用版本号。
+&Package Name Base:	包名前缀(&P):
+Initialize Gradle Wrapper	初始化 Gradle Wrapper
+<html>Hints:<br/>Each non-empty line is treaded as a sub-project to be created.<br/>\nThe format of a line is:<p>\n[rel/path/]<b>&lt;sub-project name&gt;</b>[&lt;whitespace&gt;]&lt;Description&gt;]	<html>提示:<br/>每个非空行都会被视为要创建的子项目。<br/>\n行的格式为:<p>\n[相对路径/]<b>&lt;子项目名&gt;</b>[&lt;空白&gt;]&lt;描述&gt;]
+Java Version:	Java 版本:
+Gradle DSL	Gradle DSL
+Global Execution Options	全局执行选项
+Project Options	项目选项
+Project Explorer	项目资源管理器
+Build Output	构建输出
+Download Options	下载选项
+Gradle User Home:	Gradle 用户主目录:
+Gradle Distribution:	Gradle 发行版:
+Hide 'Empty' Configurations	隐藏 "空" 配置
+Always Show Build Output	总是显示构建输出
+Reuse Output Tabs	复用输出标签页
+Use Project Description as Project Name	使用项目描述作为项目名称
+Reuse Editor Window When Exploring StackTrace	查看堆栈跟踪时复用编辑器窗口
+<html>This option makes IDE more responsive on project open action.<br/>\nSome plugins (like Scala) may problem when this option is enabled.	<html>此选项让 IDE 在打开项目时响应更快。<br/>\n启用此选项时, 某些插件 (如 Scala) 可能出问题。
+Enable '&lazy' Source Group Initialization	启用 "惰性" 源组初始化(&L)
+Prefer Maven Projects over Gradle (needs restart)	优先使用 Maven 项目而非 Gradle (需重启)
+<html>Cache data on-disk after the projects is analyzed by Gradle.<br/>\n<b>Note: Turn off this option for debugging purposes.</b>	<html>在 Gradle 分析项目后把数据缓存到磁盘。<br/>\n<b>注意: 调试时请关闭此选项。</b>
+Use on-disk &cache	使用磁盘缓存(&C)
+Download Dependencies on Project	为项目下载依赖
+Download Sources Along with the Dependencies	随依赖一起下载源码
+Download JavaDoc Along with the Dependencies	随依赖一起下载 Javadoc
+Allow Gradle Execution:	允许 Gradle 执行:
+Load Projects in Bundles	按批加载项目
+Instead of loading  sub-projects of a multi-project build individually, try fetch the sub-project details in one run.	不逐个加载多项目构建的子项目, 而是尝试一次获取全部子项目详情。
+<html>This is an <b>incubating</b> feature. Use with care!	<html>这是<b>孵化中</b>的特性。请谨慎使用!
+Use Configuration Cache	使用配置缓存
+Network Proxy:	网络代理:
+Prefer to use Gradle Wrapper that Comes with the Project	优先使用项目自带的 Gradle Wrapper
+Java Runtime:	Java 运行时:
+Gradle Tooling API	Gradle Tooling API
+Gradle Groovy	Gradle Groovy
+Groovy with Gradle	使用 Gradle 的 Groovy
+This module implements Groovy debugging	此模块实现 Groovy 调试
+Groovy Debugger	Groovy 调试器
+Debugger of Groovy scripts	Groovy 脚本调试器
+Panel for Groovy Mark Occurrences	Groovy 标记出现位置面板
+Groovy Mark Occurrences Panel	Groovy 标记出现位置面板
+Panel for CSS Mark Occurrences	CSS 标记出现位置面板
+CSS Mark Occurrences Panel	CSS 标记出现位置面板
+#END

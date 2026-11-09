@@ -1,0 +1,104 @@
+Activating modules	正在激活模块
+Force install into shared directories	强制安装到共享目录
+Force install into user directory	强制安装到用户目录
+Module Archive Modified	模块归档已修改
+OSGi Bundle files (*.jar)	OSGi Bundle 文件 (*.jar)
+Write Permissions Problem	写权限问题
+The validation of downloaded plugins cannot be completed, cause: {0}	无法完成已下载插件的校验, 原因: {0}
+Cannot complete the validation of downloaded plugins	无法完成已下载插件的校验
+The installation of download plugins cannot be completed, cause: {0}	无法完成已下载插件的安装, 原因: {0}
+Module {0} has been modified and cannot be installed.	模块 {0} 已被修改, 无法安装。
+Unable to connect  to the NetBeans plugin portal	无法连接到 NetBeans 插件门户
+Check your proxy settings or try again later. The server may be unavailable at the moment. You may also want to make sure that your firewall is not blocking network traffic.	请检查代理设置或稍后再试。服务器当前可能不可用。另请确认防火墙没有拦截网络流量。
+Modules have not been downloaded	模块尚未下载
+"{0}" module has not been downloaded	"{0}" 模块尚未下载
+You can try to download modules again	可以尝试重新下载模块
+You can try to download "{0}" module again	可以尝试重新下载 "{0}" 模块
+Not all of the plugins have been successfully downloaded. The server may be unavailable at the moment. Try again later.	并非所有插件都下载成功。服务器当前可能不可用, 请稍后再试。
+Check your proxy settings or try again later. The server may be unavailable at the moment. \n\nYou may also want to make sure that your firewall is not blocking network traffic.	请检查代理设置或稍后再试。服务器当前可能不可用。\n\n另请确认防火墙没有拦截网络流量。
+Check your proxy settings or try again later. The server may be unavailable at the moment. \n\nYou may also want to make sure that your firewall is not blocking network traffic. \n\nYour cache may be out of date. Please click Check for Updates to refresh content.	请检查代理设置或稍后再试。服务器当前可能不可用。\n\n另请确认防火墙没有拦截网络流量。\n\n缓存可能已过时, 请点击“检查更新”刷新内容。
+Unable to connect to the Update Center	无法连接到更新中心
+Resolve Reference Problem	解决引用问题
+Resolve "{0}" Reference Problem	解决 "{0}" 引用问题
+Searching for modules on NetBeans plugin portal...	正在 NetBeans 插件门户上搜索模块...
+Searching for "{0}" module on NetBeans plugin portal...	正在 NetBeans 插件门户上搜索 "{0}" 模块...
+Plugin {0} is already installed.	插件 {0} 已安装。
+{0}, {1}	{0}, {1}
+To perform installation into the installation directory, you should run the application as a user with administrative privilege, i.e. <i>Run as administrator</i> on Windows platform or run as <i>sudo</i> command on Unix-like systems.	要安装到安装目录, 需要以管理员权限运行应用, 即在 Windows 上 <i>以管理员身份运行</i>, 在类 Unix 系统上使用 <i>sudo</i> 命令。
+You don''t have permission to install plugin <b>{0}</b> into the installation directory.	没有权限把插件 <b>{0}</b> 安装到安装目录。
+You don''t have permission to install plugin {0} into the installation directory.	没有权限把插件 {0} 安装到安装目录。
+Install anyway	仍要安装
+&{0} >	下一步: {0} >(&N)
+Restart application to finish plugin activation.	重启应用以完成插件激活。
+Restart application to complete activation	重启应用以完成激活
+Activation failed: {0}	激活失败: {0}
+Deactivation failed: {0}	停用失败: {0}
+Failed. {0}	失败。{0}
+Please wait until the installer finishes activating all the selected plugins.	请等待安装程序完成所有所选插件的激活。
+Activation completed successfully	激活成功完成
+Activation failed	激活失败
+Please wait until the installer finishes deactivating all the selected plugins.	请等待安装程序完成所有所选插件的停用。
+Deactivation completed successfully	停用成功完成
+Deactivation failed	停用失败
+Restart application to finish plugin deactivation.	重启应用以完成插件停用。
+Restart application to complete deactivation	重启应用以完成停用
+Please wait until the installer uninstalls all the selected plugins.	请等待安装程序卸载所有所选插件。
+Uninstallation failed	卸载失败
+Found invalid element(s) {0} for that operation.	该操作发现了无效元素 {0}。
+Not found any elements for that operation.	该操作未找到任何元素。
+Activating plugins	正在激活插件
+Deactivating plugins	正在停用插件
+Uninstalling plugins	正在卸载插件
+Uninstallation failed: {0}	卸载失败: {0}
+Restart the application to complete the deactivation.	重启应用以完成停用。
+[{0} -> {1}]	[{0} -> {1}]
+<br><hr><br>    <b>Note:</b> Missing modules may be published on Update Centers. Please run "<b>Check for Newest</b>" from the "<b>Available Plugins</b>" tab.	<br><hr><br>    <b>注意:</b> 缺失的模块可能已发布到更新中心。请在“<b>可用插件</b>”标签页运行“<b>检查最新版本</b>”。
+&New Folder	新建文件夹(&N)
+Template with this file name already exists.	已存在同名的模板文件。
+Add Existing Template	添加现有模板
+The file {0} is in use.	文件 {0} 正在使用中。
+File ''{0}''\ndoes not exist, please specify an existing file.	文件 ''{0}''\n不存在, 请指定一个现有文件。
+License file name must start with "{0}" and end with "{1}".	许可文件名必须以 "{0}" 开头并以 "{1}" 结尾。
+Display name of this template. Shown in File|New wizard as well as in Tools|Templates.	此模板的显示名称。显示在 文件|新建 向导和 工具|模板 中。
+File name of file represented by this template.	此模板所代表文件的文件名。
+License URL(s)	许可 URL
+Authoritative web location of this license (may include several separated by spaces).	此许可的权威网络位置 (可包含多个, 以空格分隔)。
+Script Engine	脚本引擎
+Script engine use for processing this template.	用于处理此模板的脚本引擎。
+Template Categories	模板类别
+A list of template's categories appropriate for this template.	适用于此模板的模板类别列表。
+NetBeans could not find a user dir for cache dir {0}, so it is probably abandoned. Remove abandoned cache dir, free up {1} MB of disk space.	NetBeans 找不到缓存目录 {0} 对应的用户目录, 因此它可能已被废弃。移除废弃的缓存目录, 释放 {1} MB 磁盘空间。
+Remove unused data and cache directories of NetBeans {0}. Free up {2} MB of disk space.	移除 NetBeans {0} 的未使用数据和缓存目录。释放 {2} MB 磁盘空间。
+Removing unused/abandoned user and/or cache dirs.	正在移除未使用/废弃的用户和/或缓存目录。
+Janitor run. Check your Notifications.	清理器已运行。请查看通知。
+NetBeans cache directory {0} seems to be abandoned.	NetBeans 缓存目录 {0} 似乎已被废弃。
+NetBeans {0} was last used {1} days ago.	NetBeans {0} 上次使用是在 {1} 天前。
+Confirm Cleanup	确认清理
+Remove abandoned cache dir?	移除废弃的缓存目录?
+Remove user and cache data for NetBeans {0}?	移除 NetBeans {0} 的用户和缓存数据?
+Module {0} is already installed.	模块 {0} 已安装。
+Cannot find any module matching {0}\n	找不到任何匹配 {0} 的模块\n
+Invalid regular expession ''{0}''	无效的正则表达式 ''{0}''
+Add a extra Update Center (URL)	添加额外的更新中心 (URL)
+Found {0}, but not installed	找到 {0}, 但未安装
+Installing {0}@{1}	正在安装 {0}@{1}
+None extra Update Center (URL) specified.	未指定额外的更新中心 (URL)。
+Refresh all catalogs	刷新所有目录
+Refreshing {0}	正在刷新 {0}
+Unknown state	未知状态
+Will update {0}@{1} to version {2}	将把 {0}@{1} 更新到版本 {2}
+Updates all modules	更新所有模块
+Upgrade to {0}	升级到 {0}
+Updates all or specified modules	更新所有或指定模块
+Nothing to update. The pattern {0} has no match among available updates.	没有可更新的。模式 {0} 在可用更新中没有匹配项。
+Updates not found.	未找到更新。
+There was an error during the last run of NetBeans IDE.\nCan you please report the problem?	上一次运行 NetBeans IDE 时发生了错误。\n能报告一下这个问题吗?
+Unexpected Exception on Last Run	上次运行出现意外异常
+Pause I/O Checks	暂停 I/O 检查
+Resume (pending events: {0})	恢复 (待处理事件: {0})
+{0} <font color=''!controlShadow''>[{1}]	{0} <font color=''!controlShadow''>[{1}]
+File {0} is not valid	文件 {0} 无效
+Libraries, Bridges, Uncategorized	库、桥接、未分类
+Saving snapshot	正在保存快照
+Snapshot was saved to {0}	快照已保存到 {0}
+#END

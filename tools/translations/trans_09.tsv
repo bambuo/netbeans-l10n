@@ -1,0 +1,192 @@
+Inline Redundant Variable	内联冗余变量
+Allows users to inline redundant local variables.	允许用户内联冗余的局部变量。
+Local variable {0} is redundant	局部变量 {0} 是冗余的
+Inline redundant variable {0}	内联冗余变量 {0}
+Convert Lambda Parameter Type to 'var' Type	将 Lambda 参数类型转换为 'var' 类型
+Convert lambda explicit or implicit parameter type to 'var' type.     The hint will be disable for mixed or error parameter type.	将 lambda 的显式或隐式参数类型转换为 'var' 类型。     对于混合或错误的参数类型, 该提示将被禁用。
+&Exception Name:	异常名称(&E):
+Label for exception name	异常名称的标签
+Exception Name	异常名称
+http://bits.netbeans.org/6.0/javadoc/	http://bits.netbeans.org/6.0/javadoc/
+http://bits.netbeans.org/6.1/javadoc/	http://bits.netbeans.org/6.1/javadoc/
+http://bits.netbeans.org/6.5/javadoc/	http://bits.netbeans.org/6.5/javadoc/
+http://bits.netbeans.org/6.7/javadoc/	http://bits.netbeans.org/6.7/javadoc/
+http://bits.netbeans.org/6.8/javadoc/	http://bits.netbeans.org/6.8/javadoc/
+http://bits.netbeans.org/6.9/javadoc/	http://bits.netbeans.org/6.9/javadoc/
+http://bits.netbeans.org/7.1/javadoc/	http://bits.netbeans.org/7.1/javadoc/
+&Local Data Source:	本地数据源(&L):
+&Server Data Source:	服务器数据源(&S):
+&Database Schema:	数据库模式(&D):
+//if the field contains email address consider using this annotation to enforce field validation	//如果此字段包含电子邮件地址, 请考虑使用此注解来强制进行字段验证
+//if the field contains phone or fax number consider using this annotation to enforce field validation	//如果此字段包含电话或传真号码, 请考虑使用此注解来强制进行字段验证
+//if you know range of your decimal fields consider using these annotations to enforce field validation	//如果知道十进制字段的范围, 请考虑使用这些注解来强制进行字段验证
+undefined	undefined
+array	array
+object	object
+resource	resource
+float	float
+integer	integer
+boolean	boolean
+Bean	Bean
+Line {0}:{1}, stopping: {2}	第 {0}:{1} 行, 停止: {2}
+outside lambdas	lambda 之外
+on {0}. lambda	在 {0}. lambda 上
+to&String()	to&String()
+''{0}''	''{0}''
+org/netbeans/modules/debugger/jpda/resources/CallStackFrameGroup	org/netbeans/modules/debugger/jpda/resources/CallStackFrameGroup
+Paste into {0}	粘贴到 {0}
+module {0} in {1}	模块 {0} (位于 {1})
+module {0}	模块 {0}
+{0}.size() > 0 can be replaced with !{0}.isEmpty()	{0}.size() > 0 可以替换为 !{0}.isEmpty()
+Change to {0}.isEmpty()	更改为 {0}.isEmpty()
+Change to new {0}[0]	更改为 new {0}[0]
+Change to {0}::new	更改为 {0}::new
+Boxed Primitive instantiation	装箱基本类型实例化
+application-client.xml	application-client.xml
+GlassFish Application Server	GlassFish 应用服务器
+org/netbeans/modules/websvc/design/view/resources/fit_diagram.png	org/netbeans/modules/websvc/design/view/resources/fit_diagram.png
+org/netbeans/modules/websvc/design/view/resources/fit_width.png	org/netbeans/modules/websvc/design/view/resources/fit_width.png
+org/netbeans/modules/websvc/design/view/resources/normal_size.png	org/netbeans/modules/websvc/design/view/resources/normal_size.png
+100%	100%
+org/netbeans/modules/websvc/design/view/resources/zoom_in.png	org/netbeans/modules/websvc/design/view/resources/zoom_in.png
+org/netbeans/modules/websvc/design/view/resources/zoom_out.png	org/netbeans/modules/websvc/design/view/resources/zoom_out.png
+Export Table Data	导出表数据
+Repository does not have any other branches	存储库没有其他分支
+Renaming Branch	正在重命名分支
+Rename Branch	重命名分支
+New Branch Name:	新分支名称:
+Alphabet	字母顺序
+Similarity	相似度
+&Order by:	排序依据(&O):
+Go To Dialog Sorting	转到对话框排序
+library{0}	library{0}
+module{0}	module{0}
+suite{0}	suite{0}
+application{0}	application{0}
+http://localhost/updates.xml	http://localhost/updates.xml
+Debugger Core API	调试器核心 API
+Debugger session {0} started at {1} for {2}	针对 {2} 的调试器会话 {0} 已于 {1} 启动
+Debugger	调试器
+LIKE	LIKE
+IN	IN
+Emacs	Emacs
+Eclipse	Eclipse
+Idea	Idea
+&Environment:	环境(&E):
+.env-File:	.env 文件:
+The project contains broken references or other problems.	项目包含损坏的引用或其他问题。
+PI content	PI 内容
+Declaration	声明
+Character entity	字符实体
+Name or Identifier	名称或标识符
+Markup whitespace	标记空白
+Show parameter names	显示参数名称
+Show types of chained methods	显示链式方法的类型
+Show type of var	显示 var 的类型
+Enable Inline Hints	启用内联提示
+Anagram Game	字谜游戏
+GUI Form Examples	GUI 窗体示例
+GlassFish Server Open Source Edition ${glassfish.display.version}	GlassFish Server Open Source Edition ${glassfish.display.version}
+Core Components of an integrated development environment.	集成开发环境的核心组件。
+Panel for Javascript Mark Occurrences	Javascript 标记出现位置面板
+Javascript Mark Occurrences Panel	Javascript 标记出现位置面板
+Panel for JSON Mark Occurrences	JSON 标记出现位置面板
+JSON Mark Occurrences Panel	JSON 标记出现位置面板
+[{0}] {1}	[{0}] {1}
+#	#
+Default configuration created for enterprise bean.	为企业 Bean 创建的默认配置。
+PrimeFaces 5.0	PrimeFaces 5.0
+jsfcrud.js	jsfcrud.js
+template.js	template.js
+----------	----------
+Put your DTDDoc comment here.	在此放置 DTDDoc 注释。
+An example how to use this DTD from your XML document:	在 XML 文档中使用此 DTD 的示例:
+TODO define vocabulary identification\n    PUBLIC ID: -//vendor//vocabulary//EN\n    SYSTEM ID: http://server/path/{0}	TODO 定义词汇表标识\n    PUBLIC ID: -//vendor//vocabulary//EN\n    SYSTEM ID: http://server/path/{0}
+TopLink	TopLink
+EclipseLink	EclipseLink
+Hibernate	Hibernate
+KODO	KODO
+OpenJPA	OpenJPA
+JS on JVM	JS on JVM
+Graal.js	Graal.js
+);	);
+(	(
+KB	KB
+PHP: {0}	PHP: {0}
+&Resolve breakpoints	解析断点(&R)
+Favorite Files and Locations \n({0}) to select editor file in view	收藏的文件和位置 \n({0}) 用于在视图中选择编辑器文件
+{0} <font color=''!controlShadow''>[{1}]	{0} <font color=''!controlShadow''>[{1}]
+http://statistics.myapplication.org/analytics/feedback.do?userName=	http://statistics.myapplication.org/analytics/feedback.do?userName=
+http://statistics.myapplication.org/analytics/feedback.do?userId=	http://statistics.myapplication.org/analytics/feedback.do?userId=
+https://www.myapplication.org/people/new	https://www.myapplication.org/people/new
+org/netbeans/modules/profiler/impl/icons/attach.png	org/netbeans/modules/profiler/impl/icons/attach.png
+org/netbeans/modules/profiler/impl/icons/modifyProfiling.png	org/netbeans/modules/profiler/impl/icons/modifyProfiling.png
+Port OffSet	端口偏移
+Wildlfy's Port OffSet	WildFly 的端口偏移
+JNDI Name for the currentJMS destination	当前 JMS 目标的 JNDI 名称
+org/netbeans/modules/web/debug/resources/ImplicitLocalsGroup	org/netbeans/modules/web/debug/resources/ImplicitLocalsGroup
+org/netbeans/modules/web/debug/resources/RequestAttributesGroup	org/netbeans/modules/web/debug/resources/RequestAttributesGroup
+org/netbeans/modules/web/debug/resources/Attribute	org/netbeans/modules/web/debug/resources/Attribute
+org/netbeans/modules/web/debug/resources/AttributeValue	org/netbeans/modules/web/debug/resources/AttributeValue
+(more info: http://www.netbeans.org/kb/55/freeform-config.html#debugweb)	(更多信息: http://www.netbeans.org/kb/55/freeform-config.html#debugweb)
+monitor_resend	monitor_resend
+Monitor_ServerDialog	Monitor_ServerDialog
+/webresources	/webresources
+22	22
+Space	Space
+Shift+Space	Shift+Space
+Tab	Tab
+Enter	Enter
+Show tooltip	显示工具提示
+Code Coverage (covered)	代码覆盖率 (已覆盖)
+Code Coverage (not covered)	代码覆盖率 (未覆盖)
+Code Coverage (inferred)	代码覆盖率 (已推断)
+Code Coverage (partial)	代码覆盖率 (部分)
+-----------------	-----------------
+Inline Hints	内联提示
+Inline Hints Settings	内联提示设置
+Inline Hints, Type Hints	内联提示、类型提示
+Generated by NetBeans IDE	由 NetBeans IDE 生成
+don't suggest major version upgrades	不建议主版本升级
+example: 5.2.1 -> 5.x.x but not to 6.x.x	示例: 5.2.1 -> 5.x.x 但不升级到 6.x.x
+@@metabuild.DistributionURL@@	@@metabuild.DistributionURL@@
+@@metabuild.PluginPortalURL@@	@@metabuild.PluginPortalURL@@
+Third Party Libraries	第三方库
+nbresloc:/org/netbeans/modules/updatecenters/resources/3rdparty-catalog.xml	nbresloc:/org/netbeans/modules/updatecenters/resources/3rdparty-catalog.xml
+Restore &Defaults	恢复默认值(&D)
+&Clear Suggestions	清除建议(&C)
+PHP Enum	PHP 枚举
+PhpProject{0}	PhpProject{0}
+Rust	Rust
+API for Rust projects, that avoids hanling circular dependencies.    For instance rust.project > rust.cargo > rust.project.api	Rust 项目的 API, 可避免处理循环依赖。    例如 rust.project > rust.cargo > rust.project.api
+// TODO implement operation \n	// TODO 实现操作 \n
+Oracle (OCI)	Oracle (OCI)
+Oracle thin	Oracle thin
+\n	\n
+PaginationHelper.java	PaginationHelper.java
+ApplicationConfig	ApplicationConfig
+JERSEY	JERSEY
+&10	&10
+Disable &destructive Actions	禁用破坏性操作(&D)
+Enable &destructive Actions	启用破坏性操作(&D)
+Enable/Disable destructive actions like deletes and force pushes	启用/禁用删除和强制推送等破坏性操作
+org/netbeans/modules/tasklist/todo/todo_task.gif	org/netbeans/modules/tasklist/todo/todo_task.gif
+Solicit	请求
+{jdk-base-dir}	{jdk-base-dir}
+{jdk-install-dir}	{jdk-install-dir}
+{jdk-installer-file}	{jdk-installer-file}
+NetBeans IDE {display-version} with GlassFish and MySQL Installer	包含 GlassFish 和 MySQL 的 NetBeans IDE {display-version} 安装程序
+Check Inherited Method Parameters	检查继承的方法参数
+PSR-4: Autoloader	PSR-4: 自动加载器
+PSR-12: Extended Coding Style	PSR-12: 扩展编码风格
+PHPUnit &Version:	PHPUnit 版本(&V):
+PHPUnit version label	PHPUnit 版本标签
+Use relative paths for test files (uses source directory as base path)	为测试文件使用相对路径 (以源目录为基准路径)
+Use &Smart Delimiters ({{ and {%) Completion	使用智能定界符 ({{ 和 {%) 补全(&S)
+&Use Smart Quotes (" and ') Completion (after text selection, e.t.c.)	使用智能引号 (" 和 ') 补全 (在选定文本等之后)(&U)
+Quotes and Delimiters Completion:	引号和定界符补全:
+Classic	经典
+Responsive	自适应
+Bootstrap 2	Bootstrap 2
+Container Type:	容器类型:
+#END

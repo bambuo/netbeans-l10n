@@ -1,0 +1,70 @@
+181	验证值不为空白, 即不等于空字符串也不等于 <code>null</code>。若只需强制值不等于 <code>null</code>, 参见 <code>NotNull</code> 约束。
+182	如果要确保 <code>Author</code> 类的 <code>firstName</code> 属性不为空白, 可以这样写:
+183	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value should not be blank</code>
+184	这是当值为空白时显示的消息。
+185	验证值为空白, 即等于空字符串或等于 <code>null</code>。若要强制值严格等于 <code>null</code>, 参见 <code>Null</code> 约束。若要强制值不为空白, 参见 <code>NotBlank</code>。
+186	如果出于某种原因, 你想确保 <code>Author</code> 类的 <code>firstName</code> 属性为空白, 可以这样写:
+187	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value should be blank</code>
+188	这是当值不为空白时显示的消息。
+189	验证值不严格等于 <code>null</code>。若只需确保值不为空白 (不是空白字符串), 参见 <code>NotBlank</code> 约束。
+190	如果要确保 <code>Author</code> 类的 <code>firstName</code> 属性不严格等于 <code>null</code>, 可以这样写:
+191	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value should not be null</code>
+192	这是当值为 <code>null</code> 时显示的消息。
+193	验证值恰好等于 <code>null</code>。若只需强制属性为空白 (空白字符串或 <code>null</code>), 参见 <code>Blank</code> 约束。若要确保属性不为 <code>null</code>, 参见 <code>NotNull</code>。
+194	如果出于某种原因, 你想确保 <code>Author</code> 类的 <code>firstName</code> 属性恰好等于 <code>null</code>, 可以这样写:
+195	<strong>类型</strong>: <code>string</strong> <strong>默认值</strong>: <code>This value should be null</code>
+196	这是当值不为 <code>null</code> 时显示的消息。
+197	验证值为 <code>true</code>。具体来说, 它检查值是否恰好为 <code>true</code>、恰好为整数 1, 或恰好为字符串 "1"。另见 <code>False</code>。
+198	此约束可用于属性 (例如注册模型上的 <code>termsAccepted</code> 属性) 或 "getter" 方法。它在后者中最为强大, 此时你可以断言某个方法返回 true 值。例如, 假设有以下方法:
+199	然后可以使用 <code>True</code> 来约束此方法。
+200	如果 <code>isTokenValid()</code> 返回 false, 验证将失败。
+201	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value should be true</code>
+202	如果底层数据不为 true, 则显示此消息。
+203	验证值为 <code>false</code>。具体来说, 它检查值是否恰好为 <code>false</code>、恰好为整数 0, 或恰好为字符串 "0"。另见 <code>True</code>。
+204	<code>False</code> 约束可用于属性或 "getter" 方法, 但最常用于后者。例如, 假设你要保证某个状态属性 <i>不</i> 在动态 <code>invalidStates</code> 数组中。首先, 创建一个 "getter" 方法:
+205	在此情况下, 只有当 <code>isStateInvalid</code> 方法返回 <b>false</b> 时, 底层对象才有效:
+206	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value should be false</code>
+207	如果底层数据不为 false, 则显示此消息。
+208	验证值属于特定的数据类型。例如, 如果某个变量应为数组, 可以使用此约束并指定 array 类型选项来进行验证。
+209	<strong>类型</strong>: <code>string</code> [默认选项]
+210	此必填选项是完全限定类名, 或由 PHP <code>is_</code> 函数确定的 PHP 数据类型之一。
+211	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value should be of type {{ type }}</code>
+212	如果底层数据不属于给定类型, 则显示此消息。
+213	验证值是有效的电子邮件地址。底层的值在验证之前会被转换为字符串。
+214	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value is not a valid email address</code>
+215	如果底层数据不是有效的电子邮件地址, 则显示此消息。
+216	<strong>类型</strong>: <code>Boolean</code> <strong>默认值</strong>: <code>false</code>
+217	如果为 true, 则将使用 PHP 函数 <code>checkdnsrr</code> 检查给定电子邮件主机的 MX 记录是否有效。
+218	如果为 true, 则将使用 PHP 函数 <code>checkdnsrr</code> 检查给定电子邮件主机的 MX、A 或 AAAA 记录是否有效。
+219	验证字符串的长度至少达到给定的限制。
+220	<strong>类型</strong>: <code>integer</code> [默认选项]
+221	此必填选项是 "min" 值。如果给定字符串的长度<b>小于</b>此数字, 验证将失败。
+222	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value is too short. It should have {{ limit }} characters or more</code>
+223	如果底层字符串的长度短于 limit 选项, 则显示此消息。
+224	<strong>类型</strong>: <code>charset</code> <strong>默认值</strong>: <code>UTF-8</code>
+225	如果安装了 PHP 扩展 "mbstring", 则将使用 PHP 函数 <code>mb_strlen</code> 计算字符串的长度。<code>charset</code> 选项的值将作为第二个参数传给该函数。
+226	验证字符串的长度不超过给定的限制。
+227	此必填选项是 "max" 值。如果给定字符串的长度<b>大于</b>此数字, 验证将失败。
+228	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value is too long. It should have {{ limit }} characters or less</code>
+229	如果底层字符串的长度超过 limit 选项, 则显示此消息。
+230	验证给定的字符串长度介于某个最小值和最大值之间。
+231	要验证某个类的 <code>firstName</code> 字段长度介于 "2" 和 "50" 之间, 可以添加以下内容:
+232	此必填选项是 "min" 长度值。如果给定值的长度<b>小于</b>此最小值, 验证将失败。
+233	此必填选项是 "max" 长度值。如果给定值的长度<b>大于</b>此最大值, 验证将失败。
+234	计算值长度时使用的字符集。如果可用, 将使用 PHP 函数 <code>grapheme_strlen</code>; 如果不可用, 则在可用时使用 <code>mb_strlen</code> PHP 函数; 如果都不可用, 则使用 <code>strlen</code> PHP 函数。
+235	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value is too short. It should have {{ limit }} characters or more.</code>
+236	如果底层值的长度小于 <code>min</code> 选项, 则显示此消息。
+237	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value is too long. It should have {{ limit }} characters or less.</code>
+238	如果底层值的长度大于 <code>max</code> 选项, 则显示此消息。
+239	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value should have exactly {{ limit }} characters.</code>
+240	如果 <code>min</code> 和 <code>max</code> 值相等且底层值的长度不恰好等于该值, 则显示此消息。
+241	验证值是有效的 URL 字符串。
+243	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value is not a valid URL</code>
+244	如果 URL 无效, 则显示此消息。
+245	<strong>类型</strong>: <code>array</code> <strong>默认值</strong>: <code>array('http', 'https')</code>
+246	将被视为有效的协议。例如, 如果还需要 <code>ftp://</code> 类型的 URL 有效, 可以重新定义 <code>protocols</code> 数组, 列出 <code>http</code>、<code>https</code> 以及 <code>ftp</code>。
+247	验证值匹配某个正则表达式。
+248	假设有一个 <code>description</code> 字段, 你想验证它以有效的单词字符开头。用于测试的正则表达式为 <code>/^\w+/</code>, 表示你在查找字符串开头至少一个或多个单词字符:
+249	或者, 可以将 <code>match</code> 选项设为 <code>false</code>, 以断言给定的字符串<b>不</b>匹配。在下面的示例中, 你将断言 <code>firstName</code> 字段不包含任何数字, 并为其提供自定义消息:
+250	此必填选项是用于匹配输入的正则表达式模式。默认情况下, 如果输入字符串<b>不</b>匹配此正则表达式 (通过 PHP 的 <code>preg_match</code> 函数), 此验证器将失败。但如果 <code>match</code> 设为 <code>false</code>, 则当输入字符串<b>确实</b>匹配此模式时验证将失败。
+#END

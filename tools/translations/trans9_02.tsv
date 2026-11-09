@@ -1,0 +1,108 @@
+Search API	搜索 API
+Window displaying search results	显示搜索结果的窗口
+List of found files	找到的文件列表
+Horizontal scrollbar	水平滚动条
+Vertical scrollbar	垂直滚动条
+Show/hide context area	显示/隐藏上下文区域
+Toggles display of the matching string's context	切换匹配字符串上下文的显示
+Go to the previous matching string - Ctrl+Comma	转到上一个匹配项 - Ctrl+逗号
+Go to the next matching string - Ctrl+Period	转到下一个匹配项 - Ctrl+句号
+Expand/Collapse all nodes in the tree	展开/折叠树中的所有节点
+Show results as list of files	以文件列表形式显示结果
+Show results as directory tree	以目录树形式显示结果
+\ &Use This Criterion for Search	\ &使用此条件搜索
+Stops searching and displays files found so far	停止搜索并显示目前找到的文件
+Some of selected matches are outdated	部分所选匹配项已过时
+{0} {0,choice,0#matches|1#match|1<matches} replaced	已替换 {0} {0,choice,0#个匹配项|1#个匹配项|1<个匹配项}
+Modify Criteria	修改条件
+Open In New Tab	在新标签页中打开
+Find occurances and select what to replace	查找所有出现位置并选择要替换的内容
+Show All Details	显示全部细节
+&Search Results	搜索结果(&S)
+Each tab contains different search criterion	每个标签页包含不同的搜索条件
+File {0} has been deleted	文件 {0} 已被删除
+File {0} is a directory now	文件 {0} 现在是目录
+File {0} has changed since the start of the search	文件 {0} 自搜索开始后已更改
+File {0} is too big	文件 {0} 过大
+File {0} cannot be read	无法读取文件 {0}
+Remove From Search	从搜索中移除
+No matching files were found.	未找到匹配的文件。
+Found {0} {0,choice,1#matching file|1<matching files}.	找到 {0} 个{0,choice,1#匹配文件|1<匹配文件}。
+Preparing data for searching...	正在准备搜索数据...
+Waiting for previous searches...	正在等待先前的搜索...
+Finishing the previous search...	正在完成先前的搜索...
+Finishing the replace operation...	正在完成替换操作...
+Cleaning the previous results...	正在清理先前的结果...
+Printing details of the previous results...	正在输出先前结果的详情...
+Search cancelled	搜索已取消
+({0} {0,choice,1#match|1<matches})	({0} {0,choice,1#个匹配项|1<个匹配项})
+line {0}, column {1}	第 {0} 行, 第 {1} 列
+[{1} at line {2}, column {3}]  {0}	[{1} 第 {2} 行, 第 {3} 列]  {0}
+[{1} line {2}]  {0}	[{1} 第 {2} 行]  {0}
+position {0}:{1}	位置 {0}:{1}
+column {0}	第 {0} 列
+Warnings and Errors	警告和错误
+Too many warnings. Displaying first 100.	警告过多。仅显示前 100 条。
+{0} could not be read: {1}	无法读取 {0}: {1}
+Failed to decode using charset {0}.	使用字符集 {0} 解码失败。
+Unsaved changes detected	检测到未保存的更改
+Replace over files completed	跨文件替换已完成
+The following issues were found before replacing started:	替换开始前发现以下问题:
+The following issues were encountered while replacing:	替换过程中遇到以下问题:
+No file selected	未选择文件
+Multiple items selected	已选择多个项目
+Show node in Explorer	在资源管理器中显示节点
+Go to Detail	转到详情
+Copy File Path	复制文件路径
+&Show in Filesystems	在文件系统中显示(&S)
+P&osition within the file:	文件中的位置(&O):
+Dialog for searching by criteria	按条件搜索的对话框
+Locates and highlights the file in Explorer.	在资源管理器中定位并突出显示该文件。
+Cannot display the corresponding node.	无法显示对应的节点。
+Find in Pro&jects...	在项目中查找(&J)...
+Repla&ce in Projects...	在项目中替换(&C)...
+Replace in Projects	在项目中替换
+Default Search	默认搜索
+Containing &Text\:	包含文本(&T):
+(* \= any string, ? \= any character, \\ \= escape for * ?)	(* \= 任意字符串, ? \= 任意字符, \\ \= 对 * ? 转义)
+(Use java.util.regex.Pattern syntax)	(使用 java.util.regex.Pattern 语法)
+(The text will be used literally)	(文本将按字面使用)
+&Replace With\:	替换为(&R):
+File Name &Patterns\:	文件名模式(&P):
+(Example\: *.java, FZP??.jsp)	(示例\: *.java, FZP??.jsp)
+(Example\: {0}test{0}.*{0}TestBug\\d+\\.java$)	(示例\: {0}test{0}.*{0}TestBug\\d+\\.java$)
+(all files)	(所有文件)
+Text to replace found matches with.	用于替换所找到匹配项的文本。
+&Whole Words	全字匹配(&W)
+Whether the fulltext search should be case-sensitive.	全文搜索是否区分大小写。
+Preser&ve Case when Replacing	替换时保留大小写(&V)
+Preserve case according to found instance of word.	根据找到的词语实例保留大小写。
+Search i&n Archives	在归档中搜索(&N)
+Search in &Generated Sources	在生成的源码中搜索(&G)
+File Path Regular E&xpression	文件路径正则表达式(&X)
+Use regular expression for the file path	对文件路径使用正则表达式
+Open window for testing of regular expressions	打开用于测试正则表达式的窗口
+Use &Ignore List	使用忽略列表(&I)
+Please specify text to find or file name pattern.	请指定要查找的文本或文件名模式。
+Containing Text field contains invalid regular expression	"包含文本" 字段含有无效的正则表达式
+Replace With field contains invalid expression	"替换为" 字段含有无效的表达式
+File Name Patterns field contains invalid regular expression	"文件名模式" 字段含有无效的正则表达式
+Select files and folders for search	选择要搜索的文件和文件夹
+Text Pattern	文本模式
+File Path Pattern	文件路径模式
+Add Path &Pattern...	添加路径模式(&P)...
+List of Ignored Folders and Path Patterns	被忽略的文件夹和路径模式列表
+Simple Pattern	简单模式
+Root file/dir:	根文件/目录:
+Number of matches in the file	文件中的匹配数
+Full file path	完整文件路径
+Size of the file	文件大小
+Time of the last file modification	文件最后修改时间
+{0} B	{0} B
+{0} KB	{0} KB
+{0} MB	{0} MB
+{0} GB	{0} GB
+{0} min ago	{0} 分钟前
+Today {0,time,short}	今天 {0,time,short}
+{0,date,medium} {0,time,short}	{0,date,medium} {0,time,short}
+#END

@@ -1,0 +1,130 @@
+BrickBreaker	BrickBreaker
+AdvancedMedia	AdvancedMedia
+AudioVisualizer3D	AudioVisualizer3D
+ColorfulCircles	ColorfulCircles
+CreateAdvancedStage	CreateAdvancedStage
+Cube3D	Cube3D
+CubeSystem3D	CubeSystem3D
+DigitalClock	DigitalClock
+FXML-LoginDemo	FXML-LoginDemo
+HTMLEditorApp	HTMLEditorApp
+ChangeListener	ChangeListener
+ChartAdvancedArea	ChartAdvancedArea
+ChartAdvancedBar	ChartAdvancedBar
+ChartAdvancedPie	ChartAdvancedPie
+ChartAdvancedScatter	ChartAdvancedScatter
+ChartAdvancedScatterLive	ChartAdvancedScatterLive
+ChartAdvancedStockLine	ChartAdvancedStockLine
+ChartAudioArea	ChartAudioArea
+ChartAudioBar	ChartAudioBar
+ChartLine	ChartLine
+ColorPicker	ColorPicker
+KeyStrokeMotion	KeyStrokeMotion
+MouseEvents	MouseEvents
+PaginationDemo	PaginationDemo
+StopWatch	StopWatch
+SwingInterop	SwingInterop
+TimelineEvents	TimelineEvents
+TimelineInterpolator	TimelineInterpolator
+TransitionPath	TransitionPath
+TransitionRotate	TransitionRotate
+WebViewBrowser	WebViewBrowser
+<html>Note: JDK 8 will be used for Java EE 8, Jakarta EE 8 and Jakarta EE 9 projects.	<html>注意: Java EE 8、Jakarta EE 8 和 Jakarta EE 9 项目将使用 JDK 8。
+<html>Note: Source Level 8 will be set for Java EE 8, Jakarta EE 8 and Jakarta EE 9 project.	<html>注意: Java EE 8、Jakarta EE 8 和 Jakarta EE 9 项目将把源码级别设为 8。
+<html>Recommendation: JDK 8 should be used for Java EE 8, Jakarta EE 8 and Jakarta EE 9 projects.	<html>建议: Java EE 8、Jakarta EE 8 和 Jakarta EE 9 项目应使用 JDK 8。
+<html>Note: JDK 11 will be used for Jakarta EE 9.1 and Jakarta EE 10 projects.	<html>注意: Jakarta EE 9.1 和 Jakarta EE 10 项目将使用 JDK 11。
+<html>Note: Source Level 11 will be set for Jakarta EE 9.1 and Jakarta EE 10 project.	<html>注意: Jakarta EE 9.1 和 Jakarta EE 10 项目将把源码级别设为 11。
+<html>Recommendation: JDK 11 should be used for Jakarta EE 9.1 and Jakarta EE 10 projects.	<html>建议: Jakarta EE 9.1 和 Jakarta EE 10 项目应使用 JDK 11。
+<html>Note: JDK 17 will be used for Jakarta EE 11 projects.	<html>注意: Jakarta EE 11 项目将使用 JDK 17。
+<html>Note: Source Level 17 will be set for Jakarta EE 11 project.	<html>注意: Jakarta EE 11 项目将把源码级别设为 17。
+<html>Recommendation: JDK 17 should be used for Jakarta EE 11 projects.	<html>建议: Jakarta EE 11 项目应使用 JDK 17。
+Java Web	Java Web
+Web Application with Existing Sources	具有现有源的 Web 应用程序
+WebApplication{0}	WebApplication{0}
+Open Projects - Physical View\n({0}) to select editor file in view	打开的项目 - 物理视图\n({0}) 用于在视图中选择编辑器文件
+Open Projects - Logical View\n({0}) to select editor file in view	打开的项目 - 逻辑视图\n({0}) 用于在视图中选择编辑器文件
+Open Projects [{1}] - Physical View\n({0}) to select editor file in view	打开的项目 [{1}] - 物理视图\n({0}) 用于在视图中选择编辑器文件
+Open Projects [{1}] - Logical View\n({0}) to select editor file in view	打开的项目 [{1}] - 逻辑视图\n({0}) 用于在视图中选择编辑器文件
+&Trust Project Build Script	信任项目构建脚本(&T)
+A project's build script might execute foreign code with full permissions.	项目的构建脚本可能以完全权限执行外部代码。
+NetBeansProjects	NetBeansProjects
+org/netbeans/modules/project/ui/resources/close.gif	org/netbeans/modules/project/ui/resources/close.gif
+resources	resources
+[	[
+]	]
+[SpinnerModel]	[SpinnerModel]
+[TableHeader]	[TableHeader]
+[TableColumnModel]	[TableColumnModel]
+[TreeModel]	[TreeModel]
+Templates/UnitTests/JUnit3TestClass.java	Templates/UnitTests/JUnit3TestClass.java
+Templates/UnitTests/JUnit3Suite.java	Templates/UnitTests/JUnit3Suite.java
+Templates/UnitTests/JUnit4TestClass.java	Templates/UnitTests/JUnit4TestClass.java
+Templates/UnitTests/JUnit4Suite.java	Templates/UnitTests/JUnit4Suite.java
+Templates/UnitTests/JUnit5TestClass.java	Templates/UnitTests/JUnit5TestClass.java
+Templates/UnitTests/JUnit5Suite.java	Templates/UnitTests/JUnit5Suite.java
+", "	", "
+ARRAY	ARRAY
+BIGINT	BIGINT
+BINARY	BINARY
+BIT	BIT
+BLOB	BLOB
+CHAR	CHAR
+CLOB	CLOB
+DATE	DATE
+DECIMAL	DECIMAL
+DISTINCT	DISTINCT
+DOUBLE	DOUBLE
+FLOAT	FLOAT
+INTEGER	INTEGER
+JAVA_OBJECT	JAVA_OBJECT
+LONGVARBINARY	LONGVARBINARY
+LONGVARCHAR	LONGVARCHAR
+NUMERIC	NUMERIC
+REAL	REAL
+REF	REF
+SMALLINT	SMALLINT
+TIME	TIME
+TIMESTAMP	TIMESTAMP
+TINYINT	TINYINT
+VARBINARY	VARBINARY
+VARCHAR	VARCHAR
+OTHER	OTHER
+NULL	NULL
+STRUCT	STRUCT
+UNKNOWN	UNKNOWN
+Default &Version:	默认版本(&V):
+PHPStan 0.10.3 or newer is supported.	支持 PHPStan 0.10.3 或更高版本。
+<html><a href="#">Learn more about PHPStan</a></html>	<html><a href="#">进一步了解 PHPStan</a></html>
+Full configuration file path (typically, phpstan.neon or phpstan.dist.neon)	配置文件的完整路径 (通常为 phpstan.neon 或 phpstan.dist.neon)
+Full configuration file path (leave empty if the project root directory already contains psalm.xml)	配置文件的完整路径 (如果项目根目录已包含 psalm.xml, 请留空)
+<html><a href="#">Learn more about Psalm</a></html>	<html><a href="#">进一步了解 Psalm</a></html>
+Templates/JUnit/JUnit3TestClass.java	Templates/JUnit/JUnit3TestClass.java
+Templates/JUnit/JUnit3Suite.java	Templates/JUnit/JUnit3Suite.java
+Templates/JUnit/JUnit4TestClass.java	Templates/JUnit/JUnit4TestClass.java
+Templates/JUnit/JUnit4Suite.java	Templates/JUnit/JUnit4Suite.java
+https://netbeans.apache.org/wiki/DevFaqUserDir	https://netbeans.apache.org/wiki/DevFaqUserDir
+NetBeans IDE	NetBeans IDE
+GlassFish	GlassFish
+Java SE Development Kit	Java SE 开发工具包
+Sun GlassFish Enterprise Server	Sun GlassFish Enterprise Server
+You will be guided through the steps to install IDE.	将引导你完成 IDE 的安装步骤。
+-------------------------------------------------\n{0}:\n\n{1}\n\n	-------------------------------------------------\n{0}:\n\n{1}\n\n
+Different yield values.	yield 值不同。
+INS	INS
+OVR	OVR
+NumPad-	NumPad-
+org/netbeans/editor/resources/defaultglyph.gif	org/netbeans/editor/resources/defaultglyph.gif
+Changeset:	变更集:
+Message:	消息:
+Task #	任务 #
+Modulepath for Compiling Sources	用于编译源的模块路径
+Modulepath for Running Project	用于运行项目的模块路径
+Compiled Modules	已编译的模块
+Modulepath for Compiling Tests	用于编译测试的模块路径
+Modulepath for Running Tests	用于运行测试的模块路径
+Compiled Test Modules	已编译的测试模块
+Module Folder	模块文件夹
+Source Hierarchy Path	源码层次结构路径
+Add Module Folder	添加模块文件夹
+Add Test Module Folder	添加测试模块文件夹
+#END

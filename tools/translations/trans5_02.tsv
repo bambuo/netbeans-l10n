@@ -1,0 +1,25 @@
+&File	文件(&F)
+&Edit	编辑(&E)
+&View	视图(&V)
+&Navigate	导航(&N)
+&Help	帮助(&H)
+&Tools	工具(&T)
+&Web	Web(&W)
+IDE &Tools	IDE 工具(&T)
+Select Docume&nt in	在以下位置选择文档(&N)
+Edit	编辑
+Help	帮助
+System	系统
+Tools	工具
+View	视图
+Menu Bar	菜单栏
+Actions	操作
+Toolbars	工具栏
+Options	选项
+Refreshing files	正在刷新文件
+Core - UI	核心 - UI
+Infrastructure	基础结构
+User interface of the platform.	平台的用户界面。
+Provides classes and resources for the standard basic user interface of         the platform and for applications built on top of the platform.	为平台以及构建于平台之上的应用提供标准基础用户界面所需的类和资源。
+Reset Java Shell	重置 Java Shell
+#END

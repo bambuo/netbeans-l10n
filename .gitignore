@@ -1,14 +1,25 @@
-/locale_*/release/
-/locale_*/build/
-/locale_*/dist/
-/locale_*/nbproject/private/
-/locale_*/nbproject/genfiles.properties
-#
-/l10nantext/release/
-/l10nantext/build/
-/l10nantext/dist/
-/l10nantext/nbproject/private/
-/l10nantext/nbproject/genfiles.properties
+# build output of the language-pack modules
+/modules/*/target/
+/modules/*/release/
+/modules/*/build/
+/modules/*/dist/
+/modules/*/nbproject/private/
+/modules/*/nbproject/genfiles.properties
+
+# harness (Ant build assets)
+/harness/**/release/
+/harness/**/build/
+/harness/**/dist/
+/harness/**/nbproject/private/
+/harness/**/nbproject/genfiles.properties
+
+# tooling output: reports and built artifacts
+/data/
+/dist/
+
+# IDE / OS noise
 .idea/
 *.iml
-/locale_zh_CN/target/
+.DS_Store
+.mimosa/
+.openidea/

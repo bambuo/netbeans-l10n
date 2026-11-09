@@ -1,0 +1,215 @@
+Exclusion patterns	排除模式
+<html> <ul style='margin-left: 20px'> <li>You can enter multiple exclusion patterns, one per line</li> <li>Supported wildcards: * (single level), ** (multiple levels)</li> <li>Directory separators / and \\ are both supported</li> <li>Pattern is matched against the relative path of the entries</li> </ul>	<html> <ul style='margin-left: 20px'> <li>可输入多个排除模式, 每行一个</li> <li>支持的通配符: * (单级), ** (多级)</li> <li>目录分隔符 / 和 \\ 都支持</li> <li>模式匹配的是条目的相对路径</li> </ul>
+Update global List	更新全局列表
+Editor Autosave	编辑器自动保存
+Autosave unsaved files between a predefined time interval or when focus is moved from the file.\n    The module options can be changed on Tools > Options > Editor > Autosave section.	在预定义的时间间隔或焦点移离文件时自动保存未保存的文件。\n    模块选项可在 工具 > 选项 > 编辑器 > 自动保存 部分更改。
+Save files every	每 N 毫秒保存文件
+Define the time interval between save operations.	定义保存操作之间的时间间隔。
+Use autosave feature.	使用自动保存功能。
+Use autosave feature	使用自动保存功能
+Autosave unsaved files between a predefined time interval or when focus is moved from the file.	在预定义的时间间隔或焦点移离文件时自动保存未保存的文件。
+Save files when focus is lost	失去焦点时保存文件
+Go Language Lexer/Parser	Go 语言词法/语法分析器
+Runnable Test	可运行测试
+HTML Indexing Support	HTML 索引支持
+.env Mark Occurrences Panel	.env 标记出现位置面板
+Panel for .env Mark Occurrences	.env 标记出现位置面板
+Duplicate Key assignment detected.	检测到重复的键赋值。
+Duplicate key assignment	重复的键赋值
+Env Files Editor Support	Env 文件编辑器支持
+Keyword (null, true ...)	关键字 (null、true ...)
+Value delimitator (',', '|', ':')	值分隔符 (','、'|'、':')
+Interpolation operator	插值运算符
+Go Language Editor Support	Go 语言编辑器支持
+Support for editing Go Language Files.	支持编辑 Go 语言文件。
+Support for editing Go Language files.	支持编辑 Go 语言文件。
+Go File	Go 文件
+HCL (Terraform) Editor Support	HCL (Terraform) 编辑器支持
+Group Separator	组分隔符
+HereDoc Guard	HereDoc 守卫
+Declaration Type	声明类型
+Declaration Identifier	声明标识符
+JFlex Grammar Editor Support	JFlex 语法编辑器支持
+Support for editing JFlex Grammar files.	支持编辑 JFlex 语法文件。
+Support for editing Jflex Grammar files.	支持编辑 JFlex 语法文件。
+Jflex Grammar	JFlex 语法
+Java Embedded in Jflex	JFlex 中嵌入的 Java
+Directive value	指令值
+Lexical state	词法状态
+Regex quantifier	正则量词
+Options separator	选项分隔符
+Regex Expression	正则表达式
+TOML Editor Support	TOML 编辑器支持
+TOML File	TOML 文件
+String Quote	字符串引号
+Table Marking	表标记
+ANTLR4 Lexer Support	ANTLR4 词法支持
+Provides Utility classes for ANTLR4 Lexer Integration	为 ANTLR4 词法集成提供工具类
+This module provides some utility classes that make an ANTLR4 based Lexer easier to integrate in the IDE.	此模块提供一些工具类, 使基于 ANTLR4 的词法分析器更易于集成到 IDE 中。
+LSP Client	LSP 客户端
+Connection &type:	连接类型(&C):
+Additional &Configuration (JSON):	附加配置 (JSON)(&C):
+Above should be any configuration needed for the given debugger and connection type	上方应填写给定调试器和连接类型所需的任意配置
+&Attach after configure (expert option, GDB)	配置后附加 (专家选项, GDB)(&A)
+Registered Custom Languages:	已注册的自定义语言:
+Syntax Grammar:	语法定义:
+Language Server:	语言服务器:
+Enable &Breakpoints	启用断点(&B)
+Language Identifier:	语言标识符:
+Syntax highlighting for Markdown.	Markdown 语法高亮。
+Markdown Support	Markdown 支持
+Syntax highlighting for Markdown	Markdown 语法高亮
+Markdown Preview	Markdown 预览
+Code block	代码块
+Inline code	行内代码
+Block quote	引用块
+Native Image API	原生镜像 API
+Project Dependencies	项目依赖
+SVG Support	SVG 支持
+SVG-Document is not available	SVG 文档不可用
+SVG preview	SVG 预览
+Use {0} Background	使用 {0} 背景
+TextMate Lexer	TextMate 词法分析器
+TextMate Languages	TextMate 语言
+From file	从文件
+To file	到文件
+From/to file	从/到文件
+The SyntaxElement API was desinged around the old and now long-deprecated parser.     This module provides backward compatibility for module implementors who did not migrate to the new lexer and new SyntaxElement API found in the XML Text Editor module.	SyntaxElement API 是围绕陈旧且早已废弃的分析器设计的。     此模块为尚未迁移到 XML 文本编辑器模块中新词法分析器和新 SyntaxElement API 的模块实现者提供向后兼容。
+XML Text Editor (obsolete)	XML 文本编辑器 (已废弃)
+Obsolete and deprecated APIs from XML Text Editor module	XML 文本编辑器模块中的过时和废弃 API
+Ant Hints	Ant 提示
+Providing Ant Hints set for common mistakes and best practices	为常见错误和最佳实践提供 Ant 提示集
+GraalVM Debugging Support	GraalVM 调试支持
+Supports Debugging of Scripts on GraalVM	支持调试 GraalVM 上的脚本
+Supports debugging of scripts interpreted by Truffle in GraalVM.	支持调试 GraalVM 中由 Truffle 解释的脚本。
+Toggle Pause In GraalVM Script	在 GraalVM 脚本中切换暂停
+Truffle Debugging	Truffle 调试
+Language Developer Mode	语言开发者模式
+Activates features for Truffle language developers	激活 Truffle 语言开发者的特性
+Truffle Debugger	Truffle 调试器
+Language Developer	语言开发者
+GraalVM Node.js Debugging Support	GraalVM Node.js 调试支持
+Supports Node.js Debugging on GraalVM	支持在 GraalVM 上调试 Node.js
+Supports debugging of Node.js based on top of GraalVM.	支持调试基于 GraalVM 的 Node.js。
+GraalVM via JPDA	通过 JPDA 的 GraalVM
+Editor Support for HTML/Java API	HTML/Java API 的编辑器支持
+Mixing Java and JavaScript code made easy.	轻松混用 Java 和 JavaScript 代码。
+An experimental module that allows to manipulate dependencies in Gradle project.	一个实验性模块, 允许操作 Gradle 项目中的依赖。
+Gradle Project Dependencies	Gradle 项目依赖
+Project Dependency Management support	项目依赖管理支持
+Gradle Java CodeCoverage Support	Gradle Java 代码覆盖率支持
+Gradle Java Projects	Gradle Java 项目
+Support for Java, Groovy and Scala Projects with Gradle	支持配合 Gradle 使用的 Java、Groovy 和 Scala 项目
+Output Classes:	输出类:
+Output Resources:	输出资源:
+Main Class Name:	主类名称:
+The name of the main class without package.	不带包名的主类名称。
+NetBeans Gradle Project System Support	NetBeans Gradle 项目系统支持
+Gradle Persistence	Gradle 持久化
+Bridge between the NetBeans Persistence functionality and Gradle	NetBeans 持久化功能与 Gradle 之间的桥梁
+Spring Support for Gradle Projects	面向 Gradle 项目的 Spring 支持
+Adds support for Spring in Gradle Projects	为 Gradle 项目添加 Spring 支持
+Missing required module	缺少所需模块
+The project {0} requires a module {1} which is not installed.	项目 {0} 所需的模块 {1} 未安装。
+Refreshing module list	正在刷新模块列表
+Installing module {0}	正在安装模块 {0}
+Cannot find module {0}.	找不到模块 {0}。
+Failed to install module {0}.	安装模块 {0} 失败。
+<html>Module installation requires IDE restart.<br>Restart now?	<html>模块安装需要重启 IDE。<br>现在重启吗?
+Install Module	安装模块
+Java OpenJDK Distributions Discovery	Java OpenJDK 发行版发现
+Loading list of OpenJDK\u2122 packages. Please wait...	正在加载 OpenJDK(tm) 包列表。请稍候...
+You have selected:	你已选择:
+Download to:	下载到:
+Java File Launcher	Java 文件启动器
+Additional VM Options:	附加 VM 选项:
+Stop before Run	运行前停止
+Execution of standalone Java sources:	独立 Java 源文件的执行:
+Java Dependency Graphs	Java 依赖图
+Allows to visually show the dependency tree graphs for Java Projects.	以可视化方式显示 Java 项目的依赖树图。
+Support for modular Java projects, often Java SE (client-side).     A modular Java SE project can compile multiple source modules, build an application from them, run JUnit-based tests, create Javadoc, and run or debug the application.	支持模块化 Java 项目, 通常是 Java SE (客户端)。     模块化 Java SE 项目可编译多个源模块、据此构建应用、运行基于 JUnit 的测试、创建 Javadoc, 并运行或调试应用。
+Java SE Modular Projects	Java SE 模块化项目
+Supports plain modular Java projects.	支持普通模块化 Java 项目。
+Source Module Folders:	源模块文件夹:
+Test Module Folders:	测试模块文件夹:
+Java Modular Application	Java 模块化应用
+Creates new Java Modular Application project	创建新的 Java 模块化应用项目
+Module &Name\:	模块名称(&N):
+&Created Module\:	已创建模块(&C):
+The Module Name is not valid	模块名称无效
+The Module is not a folder	该模块不是文件夹
+The Module Name already exists	模块名称已存在
+Provide valid Module name	请提供有效的模块名称
+Java LSP Server	Java LSP 服务器
+Module-info dependency graph	module-info 依赖图
+Module-Info Graph	模块信息图
+Module-info visualizer	module-info 可视化工具
+JDK Scope:	JDK 作用域:
+Show Readability	显示可读性
+Mx Project Support	Mx 项目支持
+Mx suite.py Based Project Support.	基于 mx suite.py 的项目支持。
+Support for mx build tool used by family of GraalVM based projects.	支持 GraalVM 系项目使用的 mx 构建工具。
+JVM Native Image Debugger	JVM 原生镜像调试器
+&Image File:	镜像文件(&I):
+&Attach to selected process: {0, choice, 0#none|0<{0,number,'#'}}	附加到所选进程(&A): {0, choice, 0#无|0<{0,number,'#'}}
+A project to simplify development of OpenJDK.     For modularized JDK, open the modules, like jdk/src/java.base, as a project directly.     For non-modularized JDK, open the "jdk" repository as a project.	简化 OpenJDK 开发的项目。     对于模块化 JDK, 直接把 jdk/src/java.base 等模块作为项目打开。     对于非模块化 JDK, 把 "jdk" 仓库作为项目打开。
+Project for OpenJDK	OpenJDK 项目
+A project for developing OpenJDK	用于开发 OpenJDK 的项目
+&Build before running tests:	运行测试前构建(&B):
+JTReg location:	JTReg 位置:
+Use ant build for langtools	对 langtools 使用 ant 构建
+Ant build location:	Ant 构建位置:
+Use full JDK image to run tests	使用完整 JDK 镜像运行测试
+Debug Listened Address:	调试监听地址:
+Leave empty for default	留空使用默认值
+NetBeans JShell Library	NetBeans JShell 库
+Execute Shell Input	执行 Shell 输入
+Reset Java Shell	重置 Java Shell
+Interrupt execution	中断执行
+Save To Class	保存到类
+Executing, please wait...	正在执行, 请稍候...
+Auto open JavaShell console	自动打开 JavaShell 控制台
+Reuse dead consoles	复用已失效的控制台
+Saved history length:	已保存历史长度:
+JShell support not available in this configuration	此配置下 JShell 支持不可用
+From class:	来自类:
+Field or method:	字段或方法:
+Classloader Policy	类加载器策略
+From class	来自类
+Class loader:	类加载器:
+Execute in Swing Event Thread	在 Swing 事件线程中执行
+Message delimiter	消息分隔符
+Message Text	消息文本
+Error Marker	错误标记
+Java Command	Java 命令
+Java Shell Command	Java Shell 命令
+Command Parameter	命令参数
+String Parameter	字符串参数
+Command Option	命令选项
+Command Output	命令输出
+Java Shell	Java Shell
+Java Shell is a new REPL for the Java platform.     This module provides its smooth integration with the IDE.     Invoke your Ant or Maven projects in a JShell mode and interact with them from a powerful incremental editor interfaces.	Java Shell 是 Java 平台的新 REPL。     此模块提供它与 IDE 的顺畅集成。     以 JShell 模式调用你的 Ant 或 Maven 项目, 并通过强大的增量编辑器界面与之交互。
+Java Shell Support	Java Shell 支持
+Use Java Shell from inside of your editor	在编辑器内使用 Java Shell
+Web inspector for HTML with Java technology.     Whenever an HTML+Java application is started from NetBeans it opens a socket connection and shows the applications HTML page inside of NetBeans IDE's DOM inspector and CSS style navigator.	面向 HTML+Java 技术的 Web 检查器。     每当从 NetBeans 启动 HTML+Java 应用时, 它会打开套接字连接, 并在 NetBeans IDE 的 DOM 检查器和 CSS 样式导航器中显示应用的 HTML 页面。
+KO for Java Inspection	KO for Java 检查
+Web inspector for HTML with Java	面向 HTML+Java 的 Web 检查器
+Kotlin Editor	Kotlin 编辑器
+ANTLR Grammar Editor Support	ANTLR 语法编辑器支持
+Support for editing ANTLR Grammar files.	支持编辑 ANTLR 语法文件。
+Support for editing ANTLR v3 and v4 Grammar files.	支持编辑 ANTLR v3 和 v4 语法文件。
+ANTLR v3 Grammar	ANTLR v3 语法
+ANTLR v4 Grammar	ANTLR v4 语法
+Action Script	ActionScript
+Regular Expression Special Characters	正则表达式特殊字符
+Parser Rule	解析器规则
+Lexer Token	词法单元
+Panel for Antlr 3 Mark Occurrences	Antlr 3 标记出现位置面板
+Antlr 3 Mark Occurrences Panel	Antlr 3 标记出现位置面板
+Panel for Antlr 4 Mark Occurrences	Antlr 4 标记出现位置面板
+Antlr 4 Mark Occurrences Panel	Antlr 4 标记出现位置面板
+Corba OMG API Wrapper	Corba OMG API 包装
+DukeScript Project Wizard	DukeScript 项目向导
+IDE Dashboard	IDE 仪表板
+Dashboard content for the IDE.	IDE 的仪表板内容。
+#END

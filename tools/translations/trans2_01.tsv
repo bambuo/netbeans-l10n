@@ -1,0 +1,184 @@
+Jakarta EE Documentation	Jakarta EE 文档
+Jakarta EE 10 API Library	Jakarta EE 10 API 库
+Documentation for the NetBeans Jakarta EE support and Jakarta EE Javadoc	NetBeans Jakarta EE 支持和 Jakarta EE Javadoc 的文档
+Jakarta EE 11 API Library	Jakarta EE 11 API 库
+Jakarta EE 8 API Library	Jakarta EE 8 API 库
+Jakarta EE 9 API Library	Jakarta EE 9 API 库
+Java EE 8 API Library	Java EE 8 API 库
+Enable JShell access	启用 JShell 访问
+Timers API	计时器 API
+Java EE &Version:	Java EE 版本(&V):
+Jakarta EE 11 Documentation	Jakarta EE 11 文档
+Test Framework:	测试框架:
+Enables auto-bind functionality for the HTTP port	启用 HTTP 端口的自动绑定功能
+Common tooling for Payara support.	Payara 支持的通用工具。
+Private configuration	私有配置
+Manage Runtimes...	管理运行时...
+Skip 'check' for non-test Related Executions	非测试相关执行时跳过 'check'
+Skip 'test' for non-test Related Executions	非测试相关执行时跳过 'test'
+Configure on Demand	按需配置
+Not implemented yet.	尚未实现。
+Library for Parsing Go Language Files.	用于解析 Go 语言文件的库。
+Duplicate Key Assignment	重复的键赋值
+Support for editing Env files.	支持编辑 Env 文件。
+Support for editing Terraform files.	支持编辑 Terraform 文件。
+Support for editing TOML files.	支持编辑 TOML 文件。
+Support for encoding text (Base64, URL, Hex)	支持文本编码 (Base64、URL、Hex)
+UI for JavaScript debugger via Chrome DevTools protocol	基于 Chrome DevTools 协议的 JavaScript 调试器 UI
+JavaScript debugger via Chrome DevTools protocol	基于 Chrome DevTools 协议的 JavaScript 调试器
+Run-time watches	运行时监视
+Run-time Watches	运行时监视
+Computing object reachability	正在计算对象可达性
+Find references	查找引用
+Object reference paths	对象引用路径
+CPPLite Debugger	CPPLite 调试器
+CPPLite Editor	CPPLite 编辑器
+C/C++ Files	C/C++ 文件
+<html><body>Please provide a path to either the <a href="https://github.com/MaskRay/ccls">ccls</a> or the <a href="https://clangd.llvm.org/">clangd</a> language protocol servers.\n<br>\nThese will be used by the editor to provide features like code completion.	<html><body>请提供 <a href="https://github.com/MaskRay/ccls">ccls</a> 或 <a href="https://clangd.llvm.org/">clangd</a> 语言协议服务器的路径。\n<br>\n编辑器将使用它们提供代码补全等功能。
+CCLS Location:	CCLS 位置:
+clangd Location:	clangd 位置:
+Preferred server:	首选服务器:
+A temporary lightweight C/C++ support.     The editing features require ccls to be installed.	临时性的轻量 C/C++ 支持。     编辑功能需要安装 ccls。
+CPPLite Kit	CPPLite 套件
+A lightweight C/C++ support	轻量级 C/C++ 支持
+CPPLite Project	CPPLite 项目
+Configuration Name:	配置名称:
+Compile Commands:	编译命令 (compile_commands):
+Project Path:	项目路径:
+Oracle Cloud Infrastructure	Oracle 云基础设施
+Configuration file:	配置文件:
+(default configuration)	(默认配置)
+Checking Oracle Cloud setup...	正在检查 Oracle Cloud 设置...
+Confirm Password:	确认密码:
+Wallet Directory:	钱包目录:
+Creates a new Autonomous Database.	创建新的自治数据库。
+Set the password for your Autonomous Database ADMIN user here.	在此设置自治数据库 ADMIN 用户的密码。
+DB Username:	数据库用户名:
+DB Password:	数据库密码:
+In addition to downloading Wallet, it also adds this database connection to the database manager.	除下载钱包外, 还会将此数据库连接添加到数据库管理器中。
+Add As Database Connection	添加为数据库连接
+Creates a new Knowledge Base.	创建新的知识库。
+Knowledge Base Name:	知识库名称:
+Gradle Java EE	Gradle Java EE
+&Context Path:	上下文路径(&C):
+Select Source to transform	选择要转换的源
+The jakarta transformer plugin enables you to transform applications from Jakarta EE 8 to Jakarta EE 10.	jakarta transformer 插件让你能把应用从 Jakarta EE 8 转换到 Jakarta EE 10。
+Jakarta Transformer	Jakarta 转换器
+Jakarta transformer support for Jakarta EE projects.	面向 Jakarta EE 项目的 Jakarta 转换器支持。
+Transform Source in-place	就地转换源码
+Library wrapper which provides JakartaEE 10 API (full API and web profile API)	提供 JakartaEE 10 API 的库包装 (完整 API 与 Web Profile API)
+Jakarta EE Web 10 API Library	Jakarta EE Web 10 API 库
+Library wrapper which provides JakartaEE 11 API (full API and web profile API)	提供 JakartaEE 11 API 的库包装 (完整 API 与 Web Profile API)
+Jakarta EE Web 11 API Library	Jakarta EE Web 11 API 库
+Documentation for the NetBeans Jakarta EE 11 support and Jakarta EE 11 Javadoc	NetBeans Jakarta EE 11 支持和 Jakarta EE 11 Javadoc 的文档
+Library wrapper which provides JakartaEE 8 API (full API and web profile API)	提供 JakartaEE 8 API 的库包装 (完整 API 与 Web Profile API)
+Jakarta EE Web 8 API Library	Jakarta EE Web 8 API 库
+Library wrapper which provides JakartaEE 9 API (full API and web profile API)	提供 JakartaEE 9 API 的库包装 (完整 API 与 Web Profile API)
+Jakarta EE Web 9 API Library	Jakarta EE Web 9 API 库
+Library wrapper which provides JavaEE 8 API (full API and web profile API)	提供 JavaEE 8 API 的库包装 (完整 API 与 Web Profile API)
+Java EE Web 8 API Library	Java EE Web 8 API 库
+Micronaut Support	Micronaut 支持
+Micronaut Controller Class	Micronaut 控制器类
+Micronaut Controller Classes from Data Repositories	从数据仓储生成 Micronaut 控制器类
+Micronaut Data Entity Classes from Database	从数据库生成 Micronaut Data 实体类
+Micronaut Data Repository Interfaces from Entities	从实体生成 Micronaut Data 仓储接口
+{0} entity classes was generated from db	已从数据库生成 {0} 个实体类
+Available &Entity Classes:	可用实体类(&E):
+Available entity classes	可用实体类
+List of all available entity classes	所有可用实体类的列表
+S&elected Entity Classes:	已选实体类(&E):
+Selected entity classes	已选实体类
+List of selected entity classes	已选实体类的列表
+Repository Interfaces	仓储接口
+Available Repository &Interfaces:	可用仓储接口(&I):
+Available Repository Interfaces	可用仓储接口
+Available repository interfaces	可用仓储接口
+List of all available repository interfaces	所有可用仓储接口的列表
+S&elected Repository Interfaces:	已选仓储接口(&E):
+Selected Repository Interfaces	已选仓储接口
+Selected repository interfaces	已选仓储接口
+List of selected repository interfaces	已选仓储接口的列表
+Select at least one repository interface	请至少选择一个仓储接口
+No entity class found in {0}	在 {0} 中未找到实体类
+No repository interface found in {0}	在 {0} 中未找到仓储接口
+Select endpoints to generate:	选择要生成的端点:
+Choose service URL:	选择服务 URL:
+Micronaut version:	Micronaut 版本:
+Application type:	应用类型:
+Java version:	Java 版本:
+<html>Only finish this dialog if you trust the chosen service. Code from that service is downloaded and executed on this machine.	<html>仅当你信任所选服务时才完成此对话框。该服务的代码会被下载并在本机上执行。
+Build with Native Image	使用原生镜像构建
+Run Without Micronaut Support	不使用 Micronaut 支持运行
+Debug Without Micronaut Support	不使用 Micronaut 支持调试
+Common support and administration module for servers based on the Payara codebase.	基于 Payara 代码库的服务器的通用支持与管理模块。
+Payara Common	Payara 通用组件
+Shared support module for integrating servers based on the Payara codebase.	用于集成基于 Payara 代码库的服务器的共享支持模块。
+{0} Server can't start. No suitable Java SE JDK was found.	{0} 服务器无法启动。未找到合适的 Java SE JDK。
+{0} Server can't start. Host name is blank.	{0} 服务器无法启动。主机名为空。
+{0} Server can't start.  Port is invalid.	{0} 服务器无法启动。 端口无效。
+{0} can't start because the Domain Admin Server is down.	{0} 无法启动, 因为域管理服务器已停止。
+Personal Payara Prelude	个人 Payara Prelude
+Payara Server {0}	Payara 服务器 {0}
+Payara Prelude Domain	Payara Prelude 域
+Personal Payara Prelude Domain	个人 Payara Prelude 域
+Admin Credentials for Payara Server @ {0}:{1}	位于 {0}:{1} 的 Payara 服务器的管理员凭据
+Unable to retrieve version of Payara server instance {0} installed in {1}. Opening window with warning.	无法获取安装在 {1} 的 Payara 服务器实例 {0} 的版本。将打开警告窗口。
+Invalid PayaraJvmMode value.	无效的 PayaraJvmMode 值。
+Payara status monitoring returned null for monitored server.	Payara 状态监视对被监控服务器返回了 null。
+Open Domain Directory	打开域目录
+Open Server Home Directory	打开服务器主目录
+Payara Prelude Target	Payara Prelude 目标
+{0} : Advanced Setting	{0} : 高级设置
+Payara Server Install Locations	Payara 服务器安装位置
+{0} does not exist but server can be downloaded and installed there.	{0} 不存在, 但可以下载服务器并安装到那里。
+Cannot establish a connection with the Payara maven repository.	无法建立与 Payara Maven 存储库的连接。
+Not a valid Payara Server installation.	不是有效的 Payara 服务器安装。
+The specified JDK version is not supported.	不支持指定的 JDK 版本。
+Duplicate port value assigned: {0}	指定了重复的端口值: {0}
+Open a file chooser to select Payara server installation location	打开文件选择器以选择 Payara 服务器安装位置
+Enter Payara server installation location	输入 Payara 服务器安装位置
+Container Path	容器路径
+Host Path	主机路径
+This module contains helper functions, api classes and spi interfaces to make it easy to share code between the payara server modules.	此模块包含辅助函数、API 类和 SPI 接口, 便于在 Payara 服务器模块之间共享代码。
+Payara EE Common	Payara EE 通用组件
+Shared code for Payara servers	Payara 服务器的共享代码
+Running Payara Verifier Tool: {0} {1}	正在运行 Payara 校验工具: {0} {1}
+<html>Use the Payara Update Center to install<br/>the Payara Verifier Tool</html>	<html>使用 Payara 更新中心<br/>安装 Payara 校验工具</html>
+payara-* Deployment Descriptor File	payara-* 部署描述符文件
+Payara Jakarta EE	Payara Jakarta EE
+Payara Server support for Java EE / Jakarta EE projects.	面向 Java EE / Jakarta EE 项目的 Payara 服务器支持。
+Unsupported Payara Server Libraries	不受支持的 Payara 服务器库
+Payara Server 4 Libraries	Payara Server 4 库
+Payara Server 5 Libraries	Payara Server 5 库
+Unsupported Payara Server Platform	不受支持的 Payara 服务器平台
+Payara Server 4 Platform	Payara Server 4 平台
+Payara Server 5 Platform	Payara Server 5 平台
+Payara Server Catalog	Payara 服务器目录
+List of all the runtime descriptors DTDs for Payara Server	Payara 服务器的全部运行时描述符 DTD 列表
+EclipseLink from Payara {0}	来自 Payara {0} 的 EclipseLink
+EclipseLink jars that are bundled with the most recently registered Payara installation	最近注册的 Payara 安装所捆绑的 EclipseLink jar
+Comet from Payara {0}	来自 Payara {0} 的 Comet
+Comet jars that are bundled with the most recently registered Payara installation	最近注册的 Payara 安装所捆绑的 Comet jar
+Java EE from Payara {0}	来自 Payara {0} 的 Java EE
+Java EE jars that are bundled with the most recently registered Payara installation	最近注册的 Payara 安装所捆绑的 Java EE jar
+Payara cannot directory deploy applications with an exploded submodule directory name that contains spaces like "{0}"	Payara 无法直接部署解包子模块目录名含空格的应用, 例如 "{0}"
+Payara Micro support for Java EE projects.	面向 Java EE 项目的 Payara Micro 支持。
+Payara Micro plugin enables you to start and stop Payara Micro maven web applications.	Payara Micro 插件让你能启动和停止 Payara Micro Maven Web 应用。
+Maven Plugin setup	Maven 插件设置
+Payara Micro Maven Plugin	Payara Micro Maven 插件
+Reload ({0})	重新加载 ({0})
+Reload Error ({0} : Compile on save not enabled)	重新加载错误 ({0} : 未启用保存时编译)
+Reload Error ({0} : Payara Micro plugin not found)	重新加载错误 ({0} : 未找到 Payara Micro 插件)
+Hot Deploy:	热部署:
+Dev Mode:	开发模式:
+Trim Log:	精简日志:
+Keep State:	保持状态:
+Live Reload:	实时重载:
+Auto Deploy:	自动部署:
+Deploy War:	部署 War:
+Auto Bind Http:	自动绑定 HTTP:
+Payara Micro Application	Payara Micro 应用
+Context Root:	上下文根:
+<html><body>Cannot establish a connection with the Payara maven repository.</body></html>	<html><body>无法建立与 Payara Maven 存储库的连接。</body></html>
+Payara Tooling	Payara 工具支持
+#END

@@ -1,0 +1,209 @@
+PHPStan analysis error	PHPStan 分析错误
+Error occurred during phpstan analysis, review Output window for more information.	PHPStan 分析过程中出错, 详情请查看输出窗口。
+PHPStan is not valid	PHPStan 无效
+Invalid phpstan set in IDE Options.	IDE 选项中设置的 phpstan 无效。
+Psalm analysis error	Psalm 分析错误
+Error occurred during psalm analysis, review Output window for more information.	Psalm 分析过程中出错, 详情请查看输出窗口。
+Psalm is not valid	Psalm 无效
+Invalid psalm set in IDE Options.	IDE 选项中设置的 psalm 无效。
+PHPStan (analyze #{0})	PHPStan (分析 #{0})
+Psalm (analyze #{0})	Psalm (分析 #{0})
+Full path of PHPStan script (typically {0} or {1}).	PHPStan 脚本的完整路径 (通常为 {0} 或 {1})。
+Full path of Psalm script (typically {0} or {1}).	Psalm 脚本的完整路径 (通常为 {0} 或 {1})。
+codeception.yml or codeception.dist.yml	codeception.yml 或 codeception.dist.yml
+{0}: {1} -> {2}	{0}: {1} -> {2}
+Composer Scripts	Composer 脚本
+Update Autoloader (dev)	更新自动加载器 (dev)
+Update Autoloader (no-dev)	更新自动加载器 (no-dev)
+xdebug.client_host=localhost (or hostname)	xdebug.client_host=localhost (或主机名)
+xdebug.client_port={0} (default port: 9003)	xdebug.client_port={0} (默认端口: 9003)
+xdebug.remote_host=localhost (or hostname)	xdebug.remote_host=localhost (或主机名)
+xdebug.remote_port={0} (default port: 9000)	xdebug.remote_port={0} (默认端口: 9000)
+Existing file must be set.	必须设置现有文件。
+Valid line number must be set.	必须设置有效的行号。
+PHP source file is expected.	应为 PHP 源文件。
+Please enter non-empty exception name.	请输入非空的异常名称。
+Doctrine2 ODM	Doctrine2 ODM
+Doctrine2 ORM	Doctrine2 ORM
+Fix imports: No Changes	修复导入: 无更改
+<?php ?> blocks	<?php ?> 块
+Property hooks	属性钩子
+Use statements	use 语句
+Anonymous class cannot declare abstract methods	匿名类不能声明抽象方法
+Enum cannot declare abstract methods	枚举不能声明抽象方法
+Abstract property hook must specify at least one abstract hook	抽象属性钩子必须至少指定一个抽象钩子
+Add body of the method: {0}	添加方法体: {0}
+Add "#[\\Override]" Attribute	添加 "#[\\Override]" 属性
+Allows you to change closure to arrow function.	允许把闭包改为箭头函数。
+Arrow Function	箭头函数
+Use Arrow Function	使用箭头函数
+You can use arrow function	可以使用箭头函数
+Change modifier: {0} to {1}	把修饰符 {0} 改为 {1}
+Arrow functions on the right hand side of |> must be parenthesized	|> 右侧的箭头函数必须加括号
+Allows you to change to a combined assignment operator.	允许改为复合赋值运算符。
+Combined Assignment Operators	复合赋值运算符
+Use Combined Assignment Operator"{0}"	使用复合赋值运算符 "{0}"
+You can use combined assignment operator	可以使用复合赋值运算符
+Convert the visibility of a property, a method, or a constant. Please convert it carefully. (e.g. from public to private)	转换属性、方法或常量的可见性。请谨慎转换。(例如从 public 改为 private)
+Convert Visibility	转换可见性
+Convert Visibility to "{0}"	把可见性转换为 "{0}"
+You can convert the visibility if needed	如有需要可转换可见性
+Declare Strict Types	声明严格类型
+You can declare strict types	可以声明严格类型
+Type "{0}" is duplicated.	类型 "{0}" 重复。
+Final Modifier Errors	final 修饰符错误
+{0} can''t override final constant.	{0} 不能重写 final 常量。
+Private methods cannot be final as they are never overridden by other classes	私有方法不能是 final, 因为它们不会被其他类重写
+Interface property hook "{0}" cannot contain body	接口属性钩子 "{0}" 不能包含方法体
+Can't declare a promoted property in an abstract constructor.	不能在抽象构造器中声明提升属性。
+Incorrect Declaration of Constructor Property Promotion	构造器属性提升声明不正确
+Can't declare a promoted property in a function/method other than a constructor.	不能在构造器以外的函数/方法中声明提升属性。
+Can't declare a promoted property with a variadic parameter.	不能为可变参数声明提升属性。
+Incorrect Deprecated Attribute	不正确的 Deprecated 属性
+Attribute "{0}" cannot target {1}.	属性 "{0}" 不能作用于 {1}。
+Incorrect Declaration of Enumeration	枚举声明不正确
+Case "{0}" of backed enum must have a value	回退枚举的 case "{0}" 必须有值
+Backed enum cannot redeclare method "{0}"	回退枚举不能重写方法 "{0}"
+Backing type must be "string" or "int"	回退类型必须是 "string" 或 "int"
+"case" can only be in enums	"case" 只能出现在枚举中
+Enum cannot have a constructor	枚举不能有构造器
+Enum cannot contain magic method method "{0}"	枚举不能包含魔术方法 "{0}"
+Enum cannot redeclare method "cases"	枚举不能重写方法 "cases"
+Enum cannot have properties	枚举不能有属性
+Enum cannot have properties, but "{0}" has properties	枚举不能有属性, 但 "{0}" 含有属性
+Case "{0}" of non-backed enum must not have a value	非回退枚举的 case "{0}" 不能有值
+\ as attribute argument	\ 作为属性参数
+Incorrect First Class Callable Syntax	一等可调用语法不正确
+Cannot use "(...)" {0}	不能把 "(...)" 用作 {0}
+\ with new expression	\ 与 new 表达式
+\ with null safe operator	\ 与空安全运算符
+Use the same list syntax.	使用相同的 list 语法。
+Can't use argument unpacking(...) after named argument(name: arg).	具名参数 (name: arg) 之后不能使用参数解包(...)。
+Duplicate argument name: "{0}" already exists.	参数名重复: "{0}" 已存在。
+Can't use positional argument after named argument.	具名参数之后不能使用位置参数。
+Incorrect Named Arguments	具名参数不正确
+Incorrect Non-abstract Method	非抽象方法不正确
+Non-abstract method "{0}" must contain body	非抽象方法 "{0}" 必须包含方法体
+Incorrect Statements in Static Context	静态上下文中的语句不正确
+Cannot use "$this" in static context.	静态上下文中不能使用 "$this"。
+Create Enum Case "{0}" in {1} "{2}" ({3})	在 {1} "{2}" ({3}) 中创建枚举值 "{0}"
+Hooked property cannot be both private and abstract	带钩子的属性不能既是 private 又是 abstract
+Visibility({0}) of property "{1}" must not be weaker than set visibility({2})	属性 "{1}" 的可见性({0}) 不得弱于设置的可见性({2})
+Class "{0}" cannot extend final class "{1}"	类 "{0}" 不能继承 final 类 "{1}"
+Non-readonly class "{0}" cannot extend readonly class "{1}"	非只读类 "{0}" 不能继承只读类 "{1}"
+Constant "{0}" cannot be declared {1}	常量 "{0}" 不能声明为 {1}
+Asymmetric visibility property "{0}" must have type	非对称可见性属性 "{0}" 必须有类型
+Cannot use "final" modifier with "abstract" modifier	"final" 修饰符不能与 "abstract" 修饰符同用
+Private field cannot be final.	私有字段不能是 final。
+Interface const "{0}" can not be declared {1}	接口常量 "{0}" 不能声明为 {1}
+Interface field "{0}" cannot be declared {1}	接口字段 "{0}" 不能声明为 {1}
+Interface property hook "{0}" cannot be declared {1}	接口属性钩子 "{0}" 不能声明为 {1}
+Method "{0}" cannot be declared {1}	方法 "{0}" 不能声明为 {1}
+Multiple {0} modifiers are not allowed	不允许多个 {0} 修饰符
+Private type constants cannot be final.	私有类型常量不能是 final。
+Private property hook "{0}" cannot be final	私有属性钩子 "{0}" 不能是 final
+Property hook "{0}" cannot be declared {1}	属性钩子 "{0}" 不能声明为 {1}
+Readonly class "{0}" cannot extends non-readonly class "{1}"	只读类 "{0}" 不能继承非只读类 "{1}"
+Readonly property "{0}" must have type	只读属性 "{0}" 必须有类型
+Static property may not have asymmetric visibility	静态属性不能使用非对称可见性
+Static property "{0}" cannot have property hooks	静态属性 "{0}" 不能有属性钩子
+Static property "{0}" cannot be readonly	静态属性 "{0}" 不能是只读
+"{0}" is duplicated	"{0}" 重复
+Cannot apply "#[{0}]" to readonly class "{1}"	不能把 "#[{0}]" 应用于只读类 "{1}"
+Readonly property "{0}" can''t have default value	只读属性 "{0}" 不能有默认值
+Multiple access type modifiers are not allowed	不允许多个访问类型修饰符
+Non-abstract property hook "{0}" must have a body	非抽象属性钩子 "{0}" 必须有方法体
+<html><ul><li>PHP files MUST use the Unix LF (linefeed) line ending only</li><li>PHP files MUST end with a non-blank line, terminated with a single LF</li></ul>	<html><ul><li>PHP 文件必须只使用 Unix LF (换行) 行尾</li><li>PHP 文件必须以非空行结尾, 并以单个 LF 终止</li></ul>
+PHP files MUST use the Unix LF (linefeed) line ending only	PHP 文件必须只使用 Unix LF (换行) 行尾
+PHP files MUST end with a non-blank line, terminated with a single LF	PHP 文件必须以非空行结尾, 并以单个 LF 终止
+PSR-12 Violation:\n{0}	PSR-12 违规:\n{0}
+Namespace MUST match (case-sensitive) file directory.	命名空间必须 (区分大小写地) 匹配文件目录。
+Namespace Declaration	命名空间声明
+Type name MUST match (case-sensitive) file name.	类型名必须 (区分大小写地) 匹配文件名。
+PSR-4 Violation:\n{0}	PSR-4 违规:\n{0}
+Namespace declaration name doesn't correspond to current directory structure.	命名空间声明名与当前目录结构不对应。
+Type declaration name doesn't correspond to current file name.	类型声明名与当前文件名不对应。
+Redundant combination: "{0}" contains both "{1}" and "{2}".	冗余组合: "{0}" 同时包含 "{1}" 和 "{2}"。
+property hook	属性钩子
+Remove "#[\\Override]" Attribute from "{0}" method	从方法 "{0}" 中移除 "#[\\Override]" 属性
+Return statement must be filled with the value	返回语句必须填入值
+Invalid Return Type	无效的返回类型
+"{0}" cannot be used with "?"	"{0}" 不能与 "?" 同用
+"{0}" cannot return anything	"{0}" 不能返回任何内容
+an arrow function return	箭头函数返回值
+both "true" and "false"	"true" 和 "false" 同时使用
+Contains both "true" and "false", "bool" should be used.	同时包含 "true" 和 "false", 应使用 "bool"。
+an intersection	交叉类型
+a nullable	可空类型
+a parameter	参数
+a property	属性
+a return	返回值
+a standalone	独立类型
+a union	联合类型
+"{0}" cannot be used as {1} type.	"{0}" 不能用作 {1} 类型。
+Unusable types.	不可用的类型。
+NetBeans will ask for the directory before generating documentation.	生成文档前 NetBeans 会询问目录。
+Title must be provided.	必须提供标题。
+Select phpDocumentor XML configuration file	选择 phpDocumentor XML 配置文件
+Coverage log not found!	未找到覆盖率日志!
+Perhaps you need to add "whitelist" to your XML configuration?	也许需要在 XML 配置中添加 "whitelist"?
+PHPUnit 10 or later	PHPUnit 10 或更高
+PHPUnit 9 or earlier	PHPUnit 9 或更低
+&lt;no suite name>	&lt;无套件名>
+{0} [{1}]	{0} [{1}]
+Symfony 2/3 Validators	Symfony 2/3 Validators
+Module {0} is already installed.	模块 {0} 已安装。
+Cannot find any module matching {0}\n	找不到任何匹配 {0} 的模块\n
+Found {0}, but not installed	找到 {0}, 但未安装
+Refreshing {0}	正在刷新 {0}
+Restart application to finish plugin activation.	重启应用以完成插件激活。
+Restart application to complete activation	重启应用以完成激活
+NetBeans could not find a user dir for cache dir {0}, so it is probably abandoned. Remove abandoned cache dir, free up {1} MB of disk space.	NetBeans 找不到缓存目录 {0} 对应的用户目录, 因此它可能已被废弃。移除废弃的缓存目录, 释放 {1} MB 磁盘空间。
+Remove unused data and cache directories of NetBeans {0}. Free up {2} MB of disk space.	移除 NetBeans {0} 的未使用数据和缓存目录。释放 {2} MB 磁盘空间。
+Removing unused/abandoned user and/or cache dirs.	正在移除未使用/废弃的用户和/或缓存目录。
+Janitor run. Check your Notifications.	清理器已运行。请查看通知。
+NetBeans cache directory {0} seems to be abandoned.	NetBeans 缓存目录 {0} 似乎已被废弃。
+NetBeans {0} was last used {1} days ago.	NetBeans {0} 上次使用是在 {1} 天前。
+Confirm Cleanup	确认清理
+Remove abandoned cache dir?	移除废弃的缓存目录?
+Remove user and cache data for NetBeans {0}?	移除 NetBeans {0} 的用户和缓存数据?
+Pause I/O Checks	暂停 I/O 检查
+Resume (pending events: {0})	恢复 (待处理事件: {0})
+{0} hrs {1} min {2} sec	{0} 时 {1} 分 {2} 秒
+{0} min {1} sec	{0} 分 {1} 秒
+<b>JVM Uptime: </b>{0}	<b>JVM 运行时长: </b>{0}
+<no compatible mode available>	<无可用兼容模式>
+{0} | {1}	{0} | {1}
+Port number {0} is invalid.	端口号 {0} 无效。
+The local sources path is not a directory.	本地源码路径不是目录。
+The local sources directory does not exist.	本地源码目录不存在。
+Port number is missing.	缺少端口号。
+The server path is empty.	服务器路径为空。
+Chrome DevTools Endpoint at {0}	Chrome DevTools 端点位于 {0}
+Chrome DevTools Endpoint at {0}:{1}	Chrome DevTools 端点位于 {0}:{1}
+The script failed to load.	脚本加载失败。
+The script has no source.	脚本没有源码。
+ECMAScript 10 - 2019 (Experimental)	ECMAScript 10 - 2019 (实验性)
+ECMAScript 11 - 2020 (Experimental)	ECMAScript 11 - 2020 (实验性)
+ECMAScript 12 - 2021 (Experimental)	ECMAScript 12 - 2021 (实验性)
+ECMAScript 8 - 2017 (Experimental)	ECMAScript 8 - 2017 (实验性)
+ECMAScript 9 - 2018 (Experimental)	ECMAScript 9 - 2018 (实验性)
+ES.Next (Experimental)	ES.Next (实验性)
+ECMA10 feature used in pre-ECMA10 source	在 ECMA10 之前的源码中使用了 ECMA10 特性
+ECMA10 feature used	使用了 ECMA10 特性
+ECMA11 feature used in pre-ECMA11 source	在 ECMA11 之前的源码中使用了 ECMA11 特性
+ECMA11 feature used	使用了 ECMA11 特性
+ECMA12 feature used in pre-ECMA12 source	在 ECMA12 之前的源码中使用了 ECMA12 特性
+ECMA12 feature used	使用了 ECMA12 特性
+Switch project to {0}	把项目切换到 {0}
+Operator from {0} used	使用了来自 {0} 的运算符
+Please specify node.js location in the Tools/Options, and restart the IDE.	请在 工具/选项 中指定 node.js 位置, 然后重启 IDE。
+node.js not found, TypeScript support disabled.	未找到 node.js, TypeScript 支持已禁用。
+Initializr: Bootstrap	Initializr: Bootstrap
+Initializr: Classic	Initializr: 经典
+Initializr: Responsive	Initializr: 自适应
+AngularJS Seed	AngularJS Seed
+HTML5 Boilerplate 8.0.0	HTML5 Boilerplate 8.0.0
+Mobile Boilerplate 4.1.2	Mobile Boilerplate 4.1.2
+Twitter Bootstrap 5.2.3	Twitter Bootstrap 5.2.3
+#END

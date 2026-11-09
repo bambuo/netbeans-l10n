@@ -1,0 +1,109 @@
+Java EE	Java EE
+Context and Dependency Injection Support for Java EE	Java EE 的上下文和依赖关系注入支持
+Jersey 2.35 (JAX-RS RI)	Jersey 2.35 (JAX-RS RI)
+JAX-RS 2.1.6	JAX-RS 2.1.6
+Groovy 3.0.25	Groovy 3.0.25
+Groovy Ant 3.0.25	Groovy Ant 3.0.25
+org/netbeans/modules/csl/core/error-sg.gif	org/netbeans/modules/csl/core/error-sg.gif
+org/netbeans/modules/csl/core/warning-sg.gif	org/netbeans/modules/csl/core/warning-sg.gif
+SQL	SQL
+Branch with revision {0}, could not be created	无法创建具有修订版本 {0} 的分支
+Switch between horizontal and vertical Layouts	在水平布局和垂直布局之间切换
+Search by &Path	按路径搜索(&P)
+Prefer Open Projects	优先已打开的项目
+Mustache	Mustache
+Mustache Delimiter	Mustache 定界符
+http://www.selenic.com/mercurial/wiki/index.cgi/MergeProgram	http://www.selenic.com/mercurial/wiki/index.cgi/MergeProgram
+[{0} {1} {2} {3}]	[{0} {1} {2} {3}]
+org/netbeans/modules/tasklist/ui/resources/error-glyph.gif	org/netbeans/modules/tasklist/ui/resources/error-glyph.gif
+org/netbeans/modules/tasklist/ui/resources/warning-glyph.gif	org/netbeans/modules/tasklist/ui/resources/warning-glyph.gif
+Source Modules	源码模块
+Test Modules	测试模块
+Replace expression with constant	用常量替换表达式
+Test Class - JUnit 5.x	测试类 - JUnit 5.x
+Test Suite - JUnit 5.x	测试套件 - JUnit 5.x
+local search	本地搜索
+JAXB-ENDORSED	JAXB-ENDORSED
+Controller	Controller
+Default Package not allowed	不允许使用默认包
+@@metabuild.apachepreviousversion@@	@@metabuild.apachepreviousversion@@
+junit_accepted	junit_accepted
+junit_denied	junit_denied
+fff	fff
+Named Arguments	命名参数
+<html>Enum <b>{0}</b>:</html>	<html>枚举 <b>{0}</b>:</html>
+<html>Enum Case <b>{0}</b> of enum <b>{1}</b>:</html>	<html>枚举 <b>{1}</b> 的枚举值 <b>{0}</b>:</html>
+{if ${condition}...{/if}	{if ${condition}...{/if}
+{if ${condition}...|{else}{/if}	{if ${condition}...|{else}{/if}
+<html><b>{0}</b>{1}	<html><b>{0}</b>{1}
+#document	#document
+SomeAction	SomeAction
+<html><b>Deprecated:</b> The NetBeans Installer (NBI) has been removed and is no longer available for RELEASE260 or later.</html>	<html><b>已弃用:</b> NetBeans 安装程序 (NBI) 已被移除, 在 RELEASE260 及更高版本中不再可用。</html>
+EJB 2.1	EJB 2.1
+{0} ( {1} )	{0} ( {1} )
+Constraint Validator	约束验证器
+&Port Offset:	端口偏移(&P):
+Spring Web MVC 5.3.31	Spring Web MVC 5.3.31
+http://localhost:{0}/	http://localhost:{0}/
+Edit context.xml	编辑 context.xml
+The attribute {0} is already declared on the component {1}	属性 {0} 已在组件 {1} 上声明
+<html>&lt;h:metadata&gt;    &lt;h:viewParam id="" value=""/&gt;&lt;/h:metadata&gt;</html>	<html>&lt;h:metadata&gt;    &lt;h:viewParam id="" value=""/&gt;&lt;/h:metadata&gt;</html>
+JSF 2.3	JSF 2.3
+primefaces	primefaces
+Metro 2.4.8	Metro 2.4.8
+Javascript client stub for RESTful Web Services	RESTful Web 服务的 JavaScript 客户端存根
+Groovy	Groovy
+Code Inspections	代码检查
+org/netbeans/modules/db/sql/loader/resources/sql16.png	org/netbeans/modules/db/sql/loader/resources/sql16.png
+org/netbeans/modules/db/sql/visualeditor/resources/queryEditor.gif	org/netbeans/modules/db/sql/visualeditor/resources/queryEditor.gif
+Show Inline &Hints	显示内联提示(&H)
+org/netbeans/modules/editor/lib2/resources/defaultglyph.gif	org/netbeans/modules/editor/lib2/resources/defaultglyph.gif
+Co&mment	注释(&M)
+{0} #{1}	{0} #{1}
+Enable Palette Completion	启用组件面板补全
+<!-- -->	<!-- -->
+{0} #{1,number,#}	{0} #{1,number,#}
+#{0,number,#}	#{0,number,#}
+Provides IDE notifications pop-ups and Notifications Center	提供 IDE 通知弹出窗口和通知中心
+Display Parameter &Tooltip	显示参数工具提示(&T)
+/	/
+ToDo,@todo,ToDos,FIXME,PENDING,Action Items,tasklist,Task List	ToDo,@todo,ToDos,FIXME,PENDING,Action Items,tasklist,Task List
+100	100
+Timer	计时器
+&Report Issue	报告问题(&R)
+Collapse Commit Message	折叠提交消息
+Stylesheet	样式表
+Documentation	文档
+1:1	1:1
+Unsupported: can not evaluate module declarations.	不支持: 无法计算模块声明。
+&Use StringBuilder	使用 StringBuilder(&U)
+Record {0} is not used	记录 {0} 未被使用
+Declarative Hint Test	声明式提示测试
+NetBeansProjects directory on remote host.	远程主机上的 NetBeansProjects 目录。
+Java Standard Edition	Java 标准版
+Source not available	源不可用
+( {0} )	( {0} )
+Maven	Maven
+Fix & Continue Debugging	修复并继续调试
+No build method name specified.	未指定构建方法名称。
+Refactoring Rules	重构规则
+JAX-WS 2.3.5	JAX-WS 2.3.5
+JavaFX with Maven	使用 Maven 的 JavaFX
+Apache NetBeans IDE {display-version}	Apache NetBeans IDE {display-version}
+JDK {display-version}	JDK {display-version}
+Oracle Corporation	Oracle Corporation
+C/C++	C/C++
+Java SE	Java SE
+PHP	PHP
+code-templates.xml	code-templates.xml
+<html><b>The original project has been abandoned.</b></html>	<html><b>原项目已被放弃。</b></html>
+Symfony	Symfony
+Disable module immediately	立即禁用模块
+NBM {0} needs unpack200 to process following entries: {1}	NBM {0} 需要 unpack200 来处理以下条目: {1}
+unique=	unique=
+org/netbeans/modules/javahelp/resources/help.png	org/netbeans/modules/javahelp/resources/help.png
+JUnit 5.14.4	JUnit 5.14.4
+Debug Protocol:	调试协议:
+V8 debug protocol	V8 调试协议
+setDropPoint	setDropPoint
+#END

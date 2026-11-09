@@ -1,0 +1,119 @@
+&General	常规(&G)
+General	常规
+CTL_General_Options_Description	常规选项、代理设置、编辑器设置
+CTL_Package_View_Type	Java 包显示方式:
+&List	列表(&L)
+List	列表
+Tree	树
+&No Proxy	不使用代理(&N)
+No Proxy	不使用代理
+Usage Statistics:	使用统计:
+Help us improve the NetBeans IDE by providing anonymous usage data	通过提供匿名使用数据帮助我们改进 NetBeans IDE
+Hel&p us improve the NetBeans IDE by providing anonymous usage data	通过提供匿名使用数据帮助我们改进 NetBeans IDE
+<html>The usage statistics help us better understand user requirements and prioritize improvements in future releases. We will never reverse-engineer the collected data to find specific details about your projects.</html>	<html>使用统计帮助我们更好地了解用户需求, 并在未来的版本中优先改进。我们绝不会对收集的数据进行逆向工程来发现你项目的具体细节。</html>
+The usage statistics help us better understand user requirements and prioritize improvements in future releases. We will never reverse-engineer the collected data to find specific details about your projects.	使用统计帮助我们更好地了解用户需求, 并在未来的版本中优先改进。我们绝不会对收集的数据进行逆向工程来发现你项目的具体细节。
+Usage statistics info	使用统计信息
+<html><a href="_blank">Learn more</a></html>	<html><a href="_blank">了解更多</a></html>
+Learn more	了解更多
+&Use System Proxy Settings	使用系统代理设置(&U)
+Use System Proxy Settings	使用系统代理设置
+HTTP Proxy	HTTP 代理
+&Manual Proxy Settings	手动代理设置(&M)
+Manual Proxy Settings	手动代理设置
+Host	主机
+Port	端口
+Update Period	更新周期
+Ask Before Check	检查前询问
+&Line Numbers	行号(&L)
+Line Numbers	行号
+Antialiasing:	抗锯齿:
+Use Antialiasing	使用抗锯齿
+&Toolbar	工具栏(&T)
+Toolbar	工具栏
+Package View	包视图
+SDI Window Mode	SDI 窗口模式
+MDI Window Mode	MDI 窗口模式
+Tree View	树视图
+<Default Browser>	<默认浏览器>
+Swing Browser	Swing 浏览器
+Internet Explorer	Internet Explorer
+Web Browser:	Web 浏览器(&B):
+&Web Browser:	Web 浏览器(&B):
+&Web Browser\:	Web 浏览器(&B):
+&Confirm Delete:	删除时确认(&C):
+Proxy Settings:	代理设置:
+Proxy	代理
+Po&rt\:	端口(&R):
+HTTP Pro&xy\:	HTTP 代理(&X):
+Code Folding:	代码折叠:
+Show:	显示:
+Editor	编辑器
+Check Perio&d:	检查周期(&D):
+Ask &Before Check:	检查前询问(&B):
+Auto Update	自动更新
+&Use Code Folding	使用代码折叠(&U)
+Fold &Methods	折叠方法(&M)
+Fol&d Inner Classes	折叠内部类(&D)
+Fold Import&s	折叠导入(&I)
+Fold &Javadoc Comments	折叠 Javadoc 注释(&J)
+F&old Initial Comment	折叠初始注释(&O)
+Auto Popup:	自动弹出:
+Completion Window	补全窗口
+Javadoc Window	Javadoc 窗口
+Every Startup	每次启动
+Every Day	每天
+Every Week	每周
+Every Two Weeks	每两周
+Every Month	每月
+Never	从不
+Default System Browser	默认系统浏览器
+Internal Browser	内部浏览器
+Firefox	Firefox
+No Proxy For	不代理的主机
+(e.g. localhost, *.netbeans.org, *.mydomain.com)	(例如 localhost、*.netbeans.org、*.mydomain.com)
+M&ore...	更多(&O)...
+Advanced Proxy Settings	高级代理设置
+Open Advanced Proxy Settings	打开高级代理设置
+Port number must be an integer value.	端口号必须是整数值。
+Advanced Proxy Options	高级代理选项
+HTTP &Proxy\:	HTTP 代理(&P):
+(e.g. localhost, *.netbeans.org, 127.0.0.1)	(例如 localhost、*.netbeans.org、127.0.0.1)
+P&ort\:	端口(&R):
+Por&t\:	端口(&T):
+&HTTPS Proxy\:	HTTPS 代理(&H):
+&SOCKS Proxy\:	SOCKS 代理(&S):
+No Pro&xy Hosts\:	不使用代理的主机(&X):
+Proxy Re&quires Explicit Authentication	代理需要显式认证(&Q)
+&Username\:	用户名(&U):
+Pass&word\:	密码(&W):
+Use the same proxy settings for &all protocols	所有协议使用相同的代理设置(&A)
+Web Browsers Manager	Web 浏览器管理器
+External Browser	外部浏览器
+Name\:	名称:
+Executable\:	可执行文件:
+Parameters\:	参数:
+Browse...	浏览...
+Add...	添加...
+Remove	移除
+Web Browsers\:	Web 浏览器:
+&E&dit...	编辑(&E)...
+Edit Web Browsers	编辑 Web 浏览器
+Hint\: {URL} \= URL of the page to be loaded by the web browser	提示: {URL} = 浏览器要加载的页面的 URL
+List of available web browsers	可用 Web 浏览器列表
+Add new web browser	添加新 Web 浏览器
+Remove selected web browser	移除所选 Web 浏览器
+Web browser name	Web 浏览器名称
+Web browser executable	Web 浏览器可执行文件
+Web browser executable parameters	Web 浏览器可执行文件参数
+Browse web browser executable	浏览 Web 浏览器可执行文件
+A&dd...	添加(&D)...
+&Remove	移除(&R)
+&Name\:	名称(&N):
+Direct connection.	直接连接。
+General.Options.Export.Category.displayName	常规
+General.Options.Export.displayName	常规
+Other.Options.Export.displayName	所有其他未指定项
+Re&load	重新加载(&L)
+Test &connection	测试连接(&C)
+Connection passed	连接成功
+#END

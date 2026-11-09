@@ -1,0 +1,132 @@
+Property sheet	属性表
+View shows properties for given node.	显示给定节点的属性。
+Order by	排序方式
+&name	名称(&N)
+&recent usage	最近使用(&R)
+By Name	按名称
+By Class	按类
+By Name (Packages First)	按名称 (包优先)
+By Modification Time	按修改时间
+By File Size	按文件大小
+By Extension	按扩展名
+Naturally By Name	按名称自然排序
+&Instantiate	实例化(&I)
+Create &Link	创建链接(&L)
+&Serialize	序列化(&S)
+&Default instance	默认实例(&D)
+Instance Serialization	实例序列化
+Create New Folder	新建文件夹
+File {0} already exists in folder {1}.	文件夹 {1} 中已存在文件 {0}。
+Folder {0} already exists in folder {1}.	文件夹 {1} 中已存在文件夹 {0}。
+XML Configuration Files	XML 配置文件
+Error (recoverable)	错误 (可恢复)
+Fatal Error	严重错误
+New Wizard - {0}	新建向导 - {0}
+New Wizard	新建向导
+Choose Template	选择模板
+&Select a Template:	选择模板(&S):
+Initializing description...	正在初始化描述...
+&Template Description:	模板描述(&T):
+Target Location	目标位置
+<top folder> [{0}]	<顶层文件夹> [{0}]
+<default name>	<默认名称>
+Unrecognized Objects	未识别的对象
+Action Instances	操作实例
+Warning: Object {0} cannot be copied.	警告: 无法复制对象 {0}。
+Warning: Object {0} cannot be moved.	警告: 无法移动对象 {0}。
+{0} (Broken Link)	{0} (损坏的链接)
+<Unrecognized setting>	<无法识别的设置>
+Data Object Copy Flavor	数据对象复制剪贴板格式
+Data Object Cut Flavor	数据对象剪切剪贴板格式
+Cannot give {0} an empty name.	不能把 {0} 命名为空。
+The target filesystem is read-only.	目标文件系统是只读的。
+Filesystem Action	文件系统操作
+Save As Template...	另存为模板...
+Save As Template	另存为模板
+All Templates...	所有模板...
+{0,choice,0#{1} [r/o]|1#{1} *|2#{1} [r/o] *|3#{1}}	{0,choice,0#{1} [只读]|1#{1} *|2#{1} [只读] *|3#{1}}
+\ (modified)	\ (已修改)
+\ (read-only)	\ (只读)
+Binary File Detected	检测到二进制文件
+Sa&ve As...	另存为(&V)...
+Cannot create the target folder.	无法创建目标文件夹。
+Please, select a different file name.	请选择其他文件名。
+Locking {0}	正在锁定 {0}
+Locking of {0} has been cancelled	{0} 的锁定已被取消
+Nodes API	节点 API
+Properties of this object.	此对象的属性。
+Expert properties of this object.	此对象的高级属性。
+Change Order	更改顺序
+Show these fields in this order:	按此顺序显示这些字段:
+Name of the object.	对象的名称。
+Paste Node	粘贴节点
+Copy Index	复制索引
+Look & Feel Customization Library	观感定制库
+<Only Workspace>	<仅当前工作区>
+&Editors	编辑器(&E)
+Window System related options	窗口系统相关选项
+Mode Component	模式组件
+Mode Name:	模式名称:
+Keep currently opened documents	保留当前打开的文档
+Remove All	全部移除
+<new group>	<新组>
+Create New Document Group	创建新文档组
+Core - Windows	核心 - 窗口
+Implementation for windowing support.	窗口支持的实现。
+Cannot parse configuration of window manager {0}.	无法解析窗口管理器 {0} 的配置。
+Cannot parse configuration of Group {0}.	无法解析组 {0} 的配置。
+Cannot parse configuration of TCGroup {0}.	无法解析 TCGroup {0} 的配置。
+Cannot parse configuration of TCRef {0}.	无法解析 TCRef {0} 的配置。
+Cannot parse configuration of mode {0}.	无法解析模式 {0} 的配置。
+Cannot create root folder {0}	无法创建根文件夹 {0}
+Cannot create components folder {0}	无法创建组件文件夹 {0}
+Cannot create groups folder {0}	无法创建组文件夹 {0}
+Cannot create modes folder {0}	无法创建模式文件夹 {0}
+C&lone Document	克隆文档(&L)
+Close Group	关闭组
+Go to Previous Window	转到上一个窗口
+Go to Previous Document	转到上一个文档
+&Float	浮动(&F)
+Doc&k	停靠(&K)
+Window System related options	窗口系统相关选项
+Print Settings	打印设置
+Printing {2} at {1}	在 {1} 打印 {2}
+Page {0}	第 {0} 页
+Should lines be wrapped?	是否换行?
+Page Header Format	页眉格式
+Page Footer Format	页脚格式
+Page Header Font	页眉字体
+Set the page header font.	设置页眉字体。
+Page Footer Font	页脚字体
+Set the page footer font.	设置页脚字体。
+Page Header Alignment	页眉对齐
+Page Header Alignment - LEFT, CENTER, RIGHT.	页眉对齐 - 左、中、右。
+Page Footer Alignment	页脚对齐
+Page Footer Alignment - LEFT, CENTER, RIGHT.	页脚对齐 - 左、中、右。
+Line Ascent Correction	行上升修正
+Multiplier to correct the line ascent.	修正行上升的系数。
+Page number {0} was printed.	第 {0} 页已打印。
+Print Job Progress	打印任务进度
+Current printer job was aborted.	当前打印任务已中止。
+File {0} is read-only.	文件 {0} 是只读的。
+The document {0} could not be loaded.	无法加载文档 {0}。
+Unable to insert empty string	无法插入空字符串
+File {0} was modified externally. Reload it?	文件 {0} 已被外部修改。重新加载吗?
+File {0} was modified externally. Overwrite it?	文件 {0} 已被外部修改。覆盖吗?
+File {0} was changed to read-only!	文件 {0} 已被改为只读!
+Unrecognized File	未识别的文件
+Shared access	共享访问
+Cannot save new ordering.	无法保存新的排序。
+{0} (\u2192)	{0} (\u2192)
+Link to {3}	链接到 {3}
+Original Name	原始名称
+Original Filesystem Name	原始文件系统名称
+File Size	文件大小
+Modification Time	修改时间
+Primary file extension.	主文件扩展名。
+Cannot change extension. File is modified.	无法更改扩展名。文件已修改。
+Sorting and ordering settings.	排序设置。
+Sort Mode	排序模式
+Text API	文本 API
+Generic API wrapping Swing based EditorKits.	封装基于 Swing 的 EditorKit 的通用 API。
+#END

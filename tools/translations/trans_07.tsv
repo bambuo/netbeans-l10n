@@ -1,0 +1,127 @@
+Use Lo&wercase:	使用小写(&W):
+"TRUE", "FALSE", "NULL" C&onstants	"TRUE"、"FALSE"、"NULL" 常量(&O)
+C&omment Completion:	注释补全(&O):
+&Insert " * " after a line break (Multi line comment /* */ only)	在换行后插入 " * " (仅限多行注释 /* */)
+Add First Class Callable Syntax	添加一等可调用语法
+Auto Import for Global Namespace Names (e.g. "\\MyClass"):	全局命名空间名称的自动导入 (例如 "\\MyClass"):
+T&ype:	类型(&Y):
+P&refer Import	首选导入(&R)
+&Function:	函数(&F):
+Prefer &Import	首选导入(&I)
+Don't Impor&t	不导入(&T)
+&Const:	常量(&C):
+Prefer I&mport	首选导入(&M)
+Don't Impo&rt	不导入(&R)
+&Auto Import for Scope:	作用域的自动导入(&A):
+&File Scope	文件作用域(&F)
+Namespace Sc&ope	命名空间作用域(&O)
+&Auto Import (only "Smart" and "Unqualified" completion)	自动导入 (仅限 "智能" 和 "非限定" 补全)(&A)
+{0}, {1}	{0}, {1}
+Choose Un&pack200...	选择 unpack200(&P)...
+Find unpack200 in JDK8, JDK11, JDK 13	在 JDK8、JDK11、JDK 13 中查找 unpack200
+&Trust update center fully and allow automatic installations	完全信任更新中心并允许自动安装(&T)
+AddWebServiceDlg	AddWebServiceDlg
+Evaluate Expression	求值表达式
+Evaluate expressions or code snippets.	对表达式或代码片段求值。
+Show lastly evaluated code fragments	显示最近求值的代码片段
+Expression Result	表达式结果
+Result of the expression evaluation.	表达式求值的结果。
+Evaluate	求值
+Evaluate the expression.	对表达式求值。
+&Watch	监视(&W)
+Add the expression into Watches view.	将表达式添加到监视视图中。
+History:	历史记录:
+Evaluate code fragment (Ctrl + Enter)	对代码片段求值 (Ctrl + Enter)
+Show evaluation history	显示求值历史记录
+Record Component Use	记录组件使用
+Module Use	模块使用
+Record Use	记录使用
+Record Component Declaration	记录组件声明
+Module Declaration	模块声明
+Record Declaration	记录声明
+Text Block	文本块
+Remove Surrounding Code (part to delete)	移除外围代码 (要删除的部分)
+Remove Surrounding Code (part to keep)	移除外围代码 (要保留的部分)
+if (<b>exp</b>) { ...| }	if (<b>exp</b>) { ...| }
+if (<b>exp</b>) { ...| } else { ... }	if (<b>exp</b>) { ...| } else { ... }
+switch (<b>exp</b>) { ...| }	switch (<b>exp</b>) { ...| }
+try { ...| } catch(Exception e) { ... }	try { ...| } catch(Exception e) { ... }
+try { ...| } catch(Exception e) { ... } finally { ... }	try { ...| } catch(Exception e) { ... } finally { ... }
+try { ...| } finally { ... }	try { ...| } finally { ... }
+for (Map.Entry&lt;KeyType, ValueType&gt; <b>entry</b> : <b>map</b>.entrySet()) { ...	for (Map.Entry&lt;KeyType, ValueType&gt; <b>entry</b> : <b>map</b>.entrySet()) { ...
+/* ... */	/* ... */
+org/netbeans/modules/java/editor/resources/whitelist-glyph.gif	org/netbeans/modules/java/editor/resources/whitelist-glyph.gif
+The jlink additional root modules to resolve	要解析的 jlink 附加根模块
+The jlink additional command line parameters	jlink 的附加命令行参数
+Compile on Save Update	保存时编译更新
+<html>Compile on Save Update running.<br>Please wait...	<html>保存时编译更新正在运行。<br>请稍候...
+Cancel build	取消构建
+CLASS	CLASS
+INTERFACE	INTERFACE
+EXCEPTION	EXCEPTION
+ERROR	ERROR
+CONSTRUCTOR	CONSTRUCTOR
+METHOD	METHOD
+VARIABLE	VARIABLE
+STATIC	STATIC
+PACKAGE	PACKAGE
+ENUM	ENUM
+ANNOTATION	ANNOTATION
+\\s*Overview\\s*\\((.*)\\)\n    (.*):\\s*Overview\n    (.*)\\s*-\\s*Overview	\\s*Overview\\s*\\((.*)\\)\n    (.*):\\s*Overview\n    (.*)\\s*-\\s*Overview
+Don't print the download progress.	不打印下载进度。
+Default &JDK:	默认 JDK(&J):
+Mana&ge Java Platforms	管理 Java 平台(&G)
+Prefer Maven Wrapper that comes with project	首选项目自带的 Maven Wrapper
+Network pro&xy:	网络代理(&X):
+Enable maven repository indexing	启用 Maven 存储库索引
+Enable remote index downloads	启用远程索引下载
+Enable multi-threaded index extraction	启用多线程索引解压
+Maven Indexer Settings	Maven 索引器设置
+Appearance	外观
+Index Filter:	索引过滤器:
+2 years	2 年
+5 years	5 年
+Full Index (no filter)	完整索引 (无过滤)
+&Maven User Settings XML:	Maven 用户设置 XML(&M):
+org/netbeans/modules/xml/wizard/impl/folder_closed.png	org/netbeans/modules/xml/wizard/impl/folder_closed.png
+org/netbeans/modules/xml/wizard/impl/folder_opened.png	org/netbeans/modules/xml/wizard/impl/folder_opened.png
+_output	_output
+org/netbeans/modules/options/keymap/key.png	org/netbeans/modules/options/keymap/key.png
+Mouse 4	鼠标 4
+Mouse 5	鼠标 5
+Mouse 6	鼠标 6
+Mouse 7	鼠标 7
+Mouse 8	鼠标 8
+Mouse 9	鼠标 9
+{0} Bytes	{0} 字节
+{0} KB	{0} KB
+{0} MB	{0} MB
+// Bean descriptor information will be obtained from introspection.\n	// Bean 描述符信息将通过内省获取。\n
+// Bean descriptor \n	// Bean 描述符 \n
+// Properties information will be obtained from introspection.\n	// 属性信息将通过内省获取。\n
+// Property identifiers \n	// 属性标识符 \n
+// Property array \n	// 属性数组 \n
+// Method information will be obtained from introspection.\n	// 方法信息将通过内省获取。\n
+// Method identifiers \n	// 方法标识符 \n
+// Method array \n	// 方法数组 \n
+// Event set information will be obtained from introspection.\n	// 事件集信息将通过内省获取。\n
+// EventSet identifiers\n	// 事件集标识符\n
+// EventSet array\n	// 事件集数组\n
+&{0} >	&{0} >
+[{0} -> {1}]	[{0} -> {1}]
+<h3>Notifications</h3>	<h3>通知</h3>
+Error: There were plugins, that were modified or damaged, Installation can't continue.	错误: 存在已被修改或损坏的插件, 无法继续安装。
+org.myapplication.ui.metrics	org.myapplication.ui.metrics
+org.myapplication.ui	org.myapplication.ui
+org.myapplication.ui.performance	org.myapplication.ui.performance
+org.myapplication.Bundle	org.myapplication.Bundle
+currentVersion	currentVersion
+buildnumber	buildnumber
+https://myapplication.org/uigestures/welcome.html	https://myapplication.org/uigestures/welcome.html
+https://myapplication.org/uigestures/metrics.html	https://myapplication.org/uigestures/metrics.html
+https://myapplication.org/uigestures/error.html	https://myapplication.org/uigestures/error.html
+http://statistics.myapplication.org/analytics/authenticate?username={0}&secur_passwd={1}	http://statistics.myapplication.org/analytics/authenticate?username={0}&secur_passwd={1}
+var/log/messages.log	var/log/messages.log
+var/log/messages.log.1	var/log/messages.log.1
+https://www.myapplication.org/about/usage-tracking.html	https://www.myapplication.org/about/usage-tracking.html
+#END

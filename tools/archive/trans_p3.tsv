@@ -1,0 +1,86 @@
+96	如果传给 <code>date</code> 过滤器的值为 null, 默认会返回当前日期。如果希望返回空字符串而不是当前日期, 请使用三元运算符:
+97	<code>date_modify</code> 过滤器使用给定的修饰符字符串修改日期:
+98	<code>date_modify</code> 过滤器接受字符串 (必须为 <a href="http://www.php.net/strtotime">strtotime</a> 函数支持的格式) 或 <a href="http://www.php.net/DateTime">DateTime</a> 实例。可以轻松地将其与 <a href="http://twig.sensiolabs.org/doc/filters/date_modify.html#id1">`date`</a>_ 过滤器结合使用进行格式化。
+99	如果值未定义或为空, <code>default</code> 过滤器返回传入的默认值, 否则返回变量的值:
+100	对在某些方法调用中使用变量的表达式使用 <code>default</code> 过滤器时, 只要变量可能未定义, 就务必使用 <code>default</code> 过滤器:
+101	<code>escape</code> 过滤器转义字符串以便安全地插入最终输出。它支持不同的转义策略, 具体取决于模板上下文。
+102	默认使用 HTML 转义策略:
+103	为方便起见, <code>e</code> 过滤器被定义为其别名:
+104	借助定义转义策略的可选参数, <code>escape</code> 过滤器还可用于 HTML 以外的其他上下文:
+105	下面是如何转义包含在 JavaScript 代码中的变量:
+106	<code>escape</code> 过滤器支持以下转义策略:
+107	<code>format</code> 过滤器通过替换占位符来格式化给定的字符串 (占位符遵循 <a href="http://www.php.net/printf">printf</a> 记法):
+108	<code>join</code> 过滤器返回一个字符串, 它是序列中各项目的串联:
+109	元素之间的分隔符默认为空字符串, 但可以通过可选的第一个参数定义它:
+110	<code>json_encode</code> 过滤器返回字符串的 JSON 表示形式:
+111	<code>keys</code> 过滤器返回数组的键。当需要遍历数组的键时非常有用:
+112	<code>length</code> 过滤器返回序列或映射的项数, 或字符串的长度:
+113	<code>lower</code> 过滤器将值转换为小写:
+114	<code>merge</code> 过滤器将一个数组和另一个数组合并:
+115	新值被添加到现有值的末尾。
+116	<code>merge</code> 过滤器也适用于哈希 (hash):
+117	对于哈希, 合并过程基于键进行: 如果键不存在则添加, 但如果键已存在, 其值将被覆盖。
+118	如果你想确保数组中的某些值已定义 (通过给定的默认值), 请在调用中颠倒两个元素的顺序:
+119	<code>nl2br</code> 过滤器在字符串中所有换行符之前插入 HTML 换行标记:
+120	<code>nl2br</code> 过滤器在应用转换之前会先对输入进行预转义。
+121	<code>number_format</code> 过滤器格式化数字。它是 PHP <a href="http://php.net/number_format">number_format</a> 函数的封装:
+122	可以使用附加参数控制小数位数、小数点符号和千位分隔符:
+123	如果未提供格式化选项, Twig 将使用以下默认格式化选项:
+124	这些默认值可以通过核心扩展轻松更改:
+125	为 <code>number_format</code> 设置的默认值可以在每次调用时通过附加参数覆盖。
+126	<code>raw</code> 过滤器将值标记为 "安全", 这意味着在启用自动转义的环境中, 如果 <code>raw</code> 是应用于该变量的最后一个过滤器, 则该变量不会被转义:
+127	<code>replace</code> 过滤器通过替换占位符来格式化给定的字符串 (占位符为自由格式):
+128	<code>reverse</code> 过滤器反转序列、映射或字符串:
+129	<code>slice</code> 过滤器提取序列、映射或字符串的一部分:
+130	起始位置和长度都可以使用任何有效的表达式:
+131	作为语法糖, 还可以使用 <code>[]</code> 记法:
+132	对于数组, <code>slice</code> 过滤器的行为与 PHP 的 <a href="http://php.net/array_slice">array_slice</a> 函数相同; 对于字符串, 则与 <a href="http://php.net/substr">substr</a> 相同。
+133	如果 start 为非负数, 序列将从变量中的该位置开始。如果 start 为负数, 序列将从距变量末尾该距离的位置开始。
+134	如果给定的 length 为正数, 序列将最多包含这么多元素。如果变量短于该长度, 则只包含可用的变量元素。如果给定的 length 为负数, 序列将在距变量末尾这么多的元素处停止。如果省略, 序列将包含从偏移量直到变量末尾的所有内容。
+135	它也适用于实现 <a href="http://php.net/manual/en/class.traversable.php">Traversable</a> 接口的对象。
+136	<code>sort</code> 过滤器对数组排序:
+137	<code>striptags</code> 过滤器去除 SGML/XML 标签, 并将相邻空白替换为一个空格:
+138	<code>title</code> 过滤器返回值的标题式大写版本。单词将以大写字母开头, 其余字符为小写:
+139	<code>trim</code> 过滤器去除字符串开头和结尾的空白 (或其他字符):
+140	<code>upper</code> 过滤器将值转换为大写:
+141	<code>url_encode</code> 过滤器对给定的字符串进行 URL 编码:
+142	<code>truncate</code> 过滤器截断给定的字符串:
+143	<code>wordwrap</code> 过滤器对给定的字符串换行:
+144	生成链接。
+145	生成指向 presenter 的链接。
+146	条件性跳到下一次迭代。
+147	条件性中断循环。
+148	它检查变量是否存在, 对应于 PHP 代码 <code>if (isset($var))</code>。
+149	宏也可以检查块是否存在。
+150	可以使用以下方式测试块是否存在:
+151	它检查变量是否存在, 对应于 PHP 代码 <code>elseif (isset($var))</code>。
+152	宏有助于确定目标是否与当前页面相同。
+153	其行为与 PHP 对应部分完全相同。
+154	它将文件或块包含到当前模板中。
+155	文件:
+156	块:
+157	它是 <code>{layout}</code> 的别名。指定布局文件。
+158	指定布局文件。
+159	打印一个组件。
+160	缓存模板的某个部分。
+161	标记可通过 AJAX 发送的模板片段。
+162	块定义并立即输出。
+163	供以后使用的块定义。
+164	从外部模板加载块。
+165	切换转义模式并发送 HTTP 头。
+166	将输出捕获到变量中。
+167	变量未声明时的默认值。
+168	直接在模板中声明变量。
+169	将变量转储到调试栏 (Debugger Bar)。
+170	在运行时切换语法。
+171	加载新的用户自定义宏
+172	打印一个表单元素。
+173	打印一个表单输入标签。
+174	打印一个表单输入元素。
+175	在代码中设置断点。
+176	打印 <code>{</code> 字符。
+177	打印 <code>}</code> 字符。
+178	如果是第一次迭代则打印。
+179	如果是最后一次迭代则打印。
+180	分隔符。
+#END

@@ -1,0 +1,63 @@
+HTML UI Implementation	HTML UI 实现
+Support for displaying HTML based UI	支持显示基于 HTML 的 UI
+Removes unused cache/data	移除未使用的缓存/数据
+Run Janitor Now	立即运行清理器
+Run Janitor on Startup	启动时运行清理器
+Enable Janitor Scan on Startup	启动时启用清理器扫描
+Removal threshold (number of days):	移除阈值 (天数):
+Auto Remove Abandoned Cache Directories	自动移除废弃的缓存目录
+Suspend I/O	挂起 I/O
+Provides action in Performance toolbar to suspend the IDE	在性能工具栏提供挂起 IDE 的操作
+JavaScript Chrome DevTools Debugger UI	JavaScript Chrome DevTools 调试器 UI
+JavaScript Chrome DevTools Debugger	JavaScript Chrome DevTools 调试器
+Chrome DevTools protocol	Chrome DevTools 协议
+JavaScript2 HTML/CSS support	JavaScript2 HTML/CSS 支持
+Basic syntax coloring support for Vue	Vue 的基础语法着色支持
+Javascript2 Vue	Javascript2 Vue
+Coloring support for Vue	Vue 的着色支持
+Listener Attribute	监听器属性
+Attribute Quote	属性引号
+Variable Tag	变量标签
+TypeScript Editor	TypeScript 编辑器
+<font color="{0}"><s>{1}</s></font>	<font color="{0}"><s>{1}</s></font>
+Docker UI	Docker UI
+INFO MERGE: CONFLICT - {0}	信息合并: 冲突 - {0}
+Mercurial - {0} {1}	Mercurial - {0} {1}
+Mercurial - {0} {1}- {2}	Mercurial - {0} {1}- {2}
+[{status}; {folder}]	[{status}; {folder}]
+{0} SUCCESSFUL	{0} 成功
+{0} TERMINATED	{0} 已终止
+{0} FAILED	{0} 失败
+{0} FINISHED	{0} 已完成
+&JDBC URL:	JDBC URL(&J):
+HTML XML	HTML XML
+Docker API	Docker API
+Subversion - {0} ({1})	Subversion - {0} ({1})
+Subversion - {0} - {1} ({2})	Subversion - {0} - {1} ({2})
+[{status}{lock}; {folder}]	[{status}{lock}; {folder}]
+Git - {0} {1}	Git - {0} {1}
+Git - {0} {1}- {2}	Git - {0} {1}- {2}
+WebSocket URI	WebSocket URI
+Enterprise JavaBeans (EJB)	企业 JavaBeans (EJB)
+Enterprise JavaBeans	企业 JavaBeans
+Servlet URI:	Servlet URI:
+{0} (Servlet)	{0} (Servlet)
+{0} (URL)	{0} (URL)
+Amazon Elastic Beanstalk	Amazon Elastic Beanstalk
+JDBC URL	JDBC URL
+Apache Tomcat {0}	Apache Tomcat {0}
+Apache Tomcat {0} ({1})	Apache Tomcat {0} ({1})
+Tomcat (TomEE)	Tomcat (TomEE)
+Maven Java EE	Maven Java EE
+GlassFish Server 4.1.1	GlassFish Server 4.1.1
+Tablesorter UI	Tablesorter UI
+Maven Hudson	Maven Hudson
+Spring Bean...	Spring Bean...
+Bean <b><code>{0}</b></code>	Bean <b><code>{0}</b></code>
+<html><font color=''!controlShadow''>{1}</font> <b>{0}</b> {2}</html>	<html><font color=''!controlShadow''>{1}</font> <b>{0}</b> {2}</html>
+Classfile Reader	类文件读取器
+Java Web Start	Java Web Start
+Web Start	Web Start
+KEY {0} : RB {1}	KEY {0} : RB {1}
+Cordova Hello World	Cordova Hello World
+#END

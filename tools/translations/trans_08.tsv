@@ -1,0 +1,167 @@
+GlassFish Server 5 Libraries	GlassFish Server 5 库
+&GET	GET(&G)
+&POST	POST(&P)
+&HEAD	HEAD(&H)
+PU&T	PUT(&T)
+&OPTIONS	OPTIONS(&O)
+TR&ACE	TRACE(&A)
+D&ELETE	DELETE(&E)
+Class File	类文件
+Java Class File Attributes	Java 类文件属性
+JDK	JDK
+JDK used to run the file.	用于运行此文件的 JDK。
+Program Arguments	程序参数
+Arguments passed to the main method while running the file.	运行此文件时传递给 main 方法的参数。
+VM Options to be considered while running the file.	运行此文件时要考虑的 VM 选项。
+Additional VM Options	附加 VM 选项
+Additional VM Options configured in Settings... / Java / Source Launcher.	在 "设置..."/Java/Source Launcher 中配置的附加 VM 选项。
+Enable Source File Launcher Indexing	启用源文件启动器索引
+The root corresponding to this file should have source file launcher indexing enabled	此文件对应的根应启用源文件启动器索引
+Classfile Version	类文件版本
+The Java API and Language Level of this class file	此类文件的 Java API 和语言级别
+Run Single File	运行单个文件
+Install additional modules: {0}	安装附加模块: {0}
+The feature {0} is missing required modules: {1}	特性 {0} 缺少所需模块: {1}
+Recommended module(s) for feature {0} are missing: {1}	特性 {0} 缺少推荐模块: {1}
+Errors encountered obtaining update information: {0}	获取更新信息时遇到错误: {0}
+Feature {0} is incomplete: some module(s) are missing: {1}	特性 {0} 不完整: 缺少部分模块: {1}
+dummy	dummy
+dwn	dwn
+dwnBtn	dwnBtn
+Select Database File	选择数据库文件
+The database file for this connection	此连接的数据库文件
+Database file name text field	数据库文件名文本字段
+http://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html	http://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html
+http://dev.mysql.com/downloads/connector/j/	http://dev.mysql.com/downloads/connector/j/
+ojdbc7.jar, ojdbc7_g.jar, ojdbc7dms.jar	ojdbc7.jar, ojdbc7_g.jar, ojdbc7dms.jar
+mysql-connector-java	mysql-connector-java
+ojdbc7.jar	ojdbc7.jar
+mysql-connector-java-8.0.17.jar	mysql-connector-java-8.0.17.jar
+<HTML><HEAD><META http-equiv\=Refresh content\="0; URL\=	<HTML><HEAD><META http-equiv\=Refresh content\="0; URL\=
+"></HEAD><BODY></BODY></HTML>	"></HEAD><BODY></BODY></HTML>
+<html>&lt;ol&gt;<br>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>&lt;/ol&gt;</html>	<html>&lt;ol&gt;<br>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>&lt;/ol&gt;</html>
+<html>&lt;ul&gt;<br>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>&lt;/ul&gt;</html>	<html>&lt;ul&gt;<br>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>&lt;/ul&gt;</html>
+<img src="" />	<img src="" />
+<a href=""></a>	<a href=""></a>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>&lt;form&gt;<br>&lt;/form&gt;</html>	<html>&lt;form&gt;<br>&lt;/form&gt;</html>
+<input type="text" name="" value="" />	<input type="text" name="" value="" />
+<html>&lt;textarea name="" rows="4" cols="20"&gt;<br>&lt;/textarea&gt;</html>	<html>&lt;textarea name="" rows="4" cols="20"&gt;<br>&lt;/textarea&gt;</html>
+<html>&lt;select name=""&gt;<br>&nbsp;&nbsp;&lt;option&gt;<br>&nbsp;&nbsp;&lt;/option&gt;<br>&lt;/select&gt;</html>	<html>&lt;select name=""&gt;<br>&nbsp;&nbsp;&lt;option&gt;<br>&nbsp;&nbsp;&lt;/option&gt;<br>&lt;/select&gt;</html>
+<input type="checkbox" name="" value="ON" />	<input type="checkbox" name="" value="ON" />
+<input type="radio" name="" value="" />	<input type="radio" name="" value="" />
+<input type="file" name=""/>	<input type="file" name=""/>
+<input type="submit" value="" />	<input type="submit" value="" />
+Single Char Regex	单字符正则表达式
+Using a single regex control character as regex is probably undesired	将单个正则控制字符用作正则表达式可能不符合预期
+Escape character for regex usage	正则表达式用途的转义字符
+var used with diamond operator	与钻石运算符一起使用的 var
+Finds variables initialzed using var and diamond operator	查找使用 var 和钻石运算符初始化的变量
+<> would be inferred as <Object>	<> 会被推断为 <Object>
+Unused Compound Assignment	未使用的复合赋值
+@CheckReturnValue	@CheckReturnValue
+Unboxing possibly null value	拆箱可能为 null 的值
+Unboxing a null value	拆箱 null 值
+Report unboxing of unknown values	报告未知值的拆箱
+Additional Launcher JVM Options:	附加启动器 JVM 选项:
+Timeouts [s]\:	超时 [秒]:
+Startup:	启动:
+Shutdown:	关闭:
+Standard	标准
+IAM	IAM
+MariaDB (MySQL-compatible)	MariaDB (兼容 MySQL)
+Java DB (Embedded, version >= 10.15)	Java DB (嵌入式, 版本 >= 10.15)
+Java DB (Network, version >= 10.15)	Java DB (网络, 版本 >= 10.15)
+Oracle Thin	Oracle Thin
+Oracle OCI	Oracle OCI
+Microsoft SQL Server	Microsoft SQL Server
+Amazon Athena	Amazon Athena
+Amazon Redshift	Amazon Redshift
+{0}:{1}	{0}:{1}
+Select the identity file with the private key	选择包含私钥的身份文件
+Adding remote configuration	添加远程配置
+Remote Name	远程名称
+Remote URL	远程 URL
+Select Remote	选择远程
+No remote configured	未配置任何远程
+(more info: http://www.netbeans.org/kb/articles/freeform-config.html#compilesingle)	(更多信息: http://www.netbeans.org/kb/articles/freeform-config.html#compilesingle)
+(more info: http://www.netbeans.org/kb/articles/freeform-config.html#runsingle)	(更多信息: http://www.netbeans.org/kb/articles/freeform-config.html#runsingle)
+Must set property ''{0}''	必须设置属性 ''{0}''
+TODO decide on and define some value for ${build.classes.dir}	TODO 为 ${build.classes.dir} 确定并定义一个值
+{0}-IDE	{0}-IDE
+(more info: http://www.netbeans.org/kb/articles/freeform-config.html#debugj2se)	(更多信息: http://www.netbeans.org/kb/articles/freeform-config.html#debugj2se)
+TODO configure the runtime classpath for your project here:	TODO 在此配置项目的运行时类路径:
+TODO configure the main class for your project here:	TODO 在此配置项目的主类:
+(more info: http://netbeans.org/kb/articles/freeform-config.html#profilej2se)	(更多信息: http://netbeans.org/kb/articles/freeform-config.html#profilej2se)
+SQL {0}.sql	SQL {0}.sql
+-- Comment	-- Comment
+/* Comment */	/* Comment */
+'String'	'String'
+MyTable	MyTable
+25.23	25.23
+SELECT	SELECT
+'Incomplete String Literal	'Incomplete String Literal
+External Style Sheet	外部样式表
+&=	&=
+;	;
+Module Path	模块路径
+What modules this class is expected to be compiled against. Affects code completion and more.	此类预期针对哪些模块编译。会影响代码补全等。
+Module Classpath	模块类路径
+What legacy classpath this class is expected to be compiled against. Affects code completion and more.	此类预期针对哪些传统类路径编译。会影响代码补全等。
+Module Path Translated	模块路径 (已转换)
+What modules this class is expected to be compiled against. Affects code completion and more. Translated.	此类预期针对哪些模块编译。会影响代码补全等。已转换。
+Module Classpath Translated	模块类路径 (已转换)
+What legacy classpath this class is expected to be compiled against. Affects code completion and more. Translated.	此类预期针对哪些传统类路径编译。会影响代码补全等。已转换。
+Module Source Path	模块源路径
+Module Source Path for multi-module compilation	用于多模块编译的模块源路径
+Invalid Test Module Paths	无效的测试模块路径
+Invalid Test Class Paths	无效的测试类路径
+Keep Paths	保留路径
+Update Unit Test Paths to default {0} value?	是否将单元测试路径更新为默认值 {0}?
+modular	模块化
+non-modular	非模块化
+Integration test file	集成测试文件
+Debug integration test	调试集成测试
+Enable recommended javac &Warnings (-Xlint)	启用推荐的 javac 警告 (-Xlint)(&W)
+Target Release:	目标发行版:
+Compiler Plugin	编译器插件
+IDE Settings	IDE 设置
+JDK Settings	JDK 设置
+Show in Toolbar	在工具栏中显示
+&Copy...	复制(&C)...
+nodes_server_registry_node_html	nodes_server_registry_node_html
+<jsp:useBean id="" scope="page" class="" />	<jsp:useBean id="" scope="page" class="" />
+<jsp:getProperty name="" property="" />	<jsp:getProperty name="" property="" />
+<jsp:setProperty name="" property="" value="" />	<jsp:setProperty name="" property="" value="" />
+<html>&lt;c:if test=""&gt;<br>&lt;/c:if&gt;</html>	<html>&lt;c:if test=""&gt;<br>&lt;/c:if&gt;</html>
+<html>&lt;c:forEach var="" items=""&gt;<br>&lt;/c:forEach&gt;</html>	<html>&lt;c:forEach var="" items=""&gt;<br>&lt;/c:forEach&gt;</html>
+<html>&lt;sql:query var=""&gt;<br>&nbsp;&nbsp;SELECT column_name(s) FROM table_name<br>&lt;/sql:query&gt;</html>	<html>&lt;sql:query var=""&gt;<br>&nbsp;&nbsp;SELECT column_name(s) FROM table_name<br>&lt;/sql:query&gt;</html>
+Configuring {0} cluster	正在配置 {0} 集群
+Box Alignment	盒对齐
+Fragmentation	碎片化
+Positioning	定位
+Sizing	尺寸
+Containment	包含
+Logical properties and values	逻辑属性和值
+Overflow	溢出
+Filter Effects	滤镜效果
+Scroll Snap	滚动捕捉
+Images Module Level 4	图像模块级别 4
+Automatically replace invalid characters in new branch name	自动替换新分支名称中的无效字符
+Press Alt-Enter	按 Alt-Enter
+Fi&x Code...	修复代码(&X)...
+Hint invoked: {0}	已调用提示: {0}
+org/netbeans/modules/editor/hints/resources/suggestion.gif	org/netbeans/modules/editor/hints/resources/suggestion.gif
+No fixable error.	没有可修复的错误。
+Next Error in Editor	编辑器中的下一个错误
+\n----\n(Alt-Enter shows hints)	\n----\n(Alt-Enter 显示提示)
+Create try-with-resource resource "{0}"	创建 try-with-resource 资源 "{0}"
+Create for init variable "{0}"	创建 for 初始化变量 "{0}"
+Split compound declaration	拆分复合声明
+Convert to rule switch case	转换为规则式 switch 分支
+Enable Preview Feature and Set Source Level To {0}	启用预览特性并将源码级别设为 {0}
+Enable Preview Feature (Set Source Level To {0} Manually)	启用预览特性 (手动将源码级别设为 {0})
+When possible:	如果可能:
+Use java.lang.System.Logger	使用 java.lang.System.Logger
+Use existing declared logger of specified type	使用指定类型的现有已声明记录器
+#END

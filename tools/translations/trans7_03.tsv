@@ -1,0 +1,462 @@
+Explorer & Property Sheet API	资源管理器和属性表 API
+Various view for displaying node structures.	显示节点结构的各种视图。
+Explorer [{0}]	资源管理器 [{0}]
+Confirm Package Deletion	确认删除包
+Confirm Link Deletion	确认删除链接
+Browse from root	从根浏览
+Browse from current point	从当前位置浏览
+Selected Nodes	所选节点
+Rename editor	重命名编辑器
+Table of properties	属性表
+No property	无属性
+No property. Bean: {0}	无属性。Bean: {0}
+{0} Type: {1} Bean: {2}	{0} 类型: {1} Bean: {2}
+List Options	列表选项
+Change Visible Columns...	更改可见列...
+Move Left	左移
+Move Right	右移
+Columns Selector	列选择器
+Select visible columns	选择可见列
+Accessing {0} without Children.MUTEX read access	在没有 Children.MUTEX 读访问的情况下访问 {0}
+Select Columns to Search in:	选择要搜索的列:
+Exception in	异常发生于
+{0} is not a valid value for {1}.	{0} 不是 {1} 的有效值。
+(No Property Editor)	(无属性编辑器)
+Property Sheet	属性表
+No Item Available	无可用项
+Property Index:	属性索引:
+Exception in setter method of property: {0}	属性 setter 方法中的异常: {0}
+<no custom editor>	<无自定义编辑器>
+<no property editor>	<无属性编辑器>
+<Different Values>	<值不相同>
+Invokes customizer.	调用定制器。
+{0,choice,0#Invalid value {1}|1#{1}}	{0,choice,0#无效值 {1}|1#{1}}
+{0} Type: {1}{2,choice,0#|1# Bean: {3}|2# Beans: {3}}	{0} 类型: {1}{2,choice,0#|1# Bean: {3}|2# Beans: {3}}
+Move &up	上移(&U)
+Move &down	下移(&D)
+Indexed property value cannot be set	无法设置索引属性值
+Error setting value	设置值时出错
+Unknown Sorting Mode	未知排序模式
+Restore default value	恢复默认值
+Description of the currently selected property	当前所选属性的描述
+No description available.	无可用描述。
+The property	该属性
+{0} equals {1}	{0} 等于 {1}
+Property group {0}	属性组 {0}
+Multiple objects selected	已选择多个对象
+Show Description Area	显示描述区域
+Hide Description Area	隐藏描述区域
+Restore Default Value	恢复默认值
+this property	此属性
+Custom editor: {0}	自定义编辑器: {0}
+Properties table	属性表
+Property categories	属性类别
+Quick Search:	快速搜索:
+JavaFX wrapper	JavaFX 包装器
+FlatLaf Look and Feel	FlatLaf 观感
+JS on JVM	JS on JVM
+Maven JUnit UI	Maven JUnit UI
+Maven Hudson	Maven Hudson
+Maven Checkstyle	Maven Checkstyle
+No debugger engine available.	没有可用的调试器引擎。
+Class Load/Unload	类加载/卸载
+Spring Bean...	Spring Bean...
+Bean <b><code>{0}</b></code>	Bean <b><code>{0}</b></code>
+to&String()	to&String()
+Maven API	Maven API
+Maven related API.	Maven 相关 API。
+Disable "{0}" Hint	禁用 "{0}" 提示
+Configure "{0}" Hint	配置 "{0}" 提示
+Disable "{0}" Suggestion	禁用 "{0}" 建议
+Configure "{0}" Suggestion	配置 "{0}" 建议
+Suppress Warning - {0}	抑制警告 - {0}
+Java Hints SPI	Java 提示 SPI
+Refresh Hints	刷新提示
+XML DTD	XML DTD
+Include Subpackages	包含子包
+Maven ArtifactId	Maven ArtifactId
+setUpClass() / @BeforeClass	setUpClass() / @BeforeClass
+tearDownClass() / @AfterClass	tearDownClass() / @AfterClass
+"&if"\:	"&if"\:
+"&for"\:	"&for"\:
+"&while"\:	"&while"\:
+"&do ... while"\:	"&do ... while"\:
+"&else"	"&else"
+public class ClassA {private String name;}	public class ClassA {private String name;}
+public class ClassA {}	public class ClassA {}
+Code Generation Library Integration	代码生成库集成
+This module bundles Code Generation Library	此模块捆绑代码生成库
+Ant JUnit UI	Ant JUnit UI
+Javac API Wrapper	Javac API 包装器
+The javac public API	javac 公共 API
+Maven JUnit	Maven JUnit
+JAX-WS 2.3.5	JAX-WS 2.3.5
+Ant JUnit	Ant JUnit
+TopLink Essentials	TopLink Essentials
+Debu&gger:	调试器(&G):
+Maven Spring	Maven Spring
+Java Web Start	Java Web Start
+Web Start	Web Start
+Java Shell	Java Shell
+Projec&t:	项目(&T):
+&Class:	类(&C):
+dkdkd&ttt	dkdkd&ttt
+switch (<b>exp</b>) { ...| }	switch (<b>exp</b>) { ...| }
+try { ...| } catch(Exception e) { ... }	try { ...| } catch(Exception e) { ... }
+try { ...| } catch(Exception e) { ... } finally { ... }	try { ...| } catch(Exception e) { ... } finally { ... }
+try { ...| } finally { ... }	try { ...| } finally { ... }
+NetBeans Javac Library	NetBeans Javac 库
+Java Support APIs	Java 支持 API
+APIs for Java development support modules	Java 开发支持模块的 API
+Maven OSGi	Maven OSGi
+JShell VM Agent	JShell VM 代理
+VM Agent supporting JShell	支持 JShell 的 VM 代理
+KEY {0} : RB {1}	KEY {0} : RB {1}
+Spring Framework Library	Spring Framework 库
+Bundles the Spring Framework.	捆绑 Spring Framework。
+Spring Framework 5.3.31	Spring Framework 5.3.31
+Java API for Chrome DevTools protocol.	Chrome DevTools 协议的 Java API。
+Cordova Hello World	Cordova Hello World
+JavaScript2 Knockout	JavaScript2 Knockout
+&AVD:	AVD(&A):
+JavaScript2 Json	JavaScript2 Json
+JavaScript2 PrototypeJs	JavaScript2 PrototypeJs
+Bootstrap 2	Bootstrap 2
+CSS ID	CSS ID
+function() { ...| }	function() { ...| }
+"else", "else if"	"else", "else if"
+JavaScript2 ScriptDoc	JavaScript2 ScriptDoc
+Javascript2 Vue	Javascript2 Vue
+Nashorn Integration	Nashorn 集成
+JavaScript2 NodeJs	JavaScript2 NodeJs
+JavaScript2 ExtDoc	JavaScript2 ExtDoc
+GraalVM.js Integration	GraalVM.js 集成
+JsTestDriver JAR:	JsTestDriver JAR:
+JavaScript2 JSDoc	JavaScript2 JSDoc
+Knockout Model Provider API	Knockout 模型提供器 API
+V8 Debugging Protocol Library	V8 调试协议库
+V8 debugging protocol library	V8 调试协议库
+Java API for V8 debugging protocol.	V8 调试协议的 Java API。
+I/O Error: {0}	I/O 错误: {0}
+Parsing error of the V8 protocol: {0}	V8 协议解析错误: {0}
+No line number is specified.	未指定行号。
+Not a number: {0}	不是数字: {0}
+Wrong frame number: {0}	错误的帧号: {0}
+Wrong scope number: {0}	错误的作用域编号: {0}
+Missing an object handle.	缺少对象句柄。
+Wrong object handle: {0}	错误的对象句柄: {0}
+Configuration Properties:	配置属性:
+Version \= {0}	版本 \= {0}
+List of breakpoints:	断点列表:
+Break on all exceptions: {0}	在所有异常处中断: {0}
+break on uncaught exceptions: {0}	在未捕获异常处中断: {0}
+Breakpoint {0} added.	断点 {0} 已添加。
+Breakpoint {0} added at {1}	断点 {0} 已添加到 {1}
+Breakpoint {0} deleted.	断点 {0} 已删除。
+Program is running	程序正在运行
+No scripts are loaded.	未加载任何脚本。
+Loaded Scripts:	已加载脚本:
+Source line:\	源行:\
+Local Variables:	局部变量:
+Source from {0} to {1} lines, line count = {2}.	源码从第 {0} 行到第 {1} 行, 行数 = {2}。
+From {0} to {1} position.	从位置 {0} 到 {1}。
+No References.	无引用。
+Reference count = {0}:	引用计数 = {0}:
+Thread count = {0}	线程计数 = {0}
+\ \ id = {0}, current: {1}	\ \ id = {0}, 当前: {1}
+JavaScript2 jQuery	JavaScript2 jQuery
+JavaScript2 RequiereJs	JavaScript2 RequiereJs
+JavaScript2 ExtJS	JavaScript2 ExtJS
+Symfony 2/3	Symfony 2/3
+Zend: {0}	Zend: {0}
+Java CUP Integration	Java CUP 集成
+Java CUP 11a integration	Java CUP 11a 集成
+"&if", "else", "elseif"	"&if", "else", "elseif"
+"&for", "foreach"	"&for", "foreach"
+"&while", "do"	"&while", "do"
+"&switch"	"&switch"
+"&try", "catch", "finally"	"&try", "catch", "finally"
+"&else", "elseif"	"&else", "elseif"
+"matc&h"	"matc&h"
+Fluent Setter	流式 Setter
+PhpDocumentor 2	PhpDocumentor 2
+Symfony: {0}	Symfony: {0}
+{if ${condition}...{/if}	{if ${condition}...{/if}
+{if ${condition}...|{else}{/if}	{if ${condition}...|{else}{/if}
+PHP: {0}	PHP: {0}
+PHP Trait	PHP Trait
+Co&mposer:	Composer(&M):
+INSANE heap profiling library.	INSANE 堆分析库。
+{1}: <b>{0}</b>	{1}: <b>{0}</b>
+NetBeans CDDL/GPL	NetBeans CDDL/GPL
+JA&R:	JA&R:
+*.jar, *.zip	*.jar, *.zip
+C&lasspath:	类路径(&L):
+Gradle Tooling API	Gradle Tooling API
+Re&vert	还原(&V)
+&Group:	组(&G):
+Sub-&Projects:	子项目(&P):
+Gradle DSL	Gradle DSL
+&Label:	标签(&L):
+&Repeatable	可重复(&R)
+JavaFX Implementation for Windows (amd64)	Windows (amd64) 的 JavaFX 实现
+JDK JSObject	JDK JSObject
+JavaFX Implementation for mac OS (amd64)	mac OS (amd64) 的 JavaFX 实现
+JavaFX Implementation for mac OS (aarch64)	mac OS (aarch64) 的 JavaFX 实现
+JavaFX Implementation for Linux (aarch64)	Linux (aarch64) 的 JavaFX 实现
+JavaFX Implementation for Linux (amd64)	Linux (amd64) 的 JavaFX 实现
+Java Profiler (JFluid)	Java 分析器 (JFluid)
+Performing instrumentation, please wait...	正在执行插装, 请稍候...
+Connecting to the target VM...	正在连接目标 VM...
+Internal problem	内部问题
+Data transfer error during instrumentation calibration	插装校准期间的数据传输错误
+Instrumented/hotswapped total of {0} methods	共插装/热替换了 {0} 个方法
+Issued {0} non-empty InstrumentMethodGroup responses	发出了 {0} 个非空 InstrumentMethodGroup 响应
+Issued {0} empty InstrumentMethodGroup responses	发出了 {0} 个空 InstrumentMethodGroup 响应
+Issued {0} single method InstrumentMethodGroup responses	发出了 {0} 个单方法 InstrumentMethodGroup 响应
+Total run time\: {0} ms.	总运行时间\: {0} 毫秒。
+Performing calibration, please wait...	正在校准, 请稍候...
+EEEE, h\:mm\:ss a	EEEE, h\:mm\:ss a
+'Last' EEEE, h\:mm\:ss a	'上次' EEEE, h\:mm\:ss a
+'Yesterday,' h\:mm\:ss a	'昨天,' h\:mm\:ss a
+Filtered out	已过滤
+was blocked by	被...阻塞
+owned by	属主为
+Memory (Sampling)\: {0}	内存 (采样)\: {0}
+Memory (Allocations)\: {0}	内存 (分配)\: {0}
+Memory (Liveness)\: {0}	内存 (活跃度)\: {0}
+Objects allocated by reflection	通过反射分配的对象
+CPU\: {0}	CPU\: {0}
+<unnamed package>	<未命名包>
+Self time	自身耗时
+"Invalid methodId={0} (max. accomodated methodId is {1})"	"无效 methodId={0} (最大可容纳 methodId 为 {1})"
+File too short	文件过短
+Invalid HPROF version or format	无效的 HPROF 版本或格式
+Saved calibration data file is corrupted\:	保存的校准数据文件已损坏:
+shorter than expected	比预期短
+Original message\:	原始消息:
+Error writing saved calibration data file\:	写入保存的校准数据文件出错:
+Java Profiler (Charts)	Java 分析器 (图表)
+Invalid working directory specified\: {0}	指定的工作目录无效\: {0}
+Java Profiler (Common)	Java 分析器 (通用)
+Monitor Application	监视应用
+Analyze Performance	分析性能
+Analyze Memory	分析内存
+Java SE 5.0 (Update 4 and higher)	Java SE 5.0 (Update 4 及更高)
+Java SE 6.0	Java SE 6.0
+Java SE 7.0	Java SE 7.0
+Java SE 8.0	Java SE 8.0
+Java SE 9.0	Java SE 9.0
+Java SE 10.0 or newer	Java SE 10.0 或更高
+Windows, 32bit JVM	Windows, 32 位 JVM
+Windows, 64bit JVM	Windows, 64 位 JVM
+Windows, CVM	Windows, CVM
+Linux (Intel), 32bit JVM	Linux (Intel), 32 位 JVM
+Linux (Intel/AMD), 64bit JVM	Linux (Intel/AMD), 64 位 JVM
+Linux (ARM), 32bit JVM	Linux (ARM), 32 位 JVM
+Linux (ARM VFP HFLT), 32bit JVM	Linux (ARM VFP HFLT), 32 位 JVM
+Linux, CVM	Linux, CVM
+Solaris (x86), 32bit JVM	Solaris (x86), 32 位 JVM
+Solaris (x86), 64bit JVM	Solaris (x86), 64 位 JVM
+Solaris (Sparc), 32bit JVM	Solaris (Sparc), 32 位 JVM
+Solaris (Sparc), 64bit JVM	Solaris (Sparc), 64 位 JVM
+Mac OS X	Mac OS X
+Java SE 5 (JRE or JDK)	Java SE 5 (JRE 或 JDK)
+Java SE 6 (JRE or JDK)	Java SE 6 (JRE 或 JDK)
+Java SE 7 (JRE or JDK)	Java SE 7 (JRE 或 JDK)
+Java SE 8 (JRE or JDK)	Java SE 8 (JRE 或 JDK)
+Java SE 9 (JRE or JDK)	Java SE 9 (JRE 或 JDK)
+IntegrationUtils\: {0} to be copied not found	IntegrationUtils\: 未找到要复制的 {0}
+IntegrationUtils\: cannot delete {0}	IntegrationUtils\: 无法删除 {0}
+IntegrationUtils\: error copying {0} to {1}	IntegrationUtils\: 复制 {0} 到 {1} 出错
+IntegrationUtils\: cannot delete backup target {0}	IntegrationUtils\: 无法删除备份目标 {0}
+IntegrationUtils\: cannot backup {0} to {1}	IntegrationUtils\: 无法备份 {0} 到 {1}
+IntegrationUtils\: error during copying {0} to {1}\n{2}	IntegrationUtils\: 复制 {0} 到 {1} 时出错\n{2}
+IntegrationUtils\: cannot find {0} to restore {1}	IntegrationUtils\: 找不到 {0} 用于恢复 {1}
+IntegrationUtils\: cannot delete modified {0}	IntegrationUtils\: 无法删除已修改的 {0}
+IntegrationUtils\: cannot restore {0} to {1}	IntegrationUtils\: 无法把 {0} 恢复为 {1}
+Java Profiler (JFluid-UI)	Java 分析器 (JFluid-UI)
+Show or hide result columns	显示或隐藏结果列
+Time [%]	时间 [%]
+Waiting Time [%]	等待时间 [%]
+Waiting time	等待时间
+Waits count	等待次数
+View by:	查看方式:
+Search Threads	搜索线程
+Search Monitors	搜索监视器
+Show Allocation Stack Traces	显示分配堆栈跟踪
+Number of instances of this class	此类的实例数
+Stop Profiling this Class	停止分析此类
+Stop Profiling Classes below this Line	停止分析此行以下的类
+Stop profiling class {0}	停止分析类 {0}
+Stop profiling classes below class {0}	停止分析类 {0} 以下的类
+No stack traces are available	无可用堆栈跟踪
+Cannot show source for primitive array.	无法显示基本数组的源码。
+Method Name - Allocation Call Tree	方法名 - 分配调用树
+Show Allocations Stack Traces	显示分配堆栈跟踪
+Log Class History	记录类历史
+Export Objects	导出对象
+Allocated and Live Objects	已分配和活动对象
+Size of live instances	活动实例的大小
+Number of live instances	活动实例数
+Size of all allocated instances	所有已分配实例的大小
+Number of all allocated instances	所有已分配实例数
+Total number of all allocated instances	所有已分配实例总数
+Filter Classes	过滤类
+Filter Allocations	过滤分配
+Search Classes	搜索类
+Search Allocations	搜索分配
+Call Tree - Method	调用树 - 方法
+Call Tree - Method calls	调用树 - 方法调用
+Call Tree - Class	调用树 - 类
+Call Tree - Package	调用树 - 包
+Show Back Traces	显示反向跟踪
+Show Subtree	显示子树
+Live Code Fragment Results	活动代码片段结果
+Hot Spots - Method	热点 - 方法
+Hot Spots - Class	热点 - 类
+Hot Spots - Package	热点 - 包
+Package Name Filter	包名过滤器
+Self Time [%]	自身耗时 [%]
+No relevant data available.	无相关数据。
+Back Traces for {0}	{0} 的反向跟踪
+Back Traces for\: {0}	反向跟踪\: {0}
+Back Traces - Method	反向跟踪 - 方法
+Back Traces - Class	反向跟踪 - 类
+Back Traces - Package	反向跟踪 - 包
+Subtree for\: Method={1}; Thread={0}	子树\: 方法={1}; 线程={0}
+Subtree for\: {1}[{0}]	子树\: {1}[{0}]
+Subtree - Method	子树 - 方法
+Subtree - Invocation call tree	子树 - 调用树
+Subtree - Class	子树 - 类
+Subtree - Package	子树 - 包
+Forward Calls	正向调用
+Hot Spots	热点
+Reverse Calls	反向调用
+Find in Forward Calls	在正向调用中查找
+Find in Hot Spots	在热点中查找
+Find in Reverse Calls	在反向调用中查找
+Minimum number of invocations	最小调用次数
+Number of invocations	调用次数
+Filter Callees	过滤被调用者
+Filter Callers	过滤调用者
+Search Callees	搜索被调用者
+Search Callers	搜索调用者
+Show / Hide	显示 / 隐藏
+Show Only This Thread	仅显示此线程
+Hide This Thread	隐藏此线程
+Forward calls	正向调用
+Hot spots	热点
+Reverse calls	反向调用
+Select threads\:	选择线程:
+Select threads ({0} selected)	选择线程 (已选 {0} 个)
+Select threads (all selected)	选择线程 (已全选)
+No threads available	无可用线程
+Show all threads	显示所有线程
+Filter threads	过滤线程
+Merge selected threads	合并所选线程
+Show results for all threads	显示所有线程的结果
+Merge results for selected threads	合并所选线程的结果
+Profiler Snapshot File	分析器快照文件
+CSV File	CSV 文件
+XML File	XML 文件
+PNG Image	PNG 图像
+Cannot overwrite source file.	无法覆盖源文件。
+Failed to export snapshot:	导出快照失败:
+Failed to export image:	导出图像失败:
+No data to export.	无数据可导出。
+Overwrite Existing File	覆盖现有文件
+Overwrite existing file?	覆盖现有文件?
+Filter results ({0})	过滤结果 ({0})
+Close Filter sidebar ({0})	关闭过滤侧边栏 ({0})
+Entered regular expression is invalid:\n{0}	输入的正则表达式无效:\n{0}
+Filter type: {0}	过滤器类型: {0}
+Insert Defined Filter	插入已定义的过滤器
+No data to search.	无数据可搜索。
+Searched string not found.	未找到搜索的字符串。
+Find previous occurence ({0})	查找上一个匹配项 ({0})
+Find next occurence ({0})	查找下一个匹配项 ({0})
+Close Find sidebar ({0})	关闭查找侧边栏 ({0})
+Show or hide columns	显示或隐藏列
+Copy Row	复制行
+Extend Horizontally	水平扩展
+Shrink Horizontally	水平收缩
+Extend Vertically	垂直扩展
+Shrink Vertically	垂直收缩
+Default Size	默认大小
+Zoom Out to Fit Window	缩小以适配窗口
+EEE, MMM d	EEE, MMM d
+EEE, H	EEE, H
+EEE, H:mm	EEE, H:mm
+EEE, H:mm:ss	EEE, H:mm:ss
+EEE, H:mm:ss.SSS	EEE, H:mm:ss.SSS
+Zoom In (Mouse Wheel)	放大 (鼠标滚轮)
+Zoom Out (Mouse Wheel)	缩小 (鼠标滚轮)
+Fixed Scale (Mouse Wheel Click)	固定比例 (鼠标滚轮点击)
+Scale To Fit (Mouse Wheel Click)	缩放至适配 (鼠标滚轮点击)
+SQL Query	SQL 查询
+Command Type	命令类型
+Statement Type	语句类型
+SQL query and calling methods	SQL 查询及调用方法
+SQL Command Type	SQL 命令类型
+SQL Statement Type	SQL 语句类型
+other command	其他命令
+View SQL Query	查看 SQL 查询
+SQL Queries	SQL 查询
+Search SQL Queries	搜索 SQL 查询
+Search Invoking Methods	搜索调用方法
+No commands available	无可用命令
+No tables available	无可用表
+Filter SQL queries by substring ({0})	按子串过滤 SQL 查询 ({0})
+Filter SQL queries by used commands	按所用命令过滤 SQL 查询
+Filter SQL queries by referenced tables	按引用表过滤 SQL 查询
+Filter SQL queries by statement types	按语句类型过滤 SQL 查询
+Database ping	数据库 ping
+Select tables:	选择表:
+Filter tables	过滤表
+Unselect All	取消全选
+Java Reflection	Java 反射
+Filter\: {0}	过滤器\: {0}
+Apply filter	应用过滤器
+Clear filter	清除过滤器
+Results filter	结果过滤器
+Enter value to filter displayed results	输入值以过滤显示的结果
+Zoom in	放大
+Zoom out	缩小
+Scale to fit	缩放至适配
+Thread selection	线程选择
+Thread states timeline	线程状态时间线
+Time spent in Running state	运行状态耗时
+Time spent in Sleeping state	休眠状态耗时
+Time spent in Wait state	等待状态耗时
+Time spent in Park state	驻留状态耗时
+Time spent in Monitor state	监视状态耗时
+Total thread time	线程总时间
+Live threads	活动线程
+Finished threads	已结束线程
+Select thread	选择线程
+Unselect thread	取消选择线程
+<No Data>	<无数据>
+Max {0}	最大 {0}
+Heap Size	堆大小
+Used Heap	已用堆
+Surviving Generations	存留代数
+CPU Time	CPU 时间
+GC Time	GC 时间
+GC Intervals	GC 间隔
+CPU and GC	CPU 和 GC
+Garbage Collection	垃圾回收
+Threads and Classes	线程和类
+NetBeans ${nb.display.version.short}	NetBeans ${nb.display.version.short}
+Apache Tomcat ${tomcat.version}	Apache Tomcat ${tomcat.version}
+Apache Tomcat	Apache Tomcat
+JDK {display-version}	JDK {display-version}
+Oracle Corporation	Oracle Corporation
+Apache NetBeans IDE {display-version}	Apache NetBeans IDE {display-version}
+NetBeans IDE	NetBeans IDE
+Sun GlassFish Enterprise Server	Sun GlassFish Enterprise Server
+Groovy 3.0.25	Groovy 3.0.25
+Groovy Ant 3.0.25	Groovy Ant 3.0.25
+Maven Groovy	Maven Groovy
+Gradle Groovy	Gradle Groovy
+#END

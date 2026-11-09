@@ -1,0 +1,179 @@
+File {0} was changed to read-only! Can not save it.	文件 {0} 已被改为只读! 无法保存。
+Datasystems API	数据系统 API
+NetBeans Open API for manipulating data objects.	用于操作数据对象的 NetBeans 开放 API。
+{0} (\u2192)	{0} (\u2192)
+Name of the object this link refers to.	此链接所引用对象的名称。
+Name of the filesystem of the original object.	原始对象所在文件系统的名称。
+A list of files represented by this object.	此对象表示的文件列表。
+Determines how objects in the package should be sorted.	确定包中对象的排序方式。
+&Name of file to serialize the instance to	要将实例序列化到的文件名(&N)
+#{0} \"{1}\" [{2}:{3}]	#{0} \"{1}\" [{2}:{3}]
+Cannot create folder; {0} is not a valid name.	无法创建文件夹; {0} 不是有效名称。
+Could not remove source folder while moving.	移动时无法移除源文件夹。
+Java class name of the object being represented.	所表示对象的 Java 类名。
+There are problems with saving the {0} bean.	保存 {0} bean 时出现问题。
+The target filesystem or folder does not exist.	目标文件系统或文件夹不存在。
+&Select the category in which the new template will appear:	选择新模板将出现的类别(&S):
+Creation of the object from template failed.	从模板创建对象失败。
+There were some problems while saving {0}\nCause: {1}	保存 {0} 时出现问题\n原因: {1}
+Are you sure you want to overwrite {0}?	确定要覆盖 {0} 吗?
+API for defining generic tree-like structures.	用于定义通用树状结构的 API。
+Scripting API Integration	脚本 API 集成
+Used to bundle the Scripting APIs.	用于捆绑脚本 API。
+I/O APIs - Swing	I/O API - Swing
+Open APIs relating to displaying output.	与显示输出相关的开放 API。
+HTML UI API	HTML UI API
+Drag me to split this window horizontally or vertically.	拖动我可将此窗口水平或垂直拆分。
+JNA Platform	JNA 平台
+Bundles JNA platform library.	捆绑 JNA 平台库。
+This module bundles JNA platform library.	此模块捆绑 JNA 平台库。
+Scripting API Wrapper	脚本 API 包装
+API for managing components on a screen.	用于管理屏幕上组件的 API。
+Cannot assign component to EMPTY	无法把组件赋给 EMPTY
+Unknown close operation	未知的关闭操作
+Invoking {2} implemented as {3} with {0}	以 {0} 调用实现为 {3} 的 {2}
+JNA (OSGI)	JNA (OSGI)
+OSGI bridge to bundled JNA library.	指向捆绑 JNA 库的 OSGI 桥接。
+Progress API 8.0 Compatibility	Progress API 8.0 兼容性
+JUnit 4	JUnit 4
+Bundles the JUnit 4.x testing library.	捆绑 JUnit 4.x 测试库。
+Includes the JUnit 4.x unit testing library.	包含 JUnit 4.x 单元测试库。
+Service provider for ImageUtilities' SVGLoader interface.	ImageUtilities 的 SVGLoader 接口的服务提供者。
+ETable and Outline	ETable 和 Outline
+Select Visible Columns	选择可见列
+Choose the Columns to Display	选择要显示的列
+Actions APIs	操作 API
+Definition of common actions for NetBeans	NetBeans 通用操作的定义
+&Add {0}	添加 {0}(&A)
+&Dock View	停靠视图(&D)
+&Undock View	取消停靠视图(&U)
+&Clone View	克隆视图(&C)
+&Next View	下一个视图(&N)
+&Previous View	上一个视图(&P)
+Garbage Collect	垃圾回收
+Show Text	显示文本
+Drop Shadow	投影
+Overlay Grid	叠加网格
+Change Order...	更改顺序...
+Explore From &Here	从此处浏览(&H)
+{0} saved.	{0} 已保存。
+New From Template	从模板新建
+Click to force garbage collection	点击以强制垃圾回收
+{0} [{1}]	{0} [{1}]
+{0} <font color=''!controlShadow''>[{1}]	{0} <font color=''!controlShadow''>[{1}]
+I/O UI	I/O UI
+{0} - {1}	{0} - {1}
+Dark Look And Feel Themes	深色观感主题
+JUnit 5	JUnit 5
+Bundles the JUnit 5.x testing library.	捆绑 JUnit 5.x 测试库。
+Includes the JUnit 5.x unit testing library.	包含 JUnit 5.x 单元测试库。
+NetBeans in OSGi Runtime	OSGi 运行时中的 NetBeans
+Dialogs API	对话框 API
+Handles dialogs and wizards.	处理对话框和向导。
+Options Align	选项对齐
+Input line	输入行
+{0} wizard ({1})	{0} 向导 ({1})
+{0,choice,0#{1}: {2}|1#{0}. {1}: {2}}	{0,choice,0#{1}: {2}|1#{0}. {1}: {2}}
+Please wait.	请稍候。
+{0} - I/O	{0} - I/O
+E&xiting the IDE will terminate the following processes:	退出 IDE 将终止以下进程(&X):
+Process - {0}	进程 - {0}
+{0} action in progress	{0} 操作正在进行
+Core - Execution	核心 - 执行
+Implementation of the Execution engine.	执行引擎的实现。
+Add Director&y...	添加目录(&Y)...
+Add &JAR/ZIP...	添加 JAR/ZIP(&J)...
+JAR and ZIP Archives	JAR 和 ZIP 归档
+Edit JAR File	编辑 JAR 文件
+Edit Local Directory	编辑本地目录
+Add JAR File	添加 JAR 文件
+Add Local Directory	添加本地目录
+Arguments &Hint	参数提示(&H)
+Path Entries	路径条目
+List of path entries to be edited.	要编辑的路径条目列表。
+JNA Platform (OSGI)	JNA 平台 (OSGI)
+OSGI bridge to bundled JNA platform library.	指向捆绑 JNA 平台库的 OSGI 桥接。
+Common Annotations	通用注解
+Common annotations, namely for defect detection.	通用注解, 主要用于缺陷检测。
+Used to bundle the javax.inject APIs.	用于捆绑 javax.inject API。
+The module used to bundle the javax.inject APIs .	用于捆绑 javax.inject API 的模块。
+Register action in menu	在菜单中注册操作
+Register action in toolbar	在工具栏中注册操作
+Give action a keyboard shortcut	为操作指定键盘快捷方式
+Action for a file type	文件类型的操作
+UI Utilities API	UI 工具 API
+User interface utilities.	用户界面工具。
+Helper methods for various UI related   tasks.	用于各种 UI 相关任务的辅助方法。
+Unable to load menu {0}	无法加载菜单 {0}
+Unable to load menu item {0}	无法加载菜单项 {0}
+Exception during initialization of HTML browser module	初始化 HTML 浏览器模块时发生异常
+Swap panels	交换面板
+Reset split line	重置拆分线
+{0} ({1})	{0} ({1})
+Unknown host: {0}	未知主机: {0}
+No route to host: {0}	无法路由到主机: {0}
+Informational notifications	信息通知
+Warning notifications	警告通知
+Error notifications	错误通知
+Bundles JNA library.	捆绑 JNA 库。
+This module bundles JNA library.	此模块捆绑 JNA 库。
+Java SE	Java SE
+Hamcrest 1.3	Hamcrest 1.3
+JUnit 5.14.4	JUnit 5.14.4
+Internet Explorer	Internet Explorer
+Warning: File {0} was not found or could not be accessed.	警告: 未找到文件 {0} 或无法访问。
+You have specified an invalid file. Check the path.	指定的文件无效。请检查路径。
+Apache's Felix OSGi Implementation	Apache Felix OSGi 实现
+Filesystems NetBeans Client	文件系统 NetBeans 客户端
+Swing specific classes for Filesystems API	文件系统 API 的 Swing 专用类
+Swing specific progress visualization APIs.	Swing 专用的进度可视化 API。
+Progress API - Swing	Progress API - Swing
+Swing based task progress visualization APIs.	基于 Swing 的任务进度可视化 API。
+Progress API	Progress API
+Task progress visualization APIs.	任务进度可视化 API。
+Native Access	原生访问
+Bundles the TestNG testing library.	捆绑 TestNG 测试库。
+Includes the TestNG testing library.	包含 TestNG 测试库。
+Dashboard API	仪表板 API
+<empty dashboard>	<空仪表板>
+Execution API 8.0 Compatibility	Execution API 8.0 兼容性
+Scene Component	场景组件
+Scene view	场景视图
+Core Network	核心 - 网络
+NetBeans OSGi Integration	NetBeans OSGi 集成
+Execution API	Execution API
+Execution API from the Open APIs.	来自开放 API 的 Execution API。
+File Templates	文件模板
+Supports file creation based on templates	支持基于模板创建文件
+Quick Search API	快速搜索 API
+Recent Searches	最近的搜索
+Click or press Shift+F10 for Category selection	点击或按 Shift+F10 选择类别
+Search in {0}	在 {0} 中搜索
+All Categories	所有类别
+Right-click to de-select all other categories	右键取消选择其他所有类别
+Right-click to select all categories excluding this one	右键选择除此外的所有类别
+{0}; Press {1} for All Enabled Categories	{0}; 按 {1} 选择所有已启用类别
+Quick Search in the system {0}	在系统 {0} 中快速搜索
+Cannot display URL: {0}	无法显示 URL: {0}
+Intent API	意图 API
+Performing intended operations by suitable handlers	由合适的处理器执行预期操作
+M-R 	M-R 
+UI Handler Library	UI 处理器库
+{0} (<i>Toolbar Action</i>)	{0} (<i>工具栏操作</i>)
+{0} (<i>Menu Action</i>)	{0} (<i>菜单操作</i>)
+{0} (<i>Keyboard Action</i>)	{0} (<i>键盘操作</i>)
+{0} (<i>Exception</i>)	{0} (<i>异常</i>)
+Enabled Modules	已启用的模块
+Disabled Modules	已禁用的模块
+User Configuration	用户配置
+The tab control used by the window system	窗口系统使用的标签控件
+The NetBeans windowing system's tab control bean library	NetBeans 窗口系统的标签控件 bean 库
+Tab control to switch between tabs.	用于在标签页之间切换的标签控件。
+Bundles the Flatlaf Look and Feel library.	捆绑 FlatLaf 观感库。
+Includes the Flatlaf Look and Feel library.	包含 FlatLaf 观感库。
+Compatibility APIs	兼容性 API
+Some old classes that are now deprecated.	一些现已弃用的旧类。
+OSGi Specification	OSGi 规范
+I/O API and SPI	I/O API 和 SPI
+APIs and SPIs related to displaying output.	与显示输出相关的 API 和 SPI。
+#END

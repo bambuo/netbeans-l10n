@@ -1,0 +1,46 @@
+51	<code>empty</code> 检查变量是否为空:
+52	如果给定的数是偶数, <code>even</code> 返回 <code>true</code>:
+53	<code>iterable</code> 检查变量是否为数组或可遍历对象:
+54	如果变量为 <code>null</code>, <code>null</code> 返回 <code>true</code>:
+55	<code>none</code> 是 <code>null</code> 的别名。
+56	如果给定的数是奇数, <code>odd</code> 返回 <code>true</code>:
+57	<code>sameas</code> 检查变量是否指向与另一个变量相同的内存地址:
+58	<code>attribute</code> 可用于访问变量的 "动态" 属性:
+59	其解析算法与 . 表示法使用的算法相同, 只是其中的项可以是任何有效的表达式。
+60	当模板使用继承且你希望多次打印某个块时, 可以使用 <code>block</code> 函数:
+61	<code>constant</code> 返回给定字符串对应的常量值:
+62	<code>cycle</code> 函数在值数组上循环:
+63	数组可以包含任意数量的值:
+64	将参数转换为日期以便进行日期比较:
+65	参数必须是 date 函数支持的格式。
+66	可以将时区作为第二个参数传入:
+67	如果不传参数, 该函数将返回当前日期:
+68	可以通过在 <code>core</code> 扩展实例上调用 <code>setTimezone()</code> 来全局设置默认时区:
+69	<code>dump</code> 函数转储有关模板变量的信息。这对于通过内省变量来调试行为不符合预期的模板最为有用:
+70	<code>dump</code> 函数默认不可用。创建 Twig 环境时必须显式添加 <code>Twig_Extension_Debug</code> 扩展:
+71	即使已启用, 如果环境上的 debug 选项未启用, dump 函数也不会显示任何内容 (以避免在生产服务器上泄露调试信息)。
+72	在 HTML 上下文中, 请用 <code>pre</code> 标签包裹输出以便于阅读:
+73	当启用 XDebug 且 <code>html_errors</code> 为 <code>on</code> 时, 无需使用 <code>pre</code> 标签; 启用 XDebug 还能让输出更美观。
+74	可以通过将多个变量作为附加参数传入来调试它们:
+75	如果不传任何值, 将转储当前上下文中的所有变量:
+76	当模板使用继承时, 可以在覆盖某个块时使用 <code>parent</code> 函数渲染父块的内容:
+77	<code>parent()</code> 调用将返回 <code>base.html</code> 模板中定义的 <code>sidebar</code> 块的内容。
+78	<code>random</code> 函数根据提供的参数类型返回一个随机值:
+79	返回一个包含整数等差数列的列表:
+80	如果提供了 step (作为第三个参数), 它指定增量 (或减量):
+81	Twig 内置的 .. 运算符只是 <code>range</code> 函数的语法糖 (步长为 1):
+82	<code>in</code> 运算符执行包含性测试。<p>
+83	从导入的模板创建新变量。
+84	<code>is</code> 运算符执行测试。测试可用于针对常见表达式对变量进行测试。右操作数是测试的名称:
+85	当左操作数和右操作数都为 true 时返回 <code>true</code>。
+86	<code>abs</code> 过滤器返回绝对值。
+87	<code>capitalize</code> 过滤器将值首字母大写。第一个字符将变为大写, 其余字符变为小写:
+88	<code>convert_encoding</code> 过滤器将字符串从一种编码转换为另一种编码。第一个参数是预期的输出字符集, 第二个参数是输入字符集:
+89	此过滤器依赖于 iconv 或 mbstring 扩展, 因此必须安装其中之一。如果两者都已安装, 默认使用 mbstring (Twig 1.8.1 之前默认使用 iconv)。
+90	<code>date</code> 过滤器将日期格式化为给定的格式:
+91	<code>date</code> 过滤器接受字符串 (必须为 <a href="http://www.php.net/strtotime">strtotime</a> 函数支持的格式)、<a href="http://www.php.net/DateTime">DateTime</a> 实例或 <a href="http://www.php.net/DateInterval">DateInterval</a> 实例。例如, 要显示当前日期, 请过滤单词 "now":
+92	要转义日期格式中的单词和字符, 请在每个字符前使用 <code>\\\\</code>:
+93	还可以指定时区:
+94	如果未提供格式, Twig 将使用默认格式: <code>F j, Y H:i</code>。可以通过在 <code>core</code> 扩展实例上调用 <code>setDateFormat()</code> 方法轻松更改此默认值。第一个参数是日期的默认格式, 第二个参数是日期间隔的默认格式:
+95	也可以通过调用 <code>setTimezone()</code> 来全局设置默认时区:
+#END

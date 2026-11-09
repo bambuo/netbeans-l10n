@@ -1,0 +1,463 @@
+Distribution Files	发行版文件
+{0} Distribution Files	{0} 发行版文件
+Preparing project {0}	正在准备项目 {0}
+Reload Project	重新加载项目
+Reload {0} Projects	重新加载 {0} 个项目
+The $project_basedir/nb-configuration.xml file cannot be parsed. The information contained in the file will be ignored until fixed. This affects several features in the IDE that will not work properly as a result.\n\n The parsing exception follows:\n{0}	$project_basedir/nb-configuration.xml 文件无法解析。在修复之前, 文件中的信息将被忽略。这会导致 IDE 的多项功能无法正常工作。\n\n 解析异常如下:\n{0}
+The $project_basedir/nb-configuration.xml file contains some elements multiple times. That can happen when concurrent changes get merged by version control for example. The IDE however cannot decide which one to use. So until the problem is resolved manually, the affected configuration will be ignored.	$project_basedir/nb-configuration.xml 文件中某些元素出现了多次。例如版本控制合并并发更改时可能出现这种情况。但 IDE 无法决定使用哪一个。因此, 在手动解决问题之前, 受影响的配置将被忽略。
+Broken Platform.	平台损坏。
+Clean Before Delete ({0})	删除前清理 ({0})
+Unsupported Java Runtime	不受支持的 Java 运行时
+Priming Build Required.	需要引导构建。
+{0} Parameters	{0} 参数
+Apply Code Changes ({0})	应用代码更改 ({0})
+Build ({0})	构建 ({0})
+Debug ({0})	调试 ({0})
+Delete ({0})	删除 ({0})
+<html>The Java version: {0}, that is selected for the project is not supported by Gradle {2}.The IDE will attempt to use Gradle {3} to gather the project information.<p>Possible solutions:<ul><li>Upgrade your Gradle version on your project<li>Select Java Runtime {1} (or below), on Build&nbsp;>&nbsp;Gradle&nbsp;Execution settings, to avoid this problem!</ul>	<html>项目所选的 Java 版本 {0} 不受 Gradle {2} 支持。IDE 将尝试使用 Gradle {3} 收集项目信息。<p>可能的解决方法:<ul><li>升级项目中的 Gradle 版本<li>在 构建&nbsp;>&nbsp;Gradle&nbsp;执行 设置中选择 Java 运行时 {1} (或更低) 以避免此问题!</ul>
+In order to be able to read this project, NetBeans needs to execute its Gradle scripts as priming build.\n\nExecuting Gradle scripts allows arbitrary code execution, as current user, on this system.	为了读取此项目, NetBeans 需要以引导构建方式执行其 Gradle 脚本。\n\n执行 Gradle 脚本意味着允许以当前用户身份在本系统上执行任意代码。
+Broken nb-configuration.xml file.	nb-configuration.xml 文件损坏。
+Duplicate entries found in nb-configuration.xml file.	nb-configuration.xml 文件中发现重复条目。
+Profile ({0})	分析 ({0})
+Run ({0})	运行 ({0})
+Test ({0})	测试 ({0})
+Gradle {0} is being downloaded and installed.	正在下载并安装 Gradle {0}。
+Not a Trusted Project	非受信任项目
+Failed installing Gradle {0}	安装 Gradle {0} 失败
+<html><p>NetBeans is about to invoke a Gradle build process of the project: <b>{0}</b>.</p> <p>Executing Gradle can be potentially un-safe as it allows arbitrary code execution.</p>	<html><p>NetBeans 即将调用项目 <b>{0}</b> 的 Gradle 构建过程。</p> <p>执行 Gradle 可能不安全, 因为它允许执行任意代码。</p>
+<html><p>NetBeans is about to invoke a Gradle build process.</p> <p>Executing Gradle can be potentially un-safe as it allows arbitrary code execution.</p>	<html><p>NetBeans 即将调用 Gradle 构建过程。</p> <p>执行 Gradle 可能不安全, 因为它允许执行任意代码。</p>
+Trust &Permanently	永久信任(&P)
+Trust &All Projects	信任所有项目(&A)
+Revert configuration {0} settings to default ?	将配置 {0} 的设置恢复为默认值?
+Configuration ID cannot be empty.	配置 ID 不能为空。
+The ID {0} is already taken.	ID {0} 已被占用。
+Configuration ID contains invalid character(s)	配置 ID 含有无效字符
+Unable to save configurations.	无法保存配置。
+Build Actions	构建操作
+Gradle Execution	Gradle 执行
+Project Information	项目信息
+<html>This option is currently specificly controlled through your Gradle project (most likely through <b>gradle.properties</b>) by <br/> <b>netbeans.{0}</b> property.	<html>此选项目前由你的 Gradle 项目 (最可能是通过 <b>gradle.properties</b>) 的 <br/> <b>netbeans.{0}</b> 属性专门控制。
+Project Properties - {0} (Unloadable)	项目属性 - {0} (无法加载)
+This is a root project.	这是一个根项目。
+Building {0} failed.	构建 {0} 失败。
+Building {0} was success.	构建 {0} 成功。
+Java {0} (Default)	Java {0} (默认)
+Downloading Gradle {0}...	正在下载 Gradle {0}...
+Failed Downloading Gradle {0} from {1}	从 {1} 下载 Gradle {0} 失败
+Failed to modify Gradle user properties: {0}	修改 Gradle 用户属性失败: {0}
+Gradle internal IO problem has been detected.\nThe running build may or may not have finished succesfully.	检测到 Gradle 内部 IO 问题。\n正在运行的构建可能已完成, 也可能未完成。
+Aborting Build...	正在中止构建...
+Gradle Settings	Gradle 设置
+\nUpdate Gradle configuration ? Choose "Override" to apply detected proxy only to IDE operations.	\n更新 Gradle 配置? 选择 "覆盖" 可将检测到的代理仅应用于 IDE 操作。
+\nUpdate Gradle configuration ?	\n更新 Gradle 配置?
+Warning: {0} environment variable is replaced with the current Java platform path {1}.	警告: 环境变量 {0} 已被替换为当前 Java 平台路径 {1}。
+Gradle Network proxy removed	Gradle 网络代理已移除
+Gradle is configured for a proxy {0}, but the system does not require a proxy for network connections. Proxy settings should be removed from user gradle.properties.	Gradle 配置了代理 {0}, 但系统网络连接不需要代理。应从用户 gradle.properties 中移除代理设置。
+Gradle is not configured to use a network proxy, but the proxy {0} seems to be required for network communication. User gradle.properties should be updated to specify a proxy.	Gradle 未配置网络代理, 但网络通信似乎需要代理 {0}。应更新用户 gradle.properties 以指定代理。
+Gradle is configured to use a network proxy {1}, but the proxy {0} seems to be required for network communication. Proxy settings should be updated in user gradle.properties.	Gradle 配置的网络代理为 {1}, 但网络通信似乎需要代理 {0}。应在用户 gradle.properties 中更新代理设置。
+Gradle Network proxy set to: {0}	Gradle 网络代理已设为: {0}
+No valid Java Platform found for key: ''{0}''	未找到键 ''{0}'' 对应的有效 Java 平台
+Stop the currently executing build	停止当前正在执行的构建
+\nBUILD ABORTED\n	\n构建已中止\n
+Stop execution	停止执行
+Gradle Multi-Project Build	Gradle 多项目构建
+Click here to restart IDE and apply new settings.	点击此处重启 IDE 并应用新设置。
+Select Gradle Distribution	选择 Gradle 发行版
+Select Gradle User Home	选择 Gradle 用户主目录
+Static code verification for Groovy	Groovy 静态代码校验
+Unused import	未使用的导入
+[Exception] {1}: {0}	[异常] {1}: {0}
+Failed in {0,number,0.###} s.	用时 {0,number,0.###} 秒失败。
+Enter Password	输入密码
+Enter Username	输入用户名
+Make Preferred Connection	设为首选连接
+This is a TreeDiffViewer window	这是树状差异查看器窗口
+Files are identical	文件相同
+Modification time 1	修改时间 1
+Modification time 2	修改时间 2
+Pfad 1	路径 1
+Pfad 2	路径 2
+{0} #{1}	{0} #{1}
+List running processes	列出运行中的进程
+Inspecting container {0}	正在检查容器 {0}
+Listing running processes in container {0}	正在列出容器 {0} 中运行中的进程
+Processes in {0}	{0} 中的进程
+Duplicate keys: {0}	重复的键: {0}
+Key not specified	未指定键
+.env File not found	未找到 .env 文件
+Key contains space: {0}	键含空格: {0}
+Cannot establish connection, details: {0}	无法建立连接, 详情: {0}
+{0} ({1}%)	{0} ({1}%)
+Could not resolve issue link.	无法解析问题链接。
+Click to open {0} in Browser	点击在浏览器中打开 {0}
+Force push	强制推送
+Force push local branch to remote.	把本地分支强制推送到远程。
+&Force push	强制推送(&F)
+Conflicting change	冲突的更改
+There are conflicting changes in the target branch "{0}".\nDo you want to abort or force push?	目标分支 "{0}" 存在冲突的更改。\n要中止还是强制推送?
+Tag Delete    : {0}\nId            : {1}\nResult        : {2}\n	删除标签    : {0}\nId           : {1}\n结果         : {2}\n
+Tag {0} will be permanently removed from the remote repository.	标签 {0} 将被从远程仓库中永久移除。
+Branch {0} will be force pushed to the remote repository.	分支 {0} 将被强制推送到远程仓库。
+\ ({0})	\ ({0})
+{0}, {1}.	{0}, {1}.
+{0}, {1}, {2}.	{0}, {1}, {2}.
+{0}, {1}, {2}, {3}.	{0}, {1}, {2}, {3}.
+{0}, {1}, {2}, {3}, {4}.	{0}, {1}, {2}, {3}, {4}.
+{0}, {1}, {2}, {3}, {4}, {5}.	{0}, {1}, {2}, {3}, {4}, {5}.
+Internal Webserver (stopped)	内部 Web 服务器 (已停止)
+Internal Webserver (running)	内部 Web 服务器 (运行中)
+Internal Webserver for HTTP services of the IDE.	为 IDE 提供 HTTP 服务的内部 Web 服务器。
+Internal Webserver for HTTP services of the IDE.\n\nRunning on port {0,number,0}	为 IDE 提供 HTTP 服务的内部 Web 服务器。\n\n运行于端口 {0,number,0}
+{0} @{1}	{0} @{1}
+{0} #{1,number,#}	{0} #{1,number,#}
+Maps or Objects	映射或对象
+Tuples (List/Sets)	元组 (列表/集合)
+HCL Files	HCL 文件
+Attribute {0} has already defined	属性 {0} 已定义
+Duplicate Block Definition: {0}	重复的块定义: {0}
+{0} block needs {1,choice,0#no identifiers|1#one identifier|1<{1,number,integer} identifiers}.	{0} 块需要 {1,choice,0#无标识符|1#一个标识符|1<{1,number,integer} 个标识符}。
+Terraform Files	Terraform 文件
+No attributes expected at Terraform document level.	Terraform 文档层级不应有属性。
+Unknown block: {0}	未知块: {0}
+Variable {0} is already defined.	变量 {0} 已定义。
+Blocks are not supported in TFVars files.	TFVars 文件不支持块。
+Terraform Variables	Terraform 变量
+Toml File	TOML 文件
+Connect to Language Server	连接到语言服务器
+The LSP Server failed to start too many times in a short time, and will not be restarted anymore.	LSP 服务器短时间内启动失败次数过多, 将不再重启。
+Can't find the specified root directory	找不到指定的根目录
+The specified port is invalid	指定的端口无效
+Connecting to language server	正在连接语言服务器
+LSP Server for {0} failed to start too many times.	{0} 的 LSP 服务器启动失败次数过多。
+Renaming {0}	正在重命名 {0}
+Cannot perform rename here.	无法在此处执行重命名。
+Debuger Adapter Protocol (DAP) Debugger	调试适配器协议 (DAP) 调试器
+Default configuration	默认配置
+Language Servers	语言服务器
+lsp highlighting code completion	lsp 高亮代码补全
+Add Language Description	添加语言描述
+Icons (.png, .jpg, .gif)	图标 (.png、.jpg、.gif)
+Grammars (.json, .xml, .tmLanguage)	语法定义 (.json、.xml、.tmLanguage)
+Files of Markdown	Markdown 文件类型
+<html>Something happened during markdown parsing.	<html>Markdown 解析过程中出现问题。
+{1}: Loading project {0} requires {2} file(s) to be saved. Proceed ?	{1}: 加载项目 {0} 需要先保存 {2} 个文件。是否继续?
+Project {0} has (1) unsaved files.	项目 {0} 有 (1) 个未保存的文件。
+Error saving file {1}	保存文件 {1} 出错
+Error saving project {1}	保存项目 {1} 出错
+Project {0} has been concurrently modified	项目 {0} 已被并发修改
+Reloading project {0}	正在重新加载项目 {0}
+{0} is not a valid NetBeans project.	{0} 不是有效的 NetBeans 项目。
+{1} - {0}	{1} - {0}
+<no recent projects>	<没有最近的项目>
+Open Recent Project	打开最近的项目
+Recent Projects	最近的项目
+Resolution failed: {0}	解析失败: {0}
+Files of SVG	SVG 文件类型
+Text Tools	文本工具
+Text Tools Window	文本工具窗口
+<no recent files>	<没有最近的文件>
+Recent Files	最近的文件
+GraalVM node Debugger	GraalVM Node 调试器
+Debug GraalVM Node.js	调试 GraalVM Node.js
+Add &Logpoint	添加日志断点(&L)
+Logpoint at {0}.{1}:{2} {3}	日志断点位于 {0}.{1}:{2} {3}
+Add &Breakpoint...	添加断点(&B)...
+Add a breakpoint	添加断点
+{0} / {1}	{0} / {1}
+Default BigDecimal Formatter	默认 BigDecimal 格式化器
+Default BigInteger Formatter	默认 BigInteger 格式化器
+Default com.sun.source.tree.Tree Formatter	默认 com.sun.source.tree.Tree 格式化器
+Default com.sun.source.doctree.DocTree Formatter	默认 com.sun.source.doctree.DocTree 格式化器
+Can convert JSNI to @JavaScriptBody	可将 JSNI 转换为 @JavaScriptBody
+Convert JSNI to @JavaScriptBody	把 JSNI 转换为 @JavaScriptBody
+Cannot locate buildscript {0}	找不到构建脚本 {0}
+Some project files are unsaved.	部分项目文件未保存。
+<html>Use at least the version <b>0.7.5</b> of JaCoCo in your build to get code coverage metrics recognized.<br/><br/>Add the following line to your build script:<br/>jacoco.toolVersion = ''{0}''<br/><br/>then run a Clean and Test build to update the statistics.	<html>构建中至少使用 <b>0.7.5</b> 版本的 JaCoCo 才能识别代码覆盖率指标。<br/><br/>在构建脚本中添加:<br/>jacoco.toolVersion = ''{0}''<br/><br/>然后运行清理并测试构建以更新统计信息。
+Old JaCoCo execution data format.	过时的 JaCoCo 执行数据格式。
+<html><font color='!nb.errorForeground'>Broken Platform at {0}</font>	<html><font color='!nb.errorForeground'>{0} 处平台损坏</font>
+Annotation Processors	注解处理器
+Compiler Args	编译器参数
+Java Class Library with Gradle	使用 Gradle 的 Java 类库
+{1} ({0})	{1} ({0})
+{1} ({0} - {2})	{1} ({0} - {2})
+Apache NetBeans	Apache NetBeans
+Requested JDK not found.	未找到所请求的 JDK。
+Download OpenJDK (via Foojay.io Disco API)	下载 OpenJDK (通过 Foojay.io Disco API)
+No matching JDK found.	未找到匹配的 JDK。
+Connect to OpenJDK Discovery Service	连接到 OpenJDK 发现服务
+Could not load list. Please check network access or try again later.	无法加载列表。请检查网络连接或稍后再试。
+Code Blocks	代码块
+Inner Classes	内部类
+Javadoc Comments	Javadoc 注释
+Export As Image	导出为图像
+Export Dependency Graph As PNG	将依赖图导出为 PNG
+Fix Version Conflict...	修复版本冲突...
+Horizontal Tree	水平树
+Vertical Tree	垂直树
+Zoom To Fit	缩放至适配
+Conflicts with:<table><thead><tr><th>Version</th><th>Artifact</th></tr></thead><tbody>	冲突于:<table><thead><tr><th>版本</th><th>构件</th></tr></thead><tbody>
+Warning, older versions requested:<table><thead><tr><th>Version</th><th>Artifact</th></tr></thead><tbody>	警告, 请求了较旧版本:<table><thead><tr><th>版本</th><th>构件</th></tr></thead><tbody>
+Primary dependency path	主依赖路径
+Secondary dependency path	次依赖路径
+Conflict with <b>{0}</b> version required by <b>{1}</b>	与 <b>{1}</b> 要求的 <b>{0}</b> 版本冲突
+Warning, older version <b>{0}</b> requested by <b>{1}</b>	警告, <b>{1}</b> 要求的较旧版本 <b>{0}</b>
+Conflict with {0} version required by {1}	与 {1} 要求的 {0} 版本冲突
+Warning, overridden by {0} version required by {1}	警告, 被 {1} 要求的 {0} 版本覆盖
+Variable {0} is neither read or written to	变量 {0} 既未被读取也未被写入
+Variable {0} is never read	变量 {0} 从未被读取
+{0} is never used	{0} 从未被使用
+Constructor is never used	构造器从未被使用
+Variable {0} is never written to	变量 {0} 从未被写入
+Change compound assignment to operation	把复合赋值改为运算
+Remove unused constructor	移除未使用的构造器
+Remove unused "{0}"	移除未使用的 "{0}"
+Rename the variable to '_'	把变量重命名为 '_'
+The target variable's value is never used	目标变量的值从未被使用
+Also detect unused package private elements	同时检测未使用的包私有元素
+Array instance printed with java.lang.IO	用 java.lang.IO 打印的数组实例
+Will also detect package private elements that are unused	同时检测未使用的包私有元素
+Add Default Case	添加默认分支
+Add parameter to constructor {0}	为构造器 {0} 添加参数
+Initialize variable {0} in constructor(s)	在构造器中初始化变量 {0}
+Put string concatenation in lambda	把字符串拼接放入 lambda
+The Example Matches the Regular Expression	示例匹配正则表达式
+Need more input to match	需要更多输入才能匹配
+The example does not match the Regular Expression.	示例不匹配该正则表达式。
+{0} substring(s) match the Regular Expression	{0} 个子串匹配该正则表达式
+Check Regex	检查正则
+Converts to switch expression	转换为 switch 表达式
+Can Use Executors.newThreadPerTaskExecutor	可使用 Executors.newThreadPerTaskExecutor
+Can Use Virtual Thread Executor	可使用虚拟线程执行器
+Check regular expression	检查正则表达式
+Text block can be converted to String	文本块可转换为字符串
+instanceof pattern can be used here	此处可使用 instanceof 模式
+instanceof <record pattern> can be used here	此处可使用 instanceof <记录模式>
+switch pattern matching <pattern> can be used here	此处可使用 switch 模式匹配 <pattern>
+Can be converted to text block	可转换为文本块
+Declare the project''s source level ({0})	声明项目的源码级别 ({0})
+Declare the source level {0}	声明源码级别 {0}
+Override getSupportedSourceVersion() and return SourceVersion.latest()	重写 getSupportedSourceVersion() 并返回 SourceVersion.latest()
+Override getSupportedSourceVersion() and return project''s source level ({0})	重写 getSupportedSourceVersion() 并返回项目源码级别 ({0})
+Use the source level {0}	使用源码级别 {0}
+Use the project's source level ({0})	使用项目源码级别 ({0})
+Convert to String	转换为字符串
+Use instanceof pattern	使用 instanceof 模式
+Use instanceof record pattern	使用 instanceof 记录模式
+Convert to rule switch	转换为规则式 switch
+Use switch pattern matching <pattern>	使用 switch 模式匹配 <pattern>
+Convert to text block	转换为文本块
+Replace explicit type with var	把显式类型替换为 var
+Annoration declares older source version than the project source level.	注解声明的源码版本低于项目源码级别。
+No @SupportedSourceVersion is declared, the default (1.6) is older than project source level.	未声明 @SupportedSourceVersion, 默认值 (1.6) 低于项目源码级别。
+This is a Check Regex window	这是正则检查窗口
+Convert var to explicit type	把 var 转换为显式类型
+Explict type can be replaced with 'var'	显式类型可替换为 'var'
+Replace with {0}.valueOf()	替换为 {0}.valueOf()
+Replace usage of deprecated boxed primitive constructors with factory methods.	把已弃用的装箱构造器使用替换为工厂方法。
+Explicit parameter types can be used	可使用显式参数类型
+Block as the lambda's body can be used	可使用代码块作为 lambda 体
+Lambda expression can be used	可使用 lambda 表达式
+Support SourceVersion.latest()	支持 SourceVersion.latest()
+Obtaining javadoc	正在获取 Javadoc
+Obtaining source	正在获取源码
+Starts the Java Debug Adapter Server	启动 Java 调试适配器服务器
+Starts the Java Language Server	启动 Java 语言服务器
+Cannot parse '{0}' as connection. Use 'stdio', 'listen:<port>' or 'connect:<port>'	无法把 '{0}' 解析为连接方式。请使用 'stdio'、'listen:<端口>' 或 'connect:<端口>'
+Cannot parse '{1}' as port in '{0}'	无法把 '{0}' 中的 '{1}' 解析为端口
+Show all JDK modules	显示全部 JDK 模块
+Show only direct JDK dependencies	仅显示直接 JDK 依赖
+Hide all JDK modules	隐藏全部 JDK 模块
+Computing Dependencies...	正在计算依赖...
+Refreshing Dependencies...	正在刷新依赖...
+Requires JDK {0}	需要 JDK {0}
+Missing JDK for compliance {0}	缺少 {0} 级别所需的 JDK
+mx build {0}	mx build {0}
+mx build {0} --only {1}	mx build {0} --only {1}
+Cannot generate {0} file	无法生成 {0} 文件
+mx clean {0}	mx clean {0}
+mx rebuild {0}	mx rebuild {0}
+mx unittest {0}	mx unittest {0}
+Executable Files	可执行文件类型
+Enable {0} in Plugins Manager	在插件管理器中启用 {0}
+Native Imige File is missing.	原生镜像文件缺失。
+Native Debugger Dependency	原生调试器依赖
+Module - {0} - {1}	模块 - {0} - {1}
+J2SE - {0}	J2SE - {0}
+Select Tool (langtools only)	选择工具 (仅 langtools)
+Provide valid interfaces.	请提供有效的接口。
+Provide a valid superclass.	请提供有效的父类。
+Class {0} already present	类 {0} 已存在
+Code is not a valid class	代码不是有效的类
+Unable to create file {0}	无法创建文件 {0}
+{0} is not proper Java identifier	{0} 不是合法的 Java 标识符
+Install nb-javac	安装 nb-javac
+<html>No supported javac library available. Most Java editing features are disabled. Please either:<ul><li>install nb-javac library (<b>highly recommended</b>)</li><li>run NetBeans on JDK 27 or later</li></ul>	<html>没有可用的受支持 javac 库。大部分 Java 编辑功能已禁用。请任选其一:<ul><li>安装 nb-javac 库 (<b>强烈推荐</b>)</li><li>在 JDK 27 或更高版本上运行 NetBeans</li></ul>
+It is recommended to install nb-javac Library to improve Java editing experience and enable compile on save.	建议安装 nb-javac 库以改善 Java 编辑体验并启用保存时编译。
+nb-javac library	nb-javac 库
+Java features limited	Java 功能受限
+<anonymous class based on {0}>	<基于 {0} 的匿名类>
+Javadoc comment	Javadoc 注释
+Execute or save a script	执行或保存脚本
+Error: {0} is not a valid Java class name	错误: {0} 不是合法的 Java 类名
+Error: class name has not been specified	错误: 未指定类名
+Error executing saved snippets: {0}	执行已保存代码片段出错: {0}
+Error during class creation: {0}. See the log for the details.	创建类时出错: {0}。详情见日志。
+Error: no place to generate class, set up a Source folder	错误: 无处生成类, 请设置源文件夹
+Error: existing package must be selected	错误: 必须选择现有包
+Project is not selected	未选择项目
+Class template not found; chech Templates in Tools menu.	找不到类模板; 请检查 "工具" 菜单中的模板。
+Java version: {0}	Java 版本: {0}
+System information	系统信息
+Classpath Info	类路径信息
+Command output	命令输出
+Greeting Message	问候消息
+Note: The class already exists. It will be overwritten.	注意: 类已存在, 将被覆盖。
+Attempting to stop Java Shell execution	正在尝试停止 Java Shell 执行
+Execute saved script	执行已保存的脚本
+Save current snippets...	保存当前代码片段...
+Could not open generated file {0}.java in editor	无法在编辑器中打开生成的文件 {0}.java
+Evaluating, please wait...	正在求值, 请稍候...
+Executing, please wait	正在执行, 请稍候
+Executing {0}, please wait	正在执行 {0}, 请稍候
+Loading and initializing Java Shell. Please wait...	正在加载并初始化 Java Shell。请稍候...
+Copy Snippets to Class	把代码片段复制到类
+Class creation failed	创建类失败
+Open Java Platform Shell	打开 Java 平台 Shell
+No suitable Java Platform configured. Do you want to configure Java Shell now ?	未配置合适的 Java 平台。要现在配置 Java Shell 吗?
+Error starting Java Shell: {0}	启动 Java Shell 出错: {0}
+Java Shell for {0}	{0} 的 Java Shell
+Control connection with JShell VM is broken, could not connect to agent	与 JShell 虚拟机的控制连接已中断, 无法连接到代理
+Connection to Java Shell agent broken. Please re-run the project.	与 Java Shell 代理的连接已中断。请重新运行项目。
+The JShell VM is not ready for operation	JShell 虚拟机尚未就绪
+Error connecting to Java Shell agent: {0}	连接 Java Shell 代理出错: {0}
+Execute Java Shell	执行 Java Shell
+Could not build the project	无法构建项目
+Invalid reference class name	无效的引用类名
+The selected class has no suitable mebers	所选类没有合适的成员
+Project build failed, please check Output window	项目构建失败, 请查看输出窗口
+&Open Java Shell for {0,choice,-1#Main Project|0#Project|1#Project ({1})|1<{0} Projects}	打开 {0,choice,-1#主项目|0#项目|1#项目 ({1})|1<{0} 个项目}的 Java Shell(&O)
+Java Shell - {0}	Java Shell - {0}
+\n\tcaused by: {0}	\n\t原因: {0}
+Could not initialize JShell: {0}	无法初始化 JShell: {0}
+Could not build source for file {0}	无法为文件 {0} 构建源码
+File must contain exactly one toplevel class	文件必须恰好包含一个顶层类
+Location: {0}	位置: {0}
+Note: You may need to restart the Java Shell to resume proper operation	注意: 可能需要重启 Java Shell 才能恢复正常运行
+Error output:	错误输出:
+Standard output:	标准输出:
+Java Shell cannot execute commands. Restart Java Shell or its host process.	Java Shell 无法执行命令。请重启 Java Shell 或其宿主进程。
+The Java Shell VM is not reachable. You may only use shell commands, or re-run the target process.	Java Shell 虚拟机不可达。只能使用 Shell 命令, 或重新运行目标进程。
+The Java Shell VM has closed the connection. You may use shell slash-commands, or re-run the process.	Java Shell 虚拟机已关闭连接。可以使用 Shell 斜杠命令, 或重新运行进程。
+The remote Java Shell has terminated. Restart the Java Shell to continue	远程 Java Shell 已终止。请重启 Java Shell 以继续
+Add module {0} to ModuleInfo	把模块 {0} 添加到 ModuleInfo
+Modules are not supported with maven-compiler-plugin < 3.6.	maven-compiler-plugin < 3.6 不支持模块。
+Marks the artifact if there is a new version available and provides a version upgrde fix.<p>Upgrades of major versions can be optionally omitted.</p>	当构件有新版本可用时予以标记, 并提供版本升级修复。<p>可选择忽略主版本升级。</p>
+Matching source/target options can be replaced with a single release option (JEP 247). This enforces API compatibility with the chosen Java release.	匹配的 source/target 选项可替换为单一 release 选项 (JEP 247)。这将强制 API 与所选 Java 发行版兼容。
+upgrade to:	升级到:
+Convert to release option for strict compatibility checks.	转换为 release 选项以进行严格兼容性检查。
+New version available:	有新版本可用:
+Go to parent POM declaration	转到父 POM 声明
+Mark artifact upgrade opportunities.	标记构件升级机会。
+Convert matching source/target javac options to the release option.	把匹配的 source/target javac 选项转换为 release 选项。
+Wrong maven-compiler-plugin version.	maven-compiler-plugin 版本有误。
+Update maven-compiler-plugin version.	更新 maven-compiler-plugin 版本。
+Grant permission for maven index downloads from ''{0}''.<br/><br/><a href="allow">Allow</a> or <a href="deny">deny</a> downloads for this repository. Or <a href="disable">disable</a> all index downloads globally.<br/><br/A repository index contains artifact metadata which is useful for some NetBeans features.	允许从 ''{0}'' 下载 Maven 索引。<br/><br/><a href="allow">允许</a>或<a href="deny">拒绝</a>该仓库的下载。或<a href="disable">禁用</a>所有索引下载。<br/><br/仓库索引包含构件元数据, 对 NetBeans 的某些功能有用。
+Index Download Permission Request for ''{0}''	''{0}'' 的索引下载权限请求
+{0} (Integration)	{0} (集成)
+{0} (Integration) #{1}	{0} (集成) #{1}
+{0} (Unit)	{0} (单元)
+{0} (Unit) #{1}	{0} (单元) #{1}
+Edit Global Goals...	编辑全局目标...
+Edit Project Goals...	编辑项目目标...
+Surefire 2.22.0 is required to run a single test method with JUnit5.	用 JUnit5 运行单个测试方法需要 Surefire 2.22.0。
+Feature requires update of POM	该特性需要更新 POM
+<html>Project {0} contains module-info.java, but modules need maven-compiler-plugin >= 3.6.<br/>Update your pom.xml?</html>	<html>项目 {0} 包含 module-info.java, 但模块需要 maven-compiler-plugin >= 3.6。<br/>要更新 pom.xml 吗?</html>
+<html>Executing single test method with JUnit 5 requires Surefire 2.22.0. <br/><br/>Update your pom.xml?</html>	<html>用 JUnit 5 运行单个测试方法需要 Surefire 2.22.0。<br/><br/>要更新 pom.xml 吗?</html>
+{0} (provided)	{0} (provided)
+{0} - disabled	{0} - 已禁用
+One of Run/Debug/Profile Project actions has been modified and the Run panel cannot be safely edited	运行/调试/分析项目操作之一已被修改, 运行面板无法安全编辑
+{0} (Maven default)	{0} (Maven 默认)
+Build cancelled by the user	构建已被用户取消
+Could not locate and open settings file: {0}	无法定位并打开设置文件: {0}
+Could not create settings directory: {0}	无法创建设置目录: {0}
+Could not disable proxy id {0}, host {1}	无法禁用代理 {0} (主机 {1})
+Could not enable proxy id {0}, host {1}	无法启用代理 {0} (主机 {1})
+Could not add proxy host {0}	无法添加代理主机 {0}
+Could not override the proxy: {0}	无法覆盖代理: {0}
+Failed to modify Maven user properties: {0}	修改 Maven 用户属性失败: {0}
+\nUpdate Maven configuration ? Choose "Override" to apply detected proxy only to IDE operations.	\n更新 Maven 配置? 选择 "覆盖" 可将检测到的代理仅应用于 IDE 操作。
+\nUpdate Maven configuration ?	\n更新 Maven 配置?
+Option: {0} requires value to be present	选项: {0} 需要提供值
+Maven Network proxy removed	Maven 网络代理已移除
+Maven is configured for a proxy {0}, but the system does not require a proxy for network connections. Proxy settings should be removed from maven settings.xml.	Maven 配置了代理 {0}, 但系统网络连接不需要代理。应从 Maven settings.xml 中移除代理设置。
+Maven is not configured to use a network proxy, but the proxy {0} seems to be required for network communication. Maven settings.xml should be updated to specify a proxy.	Maven 未配置网络代理, 但网络通信似乎需要代理 {0}。应更新 Maven settings.xml 以指定代理。
+Maven is configured to use a network proxy {1}, but the proxy {0} seems to be required for network communication. Proxy settings should be updated in maven settings.xml.	Maven 配置的网络代理为 {1}, 但网络通信似乎需要代理 {0}。应在 Maven settings.xml 中更新代理设置。
+Maven Network proxy set to: {0}	Maven 网络代理已设为: {0}
+Update of proxy configuration failed	代理配置更新失败
+Warning: A space in project path or module name may prevent mvnw wrapper to function properly.	警告: 项目路径或模块名中的空格可能导致 mvnw wrapper 无法正常工作。
+Package name can not end in '.'.	包名不能以 '.' 结尾。
+Project Folder is not a directory.	项目文件夹不是目录。
+No artifactId attribute specified for the Maven project	Maven 项目未指定 artifactId 属性
+No groupId attribute specified for the Maven project	Maven 项目未指定 groupId 属性
+Building project {0}	正在构建项目 {0}
+Failed to build project {0}	构建项目 {0} 失败
+Priming project {0}	正在引导项目 {0}
+Failed to prime project {0}	引导项目 {0} 失败
+Creating a new project	正在创建新项目
+Add to ModuleInfo	添加到 ModuleInfo
+Select Maven User Settings XML File	选择 Maven 用户设置 XML 文件
+ask again	再次询问
+Modules are not supported with maven-compiler-plugin < 3.6. (Click to fix in pom.xml)	maven-compiler-plugin < 3.6 不支持模块。(点击在 pom.xml 中修复)
+Priming build was completed.	引导构建已完成。
+Priming build failed. Please check project build output and resolve problems manually.	引导构建失败。请检查项目构建输出并手动解决问题。
+There is no Java Platform with value "{0}" defined in the current IDE. The default platform is used instead. To fix, introduce a Java Platform with the given name or change the project's used Java Platform.	当前 IDE 中没有值为 "{0}" 的 Java 平台, 已改用默认平台。要修复, 请创建指定名称的 Java 平台或更改项目所用的 Java 平台。
+Proxy setup failed: {0}	代理设置失败: {0}
+Sanity build cancelled	完整性构建已取消
+Invalid Java Platform: {0}	无效的 Java 平台: {0}
+Cannot construct dependency graph	无法构建依赖图
+Not all artifacts are available locally, run priming build.	并非所有构件都在本地可用, 请运行引导构建。
+Cannot resolve project dependencies	无法解析项目依赖
+Project {0} is missing artifacts: {1}.	项目 {0} 缺少构件: {1}。
+Project {0} needs to download artifacts: {1}.	项目 {0} 需要下载构件: {1}。
+Project {0} was not able to resolve or acquire artifacts: {1}.	项目 {0} 无法解析或获取构件: {1}。
+Model building failed	模型构建失败
+Project {0} is missing its parent artifact ({1}) is missing.	项目 {0} 缺少其父构件 ({1})。
+Priming build of {0} failed.	{0} 的引导构建失败。
+Priming of {0} failed, artifact(s) {1} could not be still resolved.	{0} 引导失败, 构件 {1} 仍无法解析。
+Priming build for {0} is required, but offline operation was requested.	{0} 需要引导构建, 但请求了离线操作。
+Cannot move {0} into itself.	无法把 {0} 移入其自身。
+Generating TestNG tests	正在生成 TestNG 测试
+<i>{0}<font color='gray'> - {1}</font></i>	<i>{0}<font color='gray'> - {1}</font></i>
+<fx:copy source=""	<fx:copy source=""
+<b><font color='#000099'>{0}</font></b>	<b><font color='#000099'>{0}</font></b>
+<fx:reference source=""	<fx:reference source=""
+Cannot execute `instruments -s devices`: {0}	无法执行 `instruments -s devices`: {0}
+Unrecognized device: {0}	无法识别的设备: {0}
+Loaded data are corrupted!	已加载的数据已损坏!
+Warning: No network connection. This wizard is based on Maven.\nTo work properly it needs a network connection. Please check your network settings: {0}\n	警告: 无网络连接。此向导基于 Maven。\n正常工作需要网络连接。请检查网络设置: {0}\n
+Loading devices...	正在加载设备...
+FlatLaf Options	FlatLaf 选项
+What's New?	有什么新功能?
+Community Help	社区帮助
+Switch to FlatLaf Dark	切换到 FlatLaf 深色
+Reset to FlatLaf Light	重置为 FlatLaf 浅色
+Install Plugins	安装插件
+Useful Links	实用链接
+Show Dash on Startup	启动时显示仪表板
+Keyboard Shortcuts	键盘快捷键
+Apache NetBeans website	Apache NetBeans 网站
+Open FlatLaf options panel.	打开 FlatLaf 选项面板。
+Check for IDE and plugin updates.	检查 IDE 和插件更新。
+Open the plugin manager	打开插件管理器
+Show dash on startup of the IDE.	在 IDE 启动时显示仪表板。
+Show and edit keyboard shortcuts.	显示并编辑键盘快捷键。
+Look & Feel	观感
+Learn & Discover	学习与发现
+Features & Plugins	特性与插件
+Change theme accent color and more in the options panel.	在选项面板中更改主题强调色等。
+The default NetBeans theme is FlatLaf Light. You could also try FlatLaf Dark.	NetBeans 默认主题为 FlatLaf 浅色。你也可以试试 FlatLaf 深色。
+Apache NetBeans activates features as you use them - just start creating and opening projects.	Apache NetBeans 会随使用激活特性 - 直接开始创建和打开项目即可。
+Add support for additional languages and technologies by installing community plugins.	通过安装社区插件添加对更多语言和技术的支持。
+Theme changes require restart.	主题更改需要重启。
+Click here to restart IDE and apply your theme change.	点击此处重启 IDE 并应用主题更改。
+#END

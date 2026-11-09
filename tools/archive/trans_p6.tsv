@@ -1,0 +1,106 @@
+361	如果设置, 验证器将检查底层文件的 MIME 类型是否等于给定的 MIME 类型 (如果为字符串), 或存在于给定的 MIME 类型集合中 (如果为数组)。
+362	可以在 IANA 网站上找到现有 MIME 类型的列表。
+363	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The file is too large ({{ size }}). Allowed maximum size is {{ limit }}</code>
+364	如果文件大于 <code>maxSize</code> 选项, 则显示此消息。
+365	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The mime type of the file is invalid ({{ type }}). Allowed mime types are {{ types }}</code>
+366	如果文件的 MIME 类型不符合 <code>mimeTypes</code> 选项, 则显示此消息。
+367	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The file could not be found</code>
+368	如果在给定路径找不到文件, 则显示此消息。仅当底层值是字符串路径时才可能出现此错误, 因为无法用无效的文件路径构造 <code>File</code> 对象。
+369	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The file is not readable</code>
+370	如果文件存在, 但 PHP <code>is_readable</code> 函数在传入文件路径时失败, 则显示此消息。
+371	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The file is too large. Allowed maximum size is {{ limit }}</code>
+372	如果上传的文件大于 PHP.ini 中的 <code>upload_max_filesize</code> 设置, 则显示此消息。
+373	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The file is too large</code>
+374	如果上传的文件大于 HTML 文件输入字段所允许的大小, 则显示此消息。
+375	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The file could not be uploaded</code>
+376	如果由于未知原因 (例如上传失败或无法写入磁盘) 无法上传文件, 则显示此消息。
+377	<code>Image</code> 约束的工作方式与 <code>File</code> 约束完全相同, 只是它的 <code>mimeTypes</code> 和 <code>mimeTypesMessage</code> 选项会自动设置为专门针对图像文件工作。
+378	此外, 从 Symfony 2.1 起, 它还提供了一些选项, 可以针对图像的宽度和高度进行验证。
+379	关于此约束的大部分文档, 参见 <code>File</code> 约束。
+380	此约束最常用于将在表单中呈现为文件表单类型的属性。例如, 假设你正在创建一个作者表单, 可以为作者上传 "头像" 图像。在表单中, <code>headshot</code> 属性将是 <code>file</code> 类型。为保证 <code>headshot</code> <code>File</code> 对象是有效的图像且尺寸介于某个范围之间, 可以添加以下内容:
+381	<code>headshot</code> 属性经过验证以保证它是真实图像, 且宽度和高度介于某个范围之间。
+382	此约束与 <code>File</code> 约束共享所有选项。不过, 它修改了两个默认选项值, 并添加了若干其他选项。
+383	<strong>类型</strong>: <code>array | string</code> <strong>默认值</strong>: <code>image/*</code>
+384	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This file is not a valid image</code>
+385	如果设置, 图像文件的宽度必须大于或等于此值 (以像素为单位)。
+386	如果设置, 图像文件的宽度必须小于或等于此值 (以像素为单位)。
+387	如果设置, 图像文件的高度必须大于或等于此值 (以像素为单位)。
+388	如果设置, 图像文件的高度必须小于或等于此值 (以像素为单位)。
+389	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The size of the image could not be detected</code>
+390	如果系统无法确定图像的大小, 将显示此错误。只有当四个尺寸约束选项中至少有一个被设置时才会发生。
+391	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The image width is too big ({{ width }}px). Allowed maximum width is {{ max_width }}px</code>
+392	当图像宽度超过 <code>maxWidth</code> 时的错误消息。
+393	<strong>类型</strong>: <code>string</strong> <strong>默认值</strong>: <code>The image width is too small ({{ width }}px). Minimum width expected is {{ min_width }}px</code>
+394	当图像宽度小于 <code>minWidth</code> 时的错误消息。
+395	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The image height is too big ({{ height }}px). Allowed maximum height is {{ max_height }}px</code>
+396	当图像高度超过 <code>maxHeight</code> 时的错误消息。
+397	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>The image height is too small ({{ height }}px). Minimum height expected is {{ min_height }}px</code>
+398	当图像高度小于 <code>minHeight</code> 时的错误消息。
+399	Callback 断言的目的是让你创建完全自定义的验证规则, 并将任何验证错误指定到对象的特定字段。如果你在表单中使用验证, 这意味着可以让这些自定义错误显示在特定字段旁边, 而不是简单地在表单顶部显示。
+400	此过程通过指定一个或多个<i>回调</i>方法来工作, 每个方法都会在验证过程中被调用。这些方法可以做任何事情, 包括创建和指定验证错误。
+401	回调方法会收到一个特殊的 <code>ExecutionContext</code> 对象。可以直接在此对象上设置 "违规" (violations), 并确定这些错误应归因于哪个字段:
+402	<strong>类型</strong>: <code>array</code> <strong>默认值</strong>: <code>array()</code> [默认选项]
+403	这是应在验证过程中执行的方法数组。每个方法可以是以下格式之一:
+404	<strong>字符串方法名</strong>
+405	如果方法名是一个简单字符串 (例如 <code>isAuthorValid</code>), 该方法将在被验证的同一对象上调用, 并且 <code>ExecutionContext</code> 是唯一的参数 (参见上面的示例)。
+406	<strong>静态数组回调</strong>
+407	每个方法也可以指定为标准的数组回调:
+408	在此情况下, 静态方法 <code>isAuthorValid</code> 将在 <code>Acme\\BlogBundle\\MyStaticValidatorClass</code> 类上调用。它会同时收到被验证的原始对象 (例如 <code>Author</code>) 和 <code>ExecutionContext</code>:
+409	如果通过 PHP 指定 <code>Callback</code> 约束, 还可以选择让回调成为 PHP 闭包或非静态回调。但目前无法将服务指定为约束。要通过服务进行验证, 应创建一个自定义验证约束, 并将该新约束添加到你的类中。
+410	应用于数组 (或 <code>Traversable</code> 对象) 时, 此约束允许你对数组的每个元素应用一组约束。
+411	假设你有一个字符串数组, 想要验证数组中的每一项:
+412	现在, <code>favoriteColors</code> 数组中的每一项都将被验证为不为空白且长度至少为 5 个字符。
+413	此必填选项是要应用于底层数组每个元素的验证约束数组。
+414	此验证用于验证输入值是否等于当前已认证用户的密码。这在用户可以更改密码但出于安全考虑需要输入旧密码的表单中非常有用。
+415	假设你有一个 PasswordChange 类, 用于用户可以通过输入旧密码和新密码来更改密码的表单。此约束将验证旧密码是否与用户当前的密码匹配:
+416	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>This value should be the user current password</code>
+417	这是当底层字符串<b>不</b>匹配当前用户密码时显示的消息。
+418	此约束用于对作为属性嵌入到被验证对象中的对象启用验证。这允许你验证一个对象及其所有关联的子对象。
+419	在下面的示例中, 创建两个类 <code>Author</code> 和 <code>Address</code>, 它们的属性上都有约束。此外, <code>Author</code> 在 <code>address</code> 属性中存储一个 <code>Address</code> 实例。
+420	使用此映射, 仍然可以成功验证带有无效地址的作者。为防止这种情况, 请将 <code>Valid</code> 约束添加到 <code>address</code> 属性。
+421	如果你现在验证带有无效地址的作者, 可以看到 Address 字段的验证失败了。
+422	AcmeHelloBundleAuthor.address.zipCode: This value is too long. It should have 5 characters or less
+423	<strong>类型</strong>: <code>string</code> <strong>默认值</strong>: <code>true</code>
+424	如果此约束应用于保存对象数组的属性, 则只有在此选项设为 <code>true</code> 时, 该数组中的每个对象才会被验证。
+425	此注解让你可以定义在调用方法之前执行的表达式。
+426	此注解让你可以定义谁被允许调用方法。
+427	此注解让你可以为传递给方法的参数定义限制。仅当参数是领域对象时才有用。
+428	此注解让你可以为方法返回的值定义限制。同样仅当返回值是领域对象时才有用。
+429	此注解让你可以指定仅在方法调用期间添加的角色。这些角色不会在调用前或调用后的访问决策中被考虑。
+430	这通常用于实现双层服务层: 你拥有公共服务和私有服务, 私有服务只能通过特定的公共服务调用。
+431	必须在覆盖了具有安全元数据的方法的方法上定义此注解。这是为了确保你了解被覆盖方法的安全性无法再被强制执行, 并且如果要保留这些注解, 必须将它们全部复制过来。
+432	<code>@Route</code> 注解将路由模式映射到控制器。
+433	<code>Post</code> 控制器的 <code>index</code> 操作现在映射到 <code>/</code> URL。这等价于以下 YAML 配置。
+434	与任何路由模式一样, 可以定义占位符、要求和默认值。
+435	还可以通过定义额外的 <code>@Route</code> 注解来匹配多个 URL。
+436	路由需要像任何其他路由资源一样被导入才能生效 (注意注解类型)。
+437	还可以导入整个目录。
+438	与任何其他资源一样, 可以将路由 "挂载" 到给定的前缀下。
+439	使用 <code>@Route</code> 注解定义的路由会被赋予一个默认名称, 由捆绑包名、控制器名和操作名组成。对于上面的示例, 该名称为 <code>sensio_blog_post_index</code>。
+440	<code>name</code> 属性可用于覆盖此默认路由名称。
+441	控制器类上的 <code>@Route</code> 注解为所有操作路由定义一个前缀。
+442	<code>show</code> 操作现在映射到 <code>/blog/{id}</code> 模式。
+443	有一个快捷的 <code>@Method</code> 注解用于指定路由允许的 HTTP 方法。要使用它, 请导入 <code>Method</code> 注解命名空间。
+444	如果使用的 HTTP 方法是 <code>GET</code> 或 <code>POST</code>, <code>edit</code> 操作现在映射到 <code>/blog/edit/{id}</code> 模式。
+445	只有当操作带有 <code>@Route</code> 注解时, <code>@Method</code> 注解才会被考虑。
+446	<code>@ParamConverter</code> 注解调用<i>转换器</i>将请求参数转换为对象。这些对象存储为请求属性, 因此可以作为控制器方法参数注入。
+447	底层会发生以下几件事:
+448	如果像上面的示例那样使用类型提示, 甚至可以完全省略 <code>@ParamConverter</code> 注解。
+449	该捆绑包只有一个内置转换器, 即 <code>Doctrine</code> 转换器。
+450	<b><code>Doctrine</code> 转换器</b>
+451	默认情况下, <code>Doctrine</code> 转换器使用默认的实体管理器。可以通过 <code>entity_manager</code> 选项进行配置。
+452	所有转换器都必须实现 <code>ParamConverterInterface</code>。
+453	当能够转换给定的配置 (一个 <code>ParamConverter</code> 实例) 时, <code>supports()</code> 方法必须返回 <code>true</code>。
+454	<code>ParamConverter</code> 实例包含有关注解的三项信息:
+455	只要支持某个配置, 就会调用 <code>apply()</code> 方法。它应根据请求属性设置一个名为 <code>$configuration->getName()</code> 的属性, 其中存储 <code>$configuration->getClass()</code> 类的对象。
+456	<code>@Template</code> 注解将控制器与模板名称关联起来。
+457	使用 <code>@Template</code> 注解时, 控制器应返回一个要传递给视图的参数数组, 而不是 <code>Response</code> 对象。
+458	如果模板以控制器名和操作名命名 (上面的示例即是如此), 甚至可以省略注解值。
+459	而且, 如果要传递给模板的唯一参数就是方法参数, 可以使用 <code>vars</code> 属性而不是返回数组。这与 <code>@ParamConverter</code> 注解结合使用时非常有用。
+460	借助约定, 它等价于以下配置。
+461	由于所有方法参数都会自动传递给模板, 因此如果方法返回 <code>null</code> 且未定义 <code>vars</code> 属性, 可以让代码更加简洁。
+462	<code>@Cache</code> 注解让定义 HTTP 缓存变得容易。
+463	还可以在类上使用该注解来为所有方法定义缓存。
+464	当类配置和方法配置之间存在冲突时, 后者覆盖前者。
+465	下面是接受的属性及其对应的 HTTP 头的列表:
+#END

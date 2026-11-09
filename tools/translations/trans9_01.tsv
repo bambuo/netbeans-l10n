@@ -1,0 +1,212 @@
+T&op	顶部(&T)
+&Left	左侧(&L)
+&Bottom	底部(&B)
+&Right	右侧(&R)
+Same background color for files from the same project	同一项目的文件使用相同背景色
+Show parent folder name in tab title	在标签页标题中显示父文件夹名
+Same back&ground color for files from the same project	同一项目的文件使用相同背&景色
+Multi-ro&w tabs	多行标签页(&W)
+Supports alternate document tab placement (left/right/bottom), allows multiple rows of tabs etc.	支持备用的文档标签页位置 (左/右/底部), 允许多行标签页等。
+Dark Metal	深色 Metal
+Dark Nimbus	深色 Nimbus
+<html><a href="#">Click here to restart IDE and apply your selected look and feel.	<html><a href="#">点击此处重启 IDE 并应用所选观感。
+<html>Show all installed look and feels.<br>Other look and feels may not be recommended or supported.	<html>显示所有已安装的观感。<br>其他观感可能不受推荐或支持。
+When a document is closed then the most recent document becomes active	关闭文档后, 最近的文档将成为活动文档
+Represents a mode and allows its rename	代表一个模式, 并允许重命名
+Adds classes implementing the window system part of the APIs.	添加实现窗口系统 API 部分的类。
+Top component {0} could not be located or loaded from 'Components' folder.	无法从 "Components" 文件夹定位或加载顶层组件 {0}。
+Settings of top component {0} could not be saved	顶层组件 {0} 的设置无法保存
+Cannot copy component settings file to folder {0}.	无法把组件设置文件复制到文件夹 {0}。
+Component {0} could not be saved due to problems with its serialization.	组件 {0} 因序列化问题无法保存。
+Component {0} could not be opened due to problems with its deserialization.	组件 {0} 因反序列化问题无法打开。
+Close &Other	关闭其他(&O)
+&Full Screen	全屏(&F)
+&Transparent Window	透明窗口(&T)
+Press and hold [Ctrl+NumPad 0] key to make minimized window transparent.	按住 [Ctrl+小键盘 0] 可使最小化窗口变为透明。
+P&roperties	属性(&R)
+Descri&ption:	描述(&P):
+Swi&tch to Document	切换到文档(&T)
+C&lose Document(s)	关闭文档(&L)
+&Save Documents(s)	保存文档(&S)
+{0} - Editor	{0} - 编辑器
+{0,choice,0#No Properties|1#{1} - Properties|2#Multiple Objects - Properties}	{0,choice,0#无属性|1#{1} - 属性|2#多个对象 - 属性}
+{0,choice,0#Properties|1#{1} - Properties|2#Multiple Objects - Properties}	{0,choice,0#属性|1#{1} - 属性|2#多个对象 - 属性}
+Nodes cannot be loaded into the property sheet. They probably no longer exist.	无法把节点加载到属性表中, 它们可能已不存在。
+<html>Shift + click to close all documents<br>Alt + click to close other documents	<html>Shift + 点击可关闭所有文档<br>Alt + 点击可关闭其他文档
+&Small Toolbar Icons	小工具栏图标(&S)
+&Customize	定制(&C)
+&New Toolbar...	新建工具栏(&N)...
+Drag items to or from the toolbars to add or remove them...	在工具栏之间拖动条目以添加或移除...
+Customize Toolbars	定制工具栏
+Drag items from here to toolbars.	把条目从此处拖到工具栏。
+Actions Pool	操作池
+Toolbar Customizer	工具栏定制器
+Close Button	关闭按钮
+New Toolbar Button	新建工具栏按钮
+Small Icons Checkbox	小图标复选框
+New Toolbar	新建工具栏
+Toolbar {0} already exists.	工具栏 {0} 已存在。
+Other Editors	其他编辑器
+Customizer Dialog	定制器对话框
+Yes button	是按钮
+Warning: {0}	警告: {0}
+Question {0}	询问 {0}
+Information {0}	信息 {0}
+No button	否按钮
+Help button	帮助按钮
+General options, Proxy settings, Editor settings	常规选项、代理设置、编辑器设置
+View Java Packages as:	Java 包显示方式:
+Internet Explorer	Internet Explorer
+No Prox&y For\:	不使用代理的主机(&Y):
+Proxy Settings\:	代理设置:
+&Web Browsers\:	Web 浏览器(&B):
+Browsers list	浏览器列表
+List of Web Browsers	Web 浏览器列表
+<html><i>Direct connection.</i></html>	<html><i>直接连接。</i></html>
+Proxy Settings,Web Browser,General Options, Usage Statistics	代理设置,Web 浏览器,常规选项,使用统计
+advanced proxy	高级代理
+web browser	web 浏览器
+All Other Unspecified	所有其他未指定项
+Connection failed ({0})	连接失败 ({0})
+NOTE: See https://netbeans.apache.org/wiki/ProxyBasicAuth  if your proxy uses Basic auth.	注意: 如果你的代理使用基本认证, 请参阅 https://netbeans.apache.org/wiki/ProxyBasicAuth 。
+Ignored Files Pattern	忽略文件模式
+Open as...	打开方式...
+File Extensions,File Types,MIME Types,Ignored Files,Source Scanning	文件扩展名,文件类型,MIME 类型,忽略文件,源码扫描
+Cli&pboard	剪贴板(&P)
+&Performance	性能(&P)
+Profile the Application	分析应用
+Stop Application Profiling and Take a Snapshot	停止分析应用并生成快照
+Self Sampler is not available.	自身采样器不可用。
+Open in System	在系统中打开
+Locate in System	在系统中定位
+Open as Tab	作为标签页打开
+Open Parent as Tab	父级作为标签页打开
+Total physical memory {0}	物理内存总计 {0}
+Main Window Activated, refresh took {0} ms	主窗口已激活, 刷新耗时 {0} 毫秒
+Main Window Deactivated	主窗口已停用
+Refresh cancelled for {0} time	刷新已取消 {0} 次
+The basic framework of NetBeans-based applications.	基于 NetBeans 的应用的基础框架。
+View By:	查看方式:
+Select View by Actions to Edit Shortcuts for an Action	选择 "按操作查看" 来为操作编辑快捷方式
+New Shortcut	新建快捷方式
+Edit Shortcuts	编辑快捷方式
+Select View by Shortcuts, but for Edit Shortcuts should be View by Action selected	请选择 "按快捷方式查看"; 而编辑快捷方式时应选择 "按操作查看"
+Add New Shortcuts for Actions	为操作添加新快捷方式
+Remove Shortcuts for Actions	移除操作的快捷方式
+Fill Shorcut	填写快捷方式
+Fill Shorcut by Keys combination	通过按键组合填写快捷方式
+Add new shortcut to the selected action	为所选操作添加新快捷方式
+< &Previous	< 上一条(&P)
+{0}*********** Exception occurred ************ at {1,time,short} on {1,date,medium}	{0}*********** 发生异常 ************ 于 {1,date,medium} {1,time,short}
+SDI Mode	SDI 模式
+MDI Mode	MDI 模式
+No Workspaces	无工作区
+AWT Event Dispatch Thread is blocked for {0} ms	AWT 事件分发线程被阻塞 {0} 毫秒
+Authentication Required	需要认证
+Proxy password	代理密码
+Show and Report Problem	显示并报告问题
+{0} version {1} running on {2}	{0} 版本 {1} 运行于 {2}
+Simple HTML Browser based on a Swing component	基于 Swing 组件的简单 HTML 浏览器
+Cannot create Swing HTML Browser.	无法创建 Swing HTML 浏览器。
+Swing HTML Browser	Swing HTML 浏览器
+The size cannot be negative	大小不能为负数
+Invalid value entered	输入的值无效
+Invalid value {0} entered	输入的 {0} 值无效
+Invalid value entered. \n    Cause: {0}	输入的值无效。\n    原因: {0}
+Value of {0} should be in format {1}	{0} 的值应采用 {1} 格式
+AWT Palette	AWT 调色板
+Swing Palette	Swing 调色板
+System Palette	系统调色板
+"{0}" is not a valid color identifier.  You may enter Swing or AWT constants or red/green/blue values.	"{0}" 不是有效的颜色标识符。可输入 Swing 或 AWT 常量, 或红/绿/蓝值。
+Active Caption	活动标题
+Active Caption Border	活动标题边框
+Active Caption Text	活动标题文本
+Control Dk Shadow	控件深阴影
+Control Highlight	控件高亮
+Control Lt Highlight	控件浅高亮
+Control Shadow	控件阴影
+Control Text	控件文本
+Inactive Caption	非活动标题
+Inactive Caption Border	非活动标题边框
+Inactive Caption Text	非活动标题文本
+Info Text	信息文本
+Menu Text	菜单文本
+Text Highlight	文本高亮
+Text Highlight Text	高亮文本
+Text Inactive Text	非活动文本
+Text Text	普通文本
+Window Border	窗口边框
+Window Text	窗口文本
+Fon&t:	字体(&T):
+Font St&yle:	字体样式(&Y):
+<null value>	<空值>
+<null item>	<空项>
+&X:	X 坐标(&X):
+&Y:	Y 坐标(&Y):
+Enter the property text here	在此输入属性文本
+Editor for string properties	字符串属性编辑器
+Storing to XML failed because the value of font is not initialized.	存储到 XML 失败, 因为字体值未初始化。
+Select a File or Directory	选择文件或目录
+Select a File	选择文件
+Select a Directory	选择目录
+Warning: comments will be discarded.	警告: 注释将被丢弃。
+&Item:	项(&I):
+Item &List	项列表(&L)
+Non integer input value:	输入值不是整数:
+Illegal string kmsgey "	非法的字符串键 "
+" - valid values are: "	" - 有效值为: "
+Unknown class: {0}	未知类: {0}
+Not a legal value: {0}	非法值: {0}
+Not a recognized URL: {0}	无法识别的 URL: {0}
+Null, or an empty array	null 或空数组
+Available options	可用选项
+Select an object	选择对象
+The quick brown fox jumps over the lazy dog	敏捷的棕色狐狸跃过懒狗
+A simple text area based output window implementation	基于简单文本区域的输出窗口实现
+Output window based on a java.swing.text.Document over a     ByteBuffer/CharBuffer	基于 java.swing.text.Document 并置于 ByteBuffer/CharBuffer 之上的输出窗口
+Cannot write to system temp directory ({0})	无法写入系统临时目录 ({0})
+Problem writing to output file	写入输出文件时出错
+{0} exists.  Overwrite?	{0} 已存在。要覆盖吗?
+Save Output As	输出另存为
+Save as failed	另存为失败
+End of the ouput reached. Continuing search from beginning.	已到达输出末尾, 从开头继续搜索。
+Beginning of the ouput reached. Continuing search from end.	已到达输出开头, 从末尾继续搜索。
+''{0}'' found at {1}:{2}	在 {1}:{2} 找到 ''{0}''
+''{0}'' not found	未找到 ''{0}''
+Regular &Expression	正则表达式(&E)
+Keep lines containing:	保留包含以下内容的行:
+&Filter	过滤器(&F)
+Default Font	默认字体
+Overwrite file?	覆盖文件?
+Invalid Regular Expression	无效的正则表达式
+Syntax error in {0}	{0} 中存在语法错误
+Save As...	另存为...
+Find Next	查找下一个
+Find Previous	查找上一个
+Output Folds	输出折叠
+...line is too long, please switch to wrapped mode to see whole line...	...行过长, 请切换到换行模式以查看整行...
+&Input	输入(&I)
+&Close Input	关闭输入(&C)
+Closes the input component and sends end-of-file to any readers	关闭输入组件并向所有读取者发送文件结束符
+Enter text and press enter to send it to the running process	输入文本并按回车, 将其发送到正在运行的进程
+(Does not apply to wrapped text)	(不适用于已换行的文本)
+Allows definition of new views that display   structures created using Nodes API.	允许定义显示由 Nodes API 创建的结构的各种新视图。
+An Explorer view must not veto the empty selection.	资源管理器视图不得否决空选择。
+A node selection cannot contain nodes ({0}) not underneath the root ({1}).	节点选择不能包含不在根 ({1}) 之下的节点 ({0})。
+Are you sure you want to delete {0} and all of its contents?	确定删除 {0} 及其全部内容吗?
+Are you sure you want to delete {0} (link to {3})?	确定删除 {0} (链接到 {3}) 吗?
+In-place editor of node name in the tree view	树视图中节点名称的就地编辑器
+Target did not accept the content of the transfer.	目标不接受传输的内容。
+There are no columns to change their visibility.	没有可更改可见性的列。
+The value could not be set. {0} is not a valid value for {1}.	无法设置该值。{0} 不是 {1} 的有效值。
+The property could not be set. {0} is not a valid value for {1}.	无法设置该属性。{0} 不是 {1} 的有效值。
+Provides help about the object whose properties are displayed in the property sheet	提供属性表中显示的对象的帮助
+[PropertyPanel:UserInfo]Using property >>{0}<< at design time throws an exception.	[PropertyPanel:UserInfo] 在设计时使用属性 >>{0}<< 会抛出异常。
+Exception in setter method of property {0}:\n{1}	属性 {0} 的 setter 方法发生异常:\n{1}
+The selected nodes have different values for this property.	所选节点在此属性上的值不同。
+Name of the property currently being edited	当前正在编辑的属性的名称
+Visual divider between the properties table and the description area.	属性表与描述区域之间的可视分隔条。
+Click, or select and press CTRL-SPACE to open custom editor; right click for menu	点击, 或选中后按 CTRL-空格 打开自定义编辑器; 右键显示菜单
+Table of editable properties representing the current object	表示当前对象的可编辑属性表
+Can select different sets of properties of the current    object to display in the property sheet	可选择当前对象的不同属性集显示在属性表中
+#END

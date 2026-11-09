@@ -1,0 +1,217 @@
+Language feature not compatible with PHP version indicated in project settings	语言特性与项目设置中指定的 PHP 版本不兼容
+Detected language features not compatible with PHP version indicated in project settings	检测到语言特性与项目设置中指定的 PHP 版本不兼容
+Convert to nested record pattern	转换为嵌套记录模式
+Check Regular Expression	检查正则表达式
+JSNI to @JavaScriptBody	JSNI 转 @JavaScriptBody
+Convert to instanceof pattern	转换为 instanceof 模式
+Convert to instanceof <record pattern>	转换为 instanceof <记录模式>
+Convert to switch pattern matching <pattern>	转换为 switch 模式匹配 <pattern>
+Convert to Text Block	转换为文本块
+Run Gradle	运行 Gradle
+Add a new Configuration	添加新配置
+Convert switch to rule switch	将 switch 转换为规则式 switch
+Convert to switch expression	转换为 switch 表达式
+Getting the version...	正在获取版本...
+PHPUnit version not found	未找到 PHPUnit 版本
+Hit count \\= {0}	命中次数 \\= {0}
+Broken breakpoint - It is not possible to stop on this line.	断点失效 - 无法在此行停下。
+Broken breakpoint: {0}	断点失效: {0}
+Oracle Cloud	Oracle 云
+Create Knowledge Base	创建知识库
+Java Application with Gradle	使用 Gradle 的 Java 应用
+Transform to Jakarta EE 10	转换到 Jakarta EE 10
+Generate Data Endpoint...	生成数据端点...
+Micronaut Project	Micronaut 项目
+Payara Descriptor	Payara 描述符
+Classes of jakarta.faces.bean are deprecated	jakarta.faces.bean 包中的类已弃用
+Annotations from the package jakarta.faces.bean are deprecated. CDI and Java EE ones are recommended instead.	jakarta.faces.bean 包中的注解已弃用。建议改用 CDI 和 Java EE 的注解。
+Gradle Script	Gradle 脚本
+Multi-Project Build	多项目构建
+Groovy Trait	Groovy Trait
+Source Launcher	源码启动器
+single source	单一源文件
+Detects and reports unused variables, methods and classes	检测并报告未使用的变量、方法和类
+Can use virtual threads if workload is not CPU bound or number of concurrent tasks is high	当负载不受 CPU 限制或并发任务数较多时, 可使用虚拟线程
+Converts java 15 Text Blocks back to regular Strings.	把 Java 15 文本块转换回普通字符串。
+Converts switch to rule switch	把 switch 转换为规则式 switch
+Warns about malformed regular expressions	对格式错误的正则表达式发出警告
+Missing or obsolete @SupportedSourceVersion	缺失或过时的 @SupportedSourceVersion
+Can use Virtual Threads	可使用虚拟线程
+Convert Text block to String	把文本块转换为字符串
+Malformed regular expression	格式错误的正则表达式
+Java Modular Project	Java 模块化项目
+Native Image	原生镜像
+Incorrect @modules tag	不正确的 @modules 标签
+Java Module Info	Java 模块信息
+Java Record	Java 记录类
+Kotlin Files	Kotlin 文件
+FXML JavaFX Maven Archetype	FXML JavaFX Maven 原型
+Simple JavaFX Maven Archetype	简易 JavaFX Maven 原型
+DukeScript Frontend Application	DukeScript 前端应用
+Node.js Server (Chrome DevTools)	Node.js 服务器 (Chrome DevTools)
+TypeScript File	TypeScript 文件
+Files of TypeScriptDataObject	TypeScriptDataObject 文件
+Test In Parallel ({0})	并行测试 ({0})
+Missing Runtime: {0}	缺少运行时: {0}
+Runtime Management is not Supported	不支持运行时管理
+Runtime Change is not Supported	不支持运行时切换
+Keep settings	保留设置
+\# This proxy configuration has been updated by Apache NetBeans on {0}	\# 此代理配置已由 Apache NetBeans 于 {0} 更新
+Re-run the tasks.	重新运行任务。
+Re-run with different parameters	以不同参数重新运行
+Configuration update failed	配置更新失败
+Possible Network Proxy Issue	可能是网络代理问题
+Ask Before Execution	执行前询问
+Do not check	不检查
+Display Mismatch Notice	显示不匹配提示
+Override on execution	执行时覆盖
+Update User Properties	更新用户属性
+Restart IDE	重启 IDE
+Tree diff	树状差异
+Replace var with explicit type	把 var 替换为显式类型
+Unexpected plain class template contents	普通类模板内容不符合预期
+Unable to collect dependencies from a broken project	无法从损坏的项目收集依赖
+Valid memory limit value must be set.	必须设置有效的内存上限值。
+Add #[\\Override] Attribute	添加 #[\\Override] 属性
+Pipe operator right-handle requires to be a callable	管道运算符右侧必须为可调用对象
+Add declare(strict_types=1)	添加 declare(strict_types=1)
+Cannot mix [] and list(), keyed and unkeyed array entries in assignments.	赋值中不能混用 [] 与 list()、带键与不带键的数组元素。
+Operator from future ECMAScript edition used	使用了未来 ECMAScript 版本的运算符
+Maven Install	Maven 安装
+Debugger is disconnected	调试器已断开连接
+C++ file	C++ 文件
+C file	C 文件
+Header for C++ file	C++ 文件头
+Header file	头文件
+Files of C	C 文件类型
+Files of CPP	CPP 文件类型
+Files of H	H 文件类型
+Files of HPP	HPP 文件类型
+ccls configuration	ccls 配置
+C C++	C C++
+C C++ ccls	C C++ ccls
+Lightweight C/C++ Project	轻量级 C/C++ 项目
+{2}: {0} ({1})	{2}: {0} ({1})
+Region: {0}	区域: {0}
+Broken profile {0}	损坏的配置 {0}
+Unavailable tenancy {0}	不可用的租户 {0}
+Checking Oracle Cloud Setup...	正在检查 Oracle Cloud 设置...
+No Oracle Cloud configuration was found. Plase follow <a href="{0}">the steps here</a>	未找到 Oracle Cloud 配置。请按照<a href="{0}">此处的步骤</a>操作
+Found a tenancy <br/><b>{0}</b>	找到一个租户 <br/><b>{0}</b>
+Add Oracle Autonomous DB	添加 Oracle 自治数据库
+Add Cloud Assets Secrets to OCI Vault	将云资产密钥添加到 OCI Vault
+Provide password for database user ADMIN	为数据库用户 ADMIN 提供密码
+Please add the OKE Cluster first	请先添加 OKE 集群
+ConfigMap in "{0}" project was updated. The changes will take place only after redeploying the application	"{0}" 项目中的 ConfigMap 已更新。更改只有在重新部署应用后才会生效
+Confirm password for database user ADMIN	确认数据库用户 ADMIN 的密码
+Create new container repository	创建新的容器仓库
+Create AutonomousDatabase	创建自治数据库
+Creating secret {0}	正在创建密钥 {0}
+Copy OCID	复制 OCID
+Create Autonomous Database	创建自治数据库
+Download Wallet	下载钱包
+Open Service Console	打开服务控制台
+Set As Default	设为默认
+Download Database Wallet	下载数据库钱包
+Enter OCI resource name	输入 OCI 资源名称
+Enter the conenction password	输入连接密码
+Enter the connection username	输入连接用户名
+Save DB Wallet	保存数据库钱包
+The wallet download password should be at least 8 characters long.	钱包下载密码长度至少应为 8 个字符。
+Passwords don't match.	两次输入的密码不一致。
+Autonomous Database {0} was created.	自治数据库 {0} 已创建。
+Autonomous Database {0} failed to create: {1}	自治数据库 {0} 创建失败: {1}
+OCID was placed in clipboard	OCID 已复制到剪贴板
+Service Console URL: {0}	服务控制台 URL: {0}
+Database Wallet was downloaded to {0}	数据库钱包已下载到 {0}
+Database Wallet was downloaded. \nGenerated wallet password is: {0}	数据库钱包已下载。\n生成的钱包密码为: {0}
+Wallet doesn't contain any connection	钱包中不含任何连接
+No ConfigMap found in the Devops project {0}	DevOps 项目 {0} 中未找到 ConfigMap
+The wallet download password should contain at least 1 letter.	钱包下载密码应至少包含 1 个字母。
+The wallet download password should contain at least 1 number.	钱包下载密码应至少包含 1 个数字。
+The wallet download password should contain at least 1 special character.	钱包下载密码应至少包含 1 个特殊字符。
+Reading existing Secrets	正在读取现有密钥
+Remove Profile	移除配置
+Secrets were created or updated	密钥已创建或更新
+The changes will take place only after restarting the application	更改只有在重启应用后才会生效
+For better security when using Autonomous Database, be sure to also add OCI Vault.	为了自治数据库的安全性, 请务必同时添加 OCI Vault。
+Updating Config Map	正在更新 Config Map
+Updating secret {0}	正在更新密钥 {0}
+Updating {0} Vault	正在更新 {0} Vault
+No matching JDBC drivers. Please install "Tools for Micronaut\u00ae framework" extension	没有匹配的 JDBC 驱动。请安装 "Tools for Micronaut\u00ae framework" 扩展
+Vulnerability Audit	漏洞审计
+Show in Browser	在浏览器中显示
+Knowledge Base Name	知识库名称
+Vulnerability audit for project {0} is done.\n{1} vulnerabilities were found.\nThe vulnerabilities are listed in Problems window.	项目 {0} 的漏洞审计已完成。\n发现 {1} 个漏洞。\n漏洞列表见 "问题" 窗口。
+Vulnerability audit for project {0} is done.\nOne vulnerability was found.\nThe vulnerability is listed in Problems window.	项目 {0} 的漏洞审计已完成。\n发现 1 个漏洞。\n漏洞列表见 "问题" 窗口。
+Vulnerability audit for project {0} is done.\nNo vulnerability was found.	项目 {0} 的漏洞审计已完成。\n未发现漏洞。
+Collecting project dependencies...	正在收集项目依赖...
+Checking for audit of project {0}	正在检查项目 {0} 的审计
+Creating Vulnerablity audit for project {0} failed.	为项目 {0} 创建漏洞审计失败。
+Creating Knowledge base {0}...	正在创建知识库 {0}...
+Vulnerability\n  Cvss V2 Score: {0}\n  Cvss V3 Score: {1}\n  Caused by dependence: {2}	漏洞\n  Cvss V2 评分: {0}\n  Cvss V3 评分: {1}\n  由依赖引起: {2}
+Vulnerability\n  Cvss V2 Score: {0}\n  Cvss V3 Score: {1}\n  Caused by dependence: {2}, included by {3}	漏洞\n  Cvss V2 评分: {0}\n  Cvss V3 评分: {1}\n  由依赖引起: {2}, 由 {3} 引入
+Bad request	错误的请求
+Not Found	未找到
+Precondition failed	前置条件失败
+Too Many Requests	请求过多
+Internal Server Error	服务器内部错误
+Error Code {0} -	错误码 {0} -
+Executing audit...	正在执行审计...
+Knowledge Base {0} was created.	知识库 {0} 已创建。
+You must fill in the displayed name of the knowledge base.	必须填写知识库的显示名称。
+Creating Knowledge Base {0} failed.	创建知识库 {0} 失败。
+Obtaining newly created vulnerablity audit for project {0} failed.	获取项目 {0} 新建的漏洞审计失败。
+Obtaining vulnerabilities for newly created audit failed.	获取新建审计的漏洞列表失败。
+Not available	不可用
+Project Audits in GraalVM Ext Pack performs check for vulnerable dependencies using Vulnerabilities knowledgebase in Oracle OCI. If you want to learn more and setup OCI account, go to https://www.oracle.com/cloud/free/ .	GraalVM 扩展包中的项目审计功能使用 Oracle OCI 的漏洞知识库检查存在漏洞的依赖。想了解更多并开设 OCI 账户, 请访问 https://www.oracle.com/cloud/free/ 。
+No Knowlege Base assigned for {0}.\n Select or create in Cloud Explorer a Knowledge Base, where to run Vulnerability Audit for this project.	{0} 未指派知识库。\n请在 Cloud Explorer 中选择或创建一个知识库, 用于对该项目运行漏洞审计。
+Searching for audit reports...	正在搜索审计报告...
+Web Pages ({0})	Web 页面 ({0})
+<No Profile Could be Detected>	<未检测到配置>
+Invalid value "{0}", must be of type "{1}"	无效值 "{0}", 必须为 "{1}" 类型
+CrudRepository enables automatic generation of CRUD operations.	CrudRepository 支持自动生成 CRUD 操作。
+PageableRepository extends CrudRepository and adds methods for pagination.	PageableRepository 继承 CrudRepository 并增加分页方法。
+Data Endpoint...	数据端点...
+Generate Endpoint...	生成端点...
+Generate Micronaut Endpoint Tests...	生成 Micronaut 端点测试...
+Select endpoints to generate	选择要生成的端点
+Select target location	选择目标位置
+Controller class {0}\n	控制器类 {0}\n
+Creating Classes	正在创建类
+CRUD Repository	CRUD 仓储
+Micronaut endpoint test class {0}\n	Micronaut 端点测试类 {0}\n
+No database connection found	未找到数据库连接
+No database table found for {0}	{0} 未找到数据库表
+No Micronaut Data support libraries found for {0}. Add this dependencies?	{0} 未找到 Micronaut Data 支持库。是否添加这些依赖?
+No source group found for {0}	{0} 未找到源组
+Pageable Repository	分页仓储
+Reading Table Definitions	正在读取表定义
+Repository interface {0}\n	仓储接口 {0}\n
+Select Repository Type	选择仓储类型
+Controller Name	控制器名称
+Select Entity Classes	选择实体类
+Select Data Repository Interfaces	选择数据仓储接口
+Repositories to be called from Controllers	供控制器调用的仓储
+Select Database Tables	选择数据库表
+Base Properties	基础属性
+Micronaut Maven Project	Micronaut Maven 项目
+Change {0} to the {1}	把 {0} 改为 {1}
+ClientWindowScoped can be used only in projects with Faces 4.0+	ClientWindowScoped 只能用于 Faces 4.0+ 的项目
+Should the {0} project be initialized fully?	是否完全初始化 {0} 项目?
+Project initialization requested	请求项目初始化
+Groovy Application	Groovy 应用
+Groovy Class Library	Groovy 类库
+Java File	Java 文件
+Finds occurrences of single regex control characters     used as parameter for methods expecting regular expressions and quotes those.	查找把单个正则控制字符用作正则参数的方法调用     并为其加引号。
+The value assigned to the target variable     in a compound assignment is not used or is always replaced by a different value. The result value of the compound assignment     expression itself <b>may be still used</b> in the enclosing expression, but it is unnecessary to     assign the value to the target. A fix is offered to remove the assignment and retain just the     expression.<p/>    Note that boolean compound operator <b>always</b> evaluates the expression. The fix may flip     expression with the variable so the expression is always processed.	复合赋值中赋给目标变量的值     未被使用, 或总是被其他值替换。复合赋值表达式本身的结果值在外层表达式中<b>可能仍会被使用</b>,     但没有必要把值赋给目标变量。提供移除赋值、仅保留表达式的修复。<p/>    注意布尔复合运算符<b>总会</b>计算表达式。修复可能会交换表达式与变量的位置, 以保证表达式总被计算。
+If the project's source level is greater than the maximum supported by the Annotation Processor, compilation that uses the     Processor always generates an useless compiler warning. If the processor does not declare <b>any @SupportedSourceVersion at all</b>.     derives from <b>javax.annotation.processing.AbstractProcessor</b>,  the maximum supported version will <b>default to 1.6</b>, which will produce     another useless warning during compilation. <p/>    It is recommended to return at least the current project's source level.     For future compatibility, consider to return <b>SourceVersion.latest()</b>; most Processors are not affected by future language changes.	如果项目源码级别高于注解处理器所支持的最高版本, 使用该处理器的编译总会产生无用的编译警告。若处理器<b>完全没有声明 @SupportedSourceVersion</b>     且派生自 <b>javax.annotation.processing.AbstractProcessor</b>, 则最高支持版本会<b>默认为 1.6</b>, 编译时会产生另一个无用警告。<p/>    建议至少返回当前项目的源码级别。     为兼容未来, 可考虑返回 <b>SourceVersion.latest()</b>; 多数处理器不受未来语言变化影响。
+Replace the usage of deprecated boxed primitive constructors (new Integer("5"))     with their corresponding factory methods (Integer.valueOf("5")). This inspection can be used in conjunction with     <i>Unnecessary temporary during conversion from String</i>, to suggest <i>parseXXX()</i> instead of <i>valueOf()</i> where applicable.	把已弃用的装箱基本类型构造器 (new Integer("5")) 的使用     替换为对应的工厂方法 (Integer.valueOf("5"))。此检查可与     <i>Unnecessary temporary during conversion from String</i> 配合, 在适用时建议 <i>parseXXX()</i> 而非 <i>valueOf()</i>。
+Checks for missing reference output in jtreg @compile tags.	检查 jtreg @compile 标签中缺失的参考输出。
+Checks jtreg tag order	检查 jtreg 标签顺序
+Checks for hardcoded values for -source when --enable-preview	检查 --enable-preview 时 -source 的硬编码值
+Missing Reference Output	缺失参考输出
+Tag Order	标签顺序
+Wrong -source	错误的 -source
+Java Shell Cosnole	Java Shell 控制台
+#END

@@ -1,0 +1,102 @@
+\#\#\# Method from ServletContextListener \#\#\#\n\nCalled when a Web application is first ready to process requests\n(i.e. on Web server startup and when a context is added or reloaded).\n\nFor example, here might be database connections established\nand added to the servlet context attributes.\n	\#\#\# 来自 ServletContextListener 的方法 \#\#\#\n\n在 Web 应用程序首次就绪以处理请求时调用\n(即在 Web 服务器启动时, 以及添加或重新加载上下文时)。\n\n例如, 可以在此处建立数据库连接\n并将其添加到 Servlet 上下文属性中。\n
+\#\#\# Method from ServletContextListener \#\#\#\n\nCalled when a Web application is about to be shut down\n(i.e. on Web server shutdown or when a context is removed or reloaded).\nRequest handling will be stopped before this method is called.\n\nFor example, the database connections can be closed here.\n	\#\#\# 来自 ServletContextListener 的方法 \#\#\#\n\n在 Web 应用程序即将关闭时调用\n(即在 Web 服务器关闭时, 或移除或重新加载上下文时)。\n调用此方法之前会停止请求处理。\n\n例如, 可以在此处关闭数据库连接。\n
+\#\#\# Method from ServletContextAttributeListener \#\#\#\n\nCalled when an attribute is added to a servlet context.\n	\#\#\# 来自 ServletContextAttributeListener 的方法 \#\#\#\n\n在向 Servlet 上下文添加属性时调用。\n
+\#\#\# Method from ServletContextAttributeListener \#\#\#\n\nCalled when an attribute is removed from a servlet context.\n	\#\#\# 来自 ServletContextAttributeListener 的方法 \#\#\#\n\n在从 Servlet 上下文移除属性时调用。\n
+\#\#\# Method from ServletContextAttributeListener \#\#\#\n\nCalled when an attribute's value is replaced by another value in a servlet context.\n	\#\#\# 来自 ServletContextAttributeListener 的方法 \#\#\#\n\n在 Servlet 上下文中的属性值被另一个值替换时调用。\n
+### Method from HttpSessionListener ###\n\nCalled when a session is created.\n	### 来自 HttpSessionListener 的方法 ###\n\n在创建会话时调用。\n
+### Method from HttpSessionListener ###\n\nCalled when a session is destroyed(invalidated).\n	### 来自 HttpSessionListener 的方法 ###\n\n在销毁 (失效) 会话时调用。\n
+### Method from HttpSessionAttributeListener ###\n\nCalled when an attribute is added to a session.\n	### 来自 HttpSessionAttributeListener 的方法 ###\n\n在向会话添加属性时调用。\n
+### Method from HttpSessionAttributeListener ###\n\nCalled when an attribute is removed from a session.\n	### 来自 HttpSessionAttributeListener 的方法 ###\n\n在从会话移除属性时调用。\n
+### Method from HttpSessionAttributeListener ###\n\nCalled when an attribute's value is replaced by another value in a session.\n	### 来自 HttpSessionAttributeListener 的方法 ###\n\n在会话中的属性值被另一个值替换时调用。\n
+### Method from ServletRequestListener ###\n\nThe request is about to come into scope of the web application.\n	### 来自 ServletRequestListener 的方法 ###\n\n请求即将进入 Web 应用程序的作用域。\n
+### Method from ServletRequestListener ###\n\nThe request is about to go out of scope of the web application.\n	### 来自 ServletRequestListener 的方法 ###\n\n请求即将离开 Web 应用程序的作用域。\n
+### Method from ServletRequestAttributeListener ###\n\nNotification that a new attribute was added to the servlet request.\n	### 来自 ServletRequestAttributeListener 的方法 ###\n\n通知已向 Servlet 请求添加了新属性。\n
+### Method from ServletRequestAttributeListener ###\n\nNotification that an existing attribute has been removed from the servlet request.\n	### 来自 ServletRequestAttributeListener 的方法 ###\n\n通知已从 Servlet 请求移除了现有属性。\n
+### Method from ServletRequestAttributeListener ###\n\nNotification that an attribute was replaced on the servlet request.\n	### 来自 ServletRequestAttributeListener 的方法 ###\n\n通知 Servlet 请求上的属性已被替换。\n
+TODO add your code here e.g.\:	TODO 在此添加代码, 例如:
+TODO add your code here\:	TODO 在此添加代码:
+HttpServlet methods. Click on the + sign on the left to edit the code.	HttpServlet 方法。点击左侧的 + 号以编辑代码。
+<p style="font-weight: bold; font-size: 1.2em">or</p><p>Returns <code>true</code> if the left or the right operand is true.</p>	<p style="font-weight: bold; font-size: 1.2em">or</p><p>当左操作数或右操作数为 true 时返回 <code>true</code>。</p>
+<p style="font-weight: bold; font-size: 1.2em">not</p><p>Negates a statement.</p>	<p style="font-weight: bold; font-size: 1.2em">not</p><p>对语句取反。</p>
+<p style="font-weight: bold; font-size: 1.2em">b-and</p><p>Bitwise <code>and</code> operation.</p>	<p style="font-weight: bold; font-size: 1.2em">b-and</p><p>按位 <code>and</code> (与) 运算。</p>
+<p style="font-weight: bold; font-size: 1.2em">b-or</p><p>Bitwise <code>or</code> operation.</p>	<p style="font-weight: bold; font-size: 1.2em">b-or</p><p>按位 <code>or</code> (或) 运算。</p>
+<p style="font-weight: bold; font-size: 1.2em">b-xor</p><p>Bitwise <code>xor</code> operation.</p>	<p style="font-weight: bold; font-size: 1.2em">b-xor</p><p>按位 <code>xor</code> (异或) 运算。</p>
+<p style="font-weight: bold; font-size: 1.2em">autoescape</p><p>Whether automatic escaping is enabled or not, you can mark a section of a template to be escaped or not by using the <code>autoescape</code> tag:</p><p style="font-weight: bold; font-size: 1.1em">Example</p><pre><code>\n{# The following syntax works as of Twig 1.8 -- see the note below for previous versions #}\n\n{% autoescape %}\n\    Everything will be automatically escaped in this block\n\    using the HTML strategy\n{% endautoescape %}\n\n{% autoescape 'html' %}\n\    Everything will be automatically escaped in this block\n\    using the HTML strategy\n{% endautoescape %}\n\n{% autoescape 'js' %}\n\    Everything will be automatically escaped in this block\n\    using the js escaping strategy\n{% endautoescape %}\n\n{% autoescape false %}\n\    Everything will be outputted as is in this block\n{% endautoescape %}\n</code></pre>	<p style="font-weight: bold; font-size: 1.2em">autoescape</p><p>Whether automatic escaping is enabled or not, you can mark a section of a template to be escaped or not by using the <code>autoescape</code> tag:</p><p style="font-weight: bold; font-size: 1.1em">Example</p><pre><code>\n{# The following syntax works as of Twig 1.8 -- see the note below for previous versions #}\n\n{% autoescape %}\n\    Everything will be automatically escaped in this block\n\    using the HTML strategy\n{% endautoescape %}\n\n{% autoescape 'html' %}\n\    Everything will be automatically escaped in this block\n\    using the HTML strategy\n{% endautoescape %}\n\n{% autoescape 'js' %}\n\    Everything will be automatically escaped in this block\n\    using the js escaping strategy\n{% endautoescape %}\n\n{% autoescape false %}\n\    Everything will be outputted as is in this block\n{% endautoescape %}\n</code></pre>
+method()	method()
++-*/&|	+-*/&|
+// line-comment	// line-comment
+/* block comment */	/* block comment */
+<TABLE>	<TABLE>
+href	href
+"value"	"value"
+<!-- comment -->	<!-- comment -->
+-- comment --	-- comment --
+<!DOCTYPE ... >	<!DOCTYPE ... >
+&amp;	&amp;
+<jsp:getProperty/>	<jsp:getProperty/>
+<="/>	<="/>
+<%-- comment --%>	<%-- comment --%>
+"property"	"property"
+package.BeanClass	package.BeanClass
+<%  %>	<%  %>
+fce()	fce()
+5	5
+taglib	taglib
++-*/	+-*/
+${  }	${  }
+Object	Object
+Boolean	Boolean
+,\	,\
+EJBModule{0}	EJBModule{0}
+Java Enterprise	Java 企业版
+Populated Enterprise Application	填充内容的企业应用程序
+-WebModule	-WebModule
+-EJBModule	-EJBModule
+-CarModule	-CarModule
+ApplicationClient{0}	ApplicationClient{0}
+Lambda &Indexes\:	Lambda 索引(&I):
+Lambda index {0} is not a number.	Lambda 索引 {0} 不是数字。
+Lambda index	Lambda 索引
+&Setter prefix:	Setter 前缀(&S):
+Build &Method Name:	构建方法名称(&M):
+resource:org/netbeans/installer/wizard/wizard-icon.ico	resource:org/netbeans/installer/wizard/wizard-icon.ico
+resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-background.png	resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-background.png
+/Bundle	/Bundle
+&Code Sniffer:	代码检查器 (&C):
+&Coding Standards Fixer:	编码规范修复器 (&C):
+2.0+;2.1+;2.2+;8.0+	2.0+;2.1+;2.2+;8.0+
+FX	FX
+Convert Explicit Type to Var	将显式类型转换为 var
+Converts explicit type of local variable to var.	将局部变量的显式类型转换为 var。
+Convert Var to Explicit Type	将 var 转换为显式类型
+Converts var type local variable to explicit type.	将 var 类型的局部变量转换为显式类型。
+Invalid regular expression: {0}	无效的正则表达式: {0}
+Re&gular Expression:	正则表达式(&G):
+E&xample:	示例(&X):
+Str&ict Check	严格检查(&I)
+Always match full String.	始终匹配完整字符串。
+Regex Flags	正则表达式标志
+DOTALL	DOTALL
+CASE_INSENSITIVE	CASE_INSENSITIVE
+UNICODE_CASE	UNICODE_CASE
+UNICODE_CHARACTER_CLASS	UNICODE_CHARACTER_CLASS
+COMMENTS	COMMENTS
+LITERAL	LITERAL
+MULTILINE	MULTILINE
+Permits whitespace and comments in pattern	允许在模式中使用空白和注释
+^ and $ match just after or just before a line terminator	^ 和 $ 仅在行结束符紧前或紧后匹配
+Enables Unicode-aware case folding	启用区分 Unicode 的大小写折叠
+Enables case-insensitive matching	启用不区分大小写的匹配
+. matches any character, including a line terminator	. 匹配任何字符, 包括行结束符
+Enables the Unicode version of Predefined character classes and POSIX character classes	启用预定义字符类和 POSIX 字符类的 Unicode 版本
+Enables literal parsing of the pattern	启用模式的字面解析
+UNIX_LINES	UNIX_LINES
+CANON_EQ	CANON_EQ
+Only the '\\n' line terminator is recognized in the behavior of ., ^, and $	在 .、^ 和 $ 的行为中仅识别 '\\n' 行结束符
+Enables canonical equivalence=	启用规范等价=
+Generate Examples	生成示例
+Regex Examples	正则表达式示例
+Regular Expression:	正则表达式:
+No.:	编号:
+JavaFX	JavaFX
+#END
